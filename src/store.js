@@ -1,17 +1,22 @@
-import { createStore, applyMiddleware, compose } from 'redux';
-import { connectRouter, routerMiddleware } from 'connected-react-router';
-import thunk from 'redux-thunk';
-import { createBrowserHistory, createMemoryHistory } from 'history';
-import rootReducer from './modules';
+import { createStore, applyMiddleware, compose } from "redux";
+import { connectRouter, routerMiddleware } from "connected-react-router";
+//import thunk from 'redux-thunk';
+import { createBrowserHistory, createMemoryHistory } from "history";
+//import rootReducer from './modules';
 
+import rootReducer from "./modules/index";
+import createSagaMiddleware from "redux-saga";
+import rootSaga from "./modules/rootSaga";
+
+const sagaMiddleware = createSagaMiddleware();
 // A nice helper to tell us if we're on the server
 export const isServer = !(
-  typeof window !== 'undefined' &&
+  typeof window !== "undefined" &&
   window.document &&
   window.document.createElement
 );
 
-export default (url = '/') => {
+export default (url = "/") => {
   // Create a history depending on the environment
   const history = isServer
     ? createMemoryHistory({
@@ -22,15 +27,15 @@ export default (url = '/') => {
   const enhancers = [];
 
   // Dev tools are helpful
-  if (process.env.NODE_ENV === 'development' && !isServer) {
+  if (process.env.NODE_ENV === "development" && !isServer) {
     const devToolsExtension = window.devToolsExtension;
 
-    if (typeof devToolsExtension === 'function') {
+    if (typeof devToolsExtension === "function") {
       enhancers.push(devToolsExtension());
     }
   }
 
-  const middleware = [thunk, routerMiddleware(history)];
+  const middleware = [sagaMiddleware, routerMiddleware(history)];
   const composedEnhancers = compose(
     applyMiddleware(...middleware),
     ...enhancers
@@ -51,6 +56,7 @@ export default (url = '/') => {
     composedEnhancers
   );
 
+  sagaMiddleware.run(rootSaga);
   return {
     store,
     history
