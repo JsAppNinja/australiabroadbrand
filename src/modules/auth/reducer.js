@@ -16,7 +16,7 @@ function auth(state = initialState, action) {
     case AUTHENTICATE:
       return {
         ...state,
-        isAuthenticated: action.payload
+        isAuthenticated: action.authenticated
       };
     case SET_CURRENT_USER:
       return {
@@ -26,9 +26,8 @@ function auth(state = initialState, action) {
     case LOGIN_USER:
       return {
         ...state,
-        currentUser: action.palyload !== undefined ? action.palyload.name : {},
-        isAuthenticated:
-          action.palyload !== undefined ? action.palyload.auth : false
+        currentUser: action.palyload,
+        isAuthenticated: action.palyload
       };
     case LOGOUT_USER:
       return {

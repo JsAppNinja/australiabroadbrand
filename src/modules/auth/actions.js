@@ -6,7 +6,7 @@ export const LOGOUT_USER = "LOGOUT_USER";
 export function getAuthicationAction(authenticated) {
   return {
     type: AUTHENTICATE,
-    payload: authenticated
+    authenticated
   };
 }
 
