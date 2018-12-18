@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 const links = [
@@ -47,25 +47,35 @@ const HeaderLink = ({ to, text, current }) => (
   </li>
 );
 
-export default ({ isAuthenticated, current }) => (
-  <header id="header">
-    <h1 id="title">My awesome website</h1>
-    <ul id="links">
-      {links.map((link, index) => {
-        const TheLink = <HeaderLink key={index} current={current} {...link} />;
+class Header extends Component {
+  render() {
+    const { isAuthenticated, current } = this.props;
 
-        if (link.hasOwnProperty("auth")) {
-          if (link.auth && isAuthenticated) {
+    return (
+      <header id="header">
+        <h1 id="title">My awesome website</h1>
+        <ul id="links">
+          {links.map((link, index) => {
+            const TheLink = (
+              <HeaderLink key={index} current={current} {...link} />
+            );
+
+            if (link.hasOwnProperty("auth")) {
+              if (link.auth && isAuthenticated) {
+                return TheLink;
+              } else if (!link.auth && !isAuthenticated) {
+                return TheLink;
+              }
+
+              return null;
+            }
+
             return TheLink;
-          } else if (!link.auth && !isAuthenticated) {
-            return TheLink;
-          }
+          })}
+        </ul>
+      </header>
+    );
+  }
+}
 
-          return null;
-        }
-
-        return TheLink;
-      })}
-    </ul>
-  </header>
-);
+export default Header;
