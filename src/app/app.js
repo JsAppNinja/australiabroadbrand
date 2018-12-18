@@ -8,7 +8,7 @@ import { withRouter } from "react-router";
 import { establishCurrentUser } from "../modules/auth";
 import { isServer } from "../store";
 
-import Header from "./header/";
+import Header from "./container/header/";
 import Routes from "./routes";
 
 import "./app.css";
