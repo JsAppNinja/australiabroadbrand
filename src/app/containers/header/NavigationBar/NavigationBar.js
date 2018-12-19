@@ -1,54 +1,48 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
-import { createStructuredSelector } from "reselect";
-import MenuItem from "react-bootstrap/lib/MenuItem";
-import history from "browserHistory";
 import PropTypes from "prop-types";
 import "./style.scss";
 
-const Avatar = ({ src, name, paid, size }) => {
-  const overlay = (
-    <Popover id="paid-popup">
-      <PaidPopup name={name} />
-    </Popover>
-  );
+class NavigationBar extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      selectedItemIndex: 0
+    };
+  }
 
-  const avatarCN = cx("avatar", `avatar--${size}`);
+  render() {
+    const { isViewable, items } = this.props;
 
-  return (
-    <div className={avatarCN}>
-      <div
-        className="avatar__img"
-        style={{ backgroundImage: `url('${src}'), url('${AnonymousPhoto}')` }}
-      />
-      {paid &&
-        size === "lg" && (
-          <OverlayTrigger
-            trigger="click"
-            placement="bottom"
-            overlay={overlay}
-            rootClose
-          >
-            <img src={PaidBadge} className="avatar__badge" alt="badge" />
-          </OverlayTrigger>
-        )}
-    </div>
-  );
+    if (isViewable) {
+      return (
+        <div className="navbar">
+          <ul id="links">
+            {items.map((item, index) => (
+              <li key={index} className="navbar_item">
+                <div className="navbar__item__link">
+                  <Link to={item.to}>{item.text}</Link>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      );
+    } else {
+      return <div />;
+    }
+  }
+}
+
+NavigationBar.propTypes = {
+  isViewable: PropTypes.bool,
+  items: PropTypes.array
 };
 
-Avatar.propTypes = {
-  paid: PropTypes.bool,
-  src: PropTypes.string,
-  name: PropTypes.string,
-  size: PropTypes.oneOf(["xs", "sm", "lg"])
+NavigationBar.defaultProps = {
+  isViewable: false,
+  items: []
 };
 
-Avatar.defaultProps = {
-  src: PlaceholderImg,
-  name: "",
-  paid: false,
-  size: "lg"
-};
-
-export default Avatar;
+export default NavigationBar;
