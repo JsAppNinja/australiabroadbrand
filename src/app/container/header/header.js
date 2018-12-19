@@ -1,35 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import DATA from "./DATA";
+import LogoImage from "../../assets/logo.png";
 
-const links = [
-  {
-    to: "/",
-    text: "Personal"
-  },
-  {
-    to: "/about",
-    text: "About US"
-  },
-  {
-    to: "/login",
-    text: "Login",
-    auth: false
-  },
-  {
-    to: "/dashboard",
-    text: "Dashboard",
-    auth: true
-  },
-  {
-    to: "/logout",
-    text: "Logout",
-    auth: true
-  },
-  {
-    to: "/this-is-broken",
-    text: "Broken Page"
-  }
-];
+import "./style.scss";
 
 const isCurrent = (to, current) => {
   if (to === "/" && current === to) {
@@ -41,39 +15,34 @@ const isCurrent = (to, current) => {
   return false;
 };
 
-const HeaderLink = ({ to, text, current }) => (
-  <li className={isCurrent(to, current) ? "current" : ""}>
-    <Link to={to}>{text}</Link>
-  </li>
-);
-
 class Header extends Component {
   render() {
     const { isAuthenticated, current } = this.props;
 
     return (
-      <header id="header">
-        <h1 id="title">My awesome website</h1>
-        <ul id="links">
-          {links.map((link, index) => {
-            const TheLink = (
-              <HeaderLink key={index} current={current} {...link} />
-            );
-
-            if (link.hasOwnProperty("auth")) {
-              if (link.auth && isAuthenticated) {
-                return TheLink;
-              } else if (!link.auth && !isAuthenticated) {
-                return TheLink;
-              }
-
-              return null;
-            }
-
-            return TheLink;
-          })}
-        </ul>
-      </header>
+      <div className="header">
+        <div className="header-left">
+          <div className="header-left__logo">
+            <Link to="/">
+              <img src={LogoImage} alt="Riseonic" />
+            </Link>
+          </div>
+          <div className="header-left__menu">
+            <ul id="links">
+              {DATA.map((item, index) => (
+                <li className={isCurrent(item.to, current) ? "current" : ""}>
+                  <Link key={index} to={item.to}>
+                    {item.text}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <div className="header-right">
+          <div className="header-right" />
+        </div>
+      </div>
     );
   }
 }

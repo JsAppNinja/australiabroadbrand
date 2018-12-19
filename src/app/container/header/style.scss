@@ -1,0 +1,22 @@
+#links {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+#links li.current a {
+  color: white;
+  font-weight: bold;
+}
+
+#links li a {
+  padding: 10px;
+  color: lightGray;
+  text-decoration: none;
+}
+
+#links li a:hover {
+  color: white;
+}

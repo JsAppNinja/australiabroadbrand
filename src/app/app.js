@@ -1,13 +1,9 @@
-// The basics
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import { withRouter } from "react-router";
 
-// Action creators and helpers
-import { establishCurrentUser } from "../modules/auth";
 import { isServer } from "../store";
-
 import Header from "./container/header/";
 import Routes from "./routes";
 
