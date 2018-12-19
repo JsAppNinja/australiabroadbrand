@@ -21,7 +21,7 @@ class App extends Component {
       <div id="app">
         <Header
           isAuthenticated={this.props.isAuthenticated}
-          current={"/dashboard"}
+          current={this.props.location.pathname}
         />
         <div id="content">
           <Routes />

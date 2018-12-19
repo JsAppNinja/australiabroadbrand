@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import DATA from "./DATA";
 import LogoImage from "../../assets/logo.png";
+import PhoneSvg from "../../assets/svgs/header-phone.svg";
 
 import "./style.scss";
 
@@ -40,7 +41,21 @@ class Header extends Component {
           </div>
         </div>
         <div className="header-right">
-          <div className="header-right" />
+          <div className="header-right__terms">
+            <ul className="header-right__items">
+              <li className="header-right__items__phone">
+                <Link to="/">
+                  <img src={PhoneSvg} alt="phone" />
+                </Link>
+              </li>
+              <li className="header-right__items__login">
+                <Link to="/login">Login</Link>
+              </li>
+              <li className="header-right__items__support">
+                <Link to="/support">Support</Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     );
