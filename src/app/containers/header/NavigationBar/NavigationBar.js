@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import "./style.scss";
@@ -7,17 +6,32 @@ import "./style.scss";
 class NavigationBar extends Component {
   constructor(props) {
     super(props);
+
     this.state = {
-      selectedItemIndex: 0
+      selectedItemIndex: 0,
+      isVisible: false
     };
   }
 
-  render() {
-    const { isViewable, items } = this.props;
+  mouseEnter = () => {
+    this.setState({ isVisible: true });
+  };
 
-    if (isViewable) {
+  mouseLeave = () => {
+    this.setState({ isVisible: false });
+  };
+
+  render() {
+    const { items, isViewable } = this.props;
+    const { isVisible } = this.state;
+
+    if (isVisible || isViewable) {
       return (
-        <div className="navbar">
+        <div
+          className="navbar"
+          onMouseEnter={() => this.mouseEnter()}
+          onMouseLeave={() => this.mouseLeave()}
+        >
           <ul id="links">
             {items.map((item, index) => (
               <li key={index} className="navbar_item">
