@@ -4,7 +4,7 @@ import { bindActionCreators } from "redux";
 import { withRouter } from "react-router";
 
 import { isServer } from "../store";
-import Header from "./container/header/";
+import Header from "./containers/header";
 import Routes from "./routes";
 
 import "./app.css";

@@ -17,8 +17,12 @@ const isCurrent = (to, current) => {
 };
 
 class Header extends Component {
+  onMouseEnter = e => {
+    console.log(e);
+  };
+
   render() {
-    const { isAuthenticated, current } = this.props;
+    const { current } = this.props;
 
     return (
       <div className="header">
@@ -31,10 +35,17 @@ class Header extends Component {
           <div className="header-left__menu">
             <ul id="links">
               {DATA.map((item, index) => (
-                <li className={isCurrent(item.to, current) ? "current" : ""}>
-                  <Link key={index} to={item.to}>
-                    {item.text}
-                  </Link>
+                <li
+                  key={index}
+                  className={isCurrent(item.to, current) ? "current" : ""}
+                >
+                  <div
+                    className="header-left__menu__item"
+                    onMouseEnter={this.onMouseEnter}
+                    onMouseLeave={this.onMouseLeave}
+                  >
+                    <Link to={item.to}>{item.text}</Link>
+                  </div>
                 </li>
               ))}
             </ul>
