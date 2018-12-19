@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #d8d8d8;
+  font-weight: 500;
 
   .header-left {
     display: flex;
@@ -38,7 +39,6 @@
 
         li a:hover {
           color: #1db199;
-          font-weight: 700;
         }
       }
     }
@@ -62,6 +62,12 @@
         padding: 5px 10px;
       }
 
+      li.current a,
+      img {
+        color: #1db199;
+        font-weight: bold;
+      }
+
       li a {
         padding: 10px;
         color: black;
@@ -74,6 +80,12 @@
       }
 
       li.header-right__items__login {
+        div {
+          border: 1px solid #4dbba6;
+          padding: 3px 7px;
+          border-radius: 19px;
+        }
+
         a {
           width: 96px;
           height: 28px;
@@ -83,6 +95,7 @@
 
       li.header-right__items__support {
         padding-right: 161px;
+        margin: auto;
       }
     }
   }

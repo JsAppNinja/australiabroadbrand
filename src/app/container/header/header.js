@@ -43,15 +43,35 @@ class Header extends Component {
         <div className="header-right">
           <div className="header-right__terms">
             <ul className="header-right__items">
-              <li className="header-right__items__phone">
+              <li
+                className={
+                  isCurrent("/", current)
+                    ? "current header-right__items__phone"
+                    : "header-right__items__phone"
+                }
+              >
                 <Link to="/">
                   <img src={PhoneSvg} alt="phone" />
                 </Link>
               </li>
-              <li className="header-right__items__login">
-                <Link to="/login">Login</Link>
+              <li
+                className={
+                  isCurrent("/login", current)
+                    ? "current header-right__items__login"
+                    : "header-right__items__login"
+                }
+              >
+                <div>
+                  <Link to="/login">Login</Link>
+                </div>
               </li>
-              <li className="header-right__items__support">
+              <li
+                className={
+                  isCurrent("/support", current)
+                    ? "current header-right__items__support"
+                    : "header-right__items__support"
+                }
+              >
                 <Link to="/support">Support</Link>
               </li>
             </ul>
