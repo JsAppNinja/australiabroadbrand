@@ -1,0 +1,82 @@
+.card-section {
+  width: 221px;
+  height: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Roboto;
+  border: 1px solid white;
+  border-radius: 11px;
+  background-color: #ffffff;
+
+  .card-title {
+    padding-top: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2.78;
+    letter-spacing: normal;
+    color: #4d565a;
+  }
+
+  .card-information {
+    display: flex;
+    justify-content: space-between;
+
+    .card-info__avatar {
+      width: 101px;
+      height: 101px;
+      padding: 71px 105px 108px 15px;
+      background-color: rgba(230, 234, 236, 0.41);
+      border: 1px solid rgba(230, 234, 236, 0.41);
+      border-radius: 50%;
+
+      &__border {
+        width: 76px;
+        height: 76px;
+        padding: 13px;
+        background-color: #ffffff;
+        opacity: 0.94;
+        box-shadow: 0 4px 12px 0 rgba(158, 176, 186, 0.44);
+        border: 1px solid rgba(158, 176, 186, 0.44);
+        border-radius: 50%;
+
+        .card-info__avatar__photo {
+          padding: 5px;
+          box-shadow: 0 4px 12px 0 rgba(158, 176, 186, 0.44);
+          border: 1px solid rgba(158, 176, 186, 0.44);
+          border-radius: 50%;
+        }
+      }
+    }
+
+    .card-info__avatar__infoSection {
+      letter-spacing: normal;
+      text-align: center;
+      font-weight: bold;
+      color: #4dbba6;
+
+      .card-info__avatar__info1 {
+        font-size: 14px;
+        line-height: 1.14;
+      }
+
+      .card-info__avatar__price {
+        font-size: 28px;
+        line-height: 1.29;
+      }
+
+      .card-info__avatar__info1 {
+        font-size: 14px;
+        line-height: 1.14;
+      }
+    }
+  }
+  .card-info__description {
+    padding: 194px 24px 41px 21px;
+    line-height: 1.57;
+    font-size: 14px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #9eb0ba;
+  }
+}
