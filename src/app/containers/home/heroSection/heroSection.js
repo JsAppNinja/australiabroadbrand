@@ -28,7 +28,6 @@ class HeroSection extends Component {
                   priceInfo={item.priceInfo}
                   description={item.description}
                 />
-                >
               </li>
             ))}
           </ul>
