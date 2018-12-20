@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import promoCard from "promoCard";
 import "./style.scss";
 
 class heroSection extends Component {
@@ -8,7 +9,7 @@ class heroSection extends Component {
   }
 
   render() {
-    return <div> HomePage Hero Section</div>;
+    return <div>HomePage Hero Section</div>;
   }
 }
 
