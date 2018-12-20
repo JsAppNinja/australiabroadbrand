@@ -1,3 +1,3 @@
-import heroSection from "./heroSection";
+import HeroSection from "./HeroSection";
 
-export default heroSection;
+export default HeroSection;

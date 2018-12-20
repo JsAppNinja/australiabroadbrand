@@ -18,18 +18,12 @@ const Login = Loadable({
   modules: ["login"]
 });
 
-const Logout = Loadable({
-  loader: () => import("./logout"),
-  loading: () => null,
-  modules: ["logout"]
-});
-
 export default () => (
   <Switch>
     <Route exact path="/" component={Home} />
 
     <UnauthenticatedRoute exact path="/login" component={Login} />
-    <AuthenticatedRoute exact path="/logout" component={Logout} />
+    {/* <AuthenticatedRoute exact path="/logout" component={Logout} /> */}
 
     <Route component={NotFound} />
   </Switch>

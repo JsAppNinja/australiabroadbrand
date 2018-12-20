@@ -1,10 +1,10 @@
 import React from "react";
 import Page from "../../components/page";
-import heroSection from "./home/heroSection";
+import HeroSection from "./HeroSection";
 
 export default () => (
-  <Page id="homepage">
-    <p>Here's our homepage. All are welcome.</p>
-    <heroSection />
-  </Page>
+  <div>
+    <p> This is HomePage</p>
+    <HeroSection />
+  </div>
 );

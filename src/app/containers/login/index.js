@@ -20,10 +20,10 @@ const mapStateToProps = state => ({
   isAuthenticated: state.auth.isAuthenticated
 });
 
-const mapDispatchToProps = dispatch =>
-  bindActionCreators({ getUserAction }, dispatch);
+// const mapDispatchToProps = dispatch =>
+//   bindActionCreators({ getUserAction }, dispatch);
 
 export default connect(
   mapStateToProps,
-  mapDispatchToProps
+  null
 )(Login);

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import promoCard from "promoCard";
+import promoCard from "../../../components/promoCard";
 import "./style.scss";
 
-class heroSection extends Component {
+class HeroSection extends Component {
   constructor(props) {
     super(props);
   }
@@ -13,4 +13,4 @@ class heroSection extends Component {
   }
 }
 
-export default heroSection;
+export default HeroSection;
