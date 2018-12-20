@@ -1,5 +1,5 @@
 .navbar {
-  height: 50px;
+  height: 30px;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -13,9 +13,21 @@
   #links {
     list-style-type: none;
     margin: 0px;
-    padding: 0px;
+    padding-left: 260px;
     display: flex;
     justify-content: space-between;
+
+    li .navbar__item__link {
+      padding: 16px 10px;
+
+      &:hover {
+        background-color: #4dbba6;
+        a {
+          color: #ffffff;
+        }
+      }
+    }
+
     li.current a {
       color: #1db199;
       font-weight: bold;
