@@ -18,9 +18,16 @@ const Login = Loadable({
   modules: ["login"]
 });
 
+const About = Loadable({
+  loader: () => import(/* webpackChunkName: "about" */ "./about"),
+  loading: () => null,
+  modules: ["about"]
+});
+
 export default () => (
   <Switch>
     <Route exact path="/" component={Home} />
+    <Route exact path="/about" component={About} />
 
     <UnauthenticatedRoute exact path="/login" component={Login} />
     {/* <AuthenticatedRoute exact path="/logout" component={Logout} /> */}

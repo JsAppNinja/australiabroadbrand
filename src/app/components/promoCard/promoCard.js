@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import AnonymousPhoto from "../AnonymousPhoto";
 import "./style.scss";
 
-class promoCard extends Component {
+class PromoCard extends Component {
   constructor(props) {
     super(props);
   }
@@ -36,7 +36,7 @@ class promoCard extends Component {
   }
 }
 
-promoCard.propTypes = {
+PromoCard.propTypes = {
   title: PropTypes.string,
   avatar: PropTypes.string,
   price: PropTypes.string,
@@ -44,7 +44,7 @@ promoCard.propTypes = {
   description: PropTypes.string
 };
 
-promoCard.defaultProps = {
+PromoCard.defaultProps = {
   title: "",
   avatar: "",
   price: "",
@@ -52,4 +52,4 @@ promoCard.defaultProps = {
   description: ""
 };
 
-export default promoCard;
+export default PromoCard;

@@ -5,8 +5,7 @@ import { withRouter } from "react-router";
 
 import { isServer } from "../store";
 import Header from "./containers/home/header";
-import Routes from "./routes";
-import containers from "./containers";
+import Routes from "./containers";
 import "./app.css";
 
 class App extends Component {
@@ -24,7 +23,7 @@ class App extends Component {
           current={this.props.location.pathname}
         />
         <div id="content">
-          <containers />
+          <Routes />
         </div>
       </div>
     );

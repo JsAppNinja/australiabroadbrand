@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import promoCard from "../../../components/promoCard";
+import PromoCard from "../../../components/PromoCard";
 import "./style.scss";
 
 class HeroSection extends Component {

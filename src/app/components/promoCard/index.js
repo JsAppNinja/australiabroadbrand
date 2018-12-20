@@ -1,3 +1,3 @@
-import promoCard from "./promoCard";
+import PromoCard from "./PromoCard";
 
-export default promoCard;
+export default PromoCard;
