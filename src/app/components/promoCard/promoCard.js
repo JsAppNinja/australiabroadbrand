@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
-import AnonymousPhoto from "../AnonymousPhoto";
-import "./style.scss";
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import AnonymousPhoto from '../AnonymousPhoto';
+import './style.scss';
 
 class PromoCard extends Component {
   constructor(props) {
@@ -17,9 +17,9 @@ class PromoCard extends Component {
           <div className="card-info__avatar">
             <div className="card-info__avatar__border">
               <div
-                class="card-info__avatar__photo"
+                className="card-info__avatar__photo"
                 style={{
-                  backgroundImage: `url('${avatar}'), url('${AnonymousPhoto}')`
+                  backgroundImage: `url('${avatar}'), url('${AnonymousPhoto}')`,
                 }}
               />
             </div>
@@ -41,15 +41,15 @@ PromoCard.propTypes = {
   avatar: PropTypes.string,
   price: PropTypes.string,
   priceInfo: PropTypes.array,
-  description: PropTypes.string
+  description: PropTypes.string,
 };
 
 PromoCard.defaultProps = {
-  title: "",
-  avatar: "",
-  price: "",
+  title: '',
+  avatar: '',
+  price: '',
   priceInfo: [],
-  description: ""
+  description: '',
 };
 
 export default PromoCard;
