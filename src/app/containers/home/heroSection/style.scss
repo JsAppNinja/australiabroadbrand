@@ -3,18 +3,27 @@
   justify-content: space-between;
   align-items: center;
   font-weight: 500;
+  padding: 108px 52px 105px 105px;
+  background-color: #4dbba6;
 
   .hero-action {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: left;
-    padding-left: 105px;
   }
 
   .hero-cards {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    #links {
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      display: flex;
+      justify-content: space-between;
+
+      li {
+        padding: 0px 13px;
+      }
+    }
   }
 }

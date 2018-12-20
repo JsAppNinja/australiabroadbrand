@@ -2,6 +2,7 @@
   width: 221px;
   height: 280px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   font-family: Roboto;
@@ -21,11 +22,11 @@
   .card-information {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 
     .card-info__avatar {
       width: 101px;
       height: 101px;
-      padding: 71px 105px 108px 15px;
       background-color: rgba(230, 234, 236, 0.41);
       border: 1px solid rgba(230, 234, 236, 0.41);
       border-radius: 50%;
@@ -34,13 +35,15 @@
         width: 76px;
         height: 76px;
         padding: 13px;
-        background-color: #ffffff;
+        background: rgba(230, 234, 236, 0.41);
         opacity: 0.94;
         box-shadow: 0 4px 12px 0 rgba(158, 176, 186, 0.44);
         border: 1px solid rgba(158, 176, 186, 0.44);
         border-radius: 50%;
 
         .card-info__avatar__photo {
+          width: 66px;
+          height: 66px;
           padding: 5px;
           box-shadow: 0 4px 12px 0 rgba(158, 176, 186, 0.44);
           border: 1px solid rgba(158, 176, 186, 0.44);
@@ -52,6 +55,8 @@
     .card-info__avatar__infoSection {
       letter-spacing: normal;
       text-align: center;
+      padding-top: 13px;
+      padding-left: 5px;
       font-weight: bold;
       color: #4dbba6;
 
@@ -72,11 +77,11 @@
     }
   }
   .card-info__description {
-    padding: 194px 24px 41px 21px;
     line-height: 1.57;
     font-size: 14px;
     letter-spacing: normal;
     text-align: center;
+    padding-bottom: 41px;
     color: #9eb0ba;
   }
 }
