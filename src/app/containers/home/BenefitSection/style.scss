@@ -1,0 +1,24 @@
+.benefit {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Roboto;
+
+  .benefit-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    #links {
+      list-style-type: none;
+      flex-direction: row;
+      display: flex;
+      justify-content: space-between;
+
+      li {
+        padding: 0px 45px;
+      }
+    }
+  }
+}

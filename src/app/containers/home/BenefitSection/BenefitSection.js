@@ -4,6 +4,8 @@ import BenefitImg1 from '../../../assets/svgs/chat.svg';
 import BenefitImg2 from '../../../assets/svgs/simple-plan.svg';
 import BenefitImg3 from '../../../assets/svgs/data-sharing.svg';
 
+import './style.scss';
+
 class BenefitSection extends Component {
   constructor(props) {
     super(props);

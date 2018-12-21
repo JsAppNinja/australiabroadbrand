@@ -1,26 +1,25 @@
 .benefit-item {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   text-align: center;
   font-family: Roboto;
 
-  &_image {
+  .benfit-item__image {
     padding-bottom: 31px;
   }
 
-  &_title {
+  .benfit-item__title {
     padding-bottom: 8px;
     font-size: 20px;
-    opacity: 0.55;
     font-weight: bold;
     line-height: 2.15;
   }
 
-  &_desc {
+  .benfit-item__desc {
     font-size: 14px;
     opacity: 0.55;
-    font-size: 14px;
     line-height: 1.57;
     color: #313541;
   }
