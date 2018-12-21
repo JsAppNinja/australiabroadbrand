@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import PropTypes from "prop-types";
-import "./style.scss";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
+import './style.scss';
 
 class NavigationBar extends Component {
   constructor(props) {
@@ -9,7 +9,7 @@ class NavigationBar extends Component {
 
     this.state = {
       selectedItemIndex: 0,
-      isVisible: false
+      isVisible: false,
     };
   }
 
@@ -25,7 +25,7 @@ class NavigationBar extends Component {
     const { items, isViewable } = this.props;
     const { isVisible } = this.state;
 
-    if (isVisible || isViewable) {
+    if (items.length > 0 && (isVisible || isViewable)) {
       return (
         <div
           className="navbar"
@@ -51,12 +51,12 @@ class NavigationBar extends Component {
 
 NavigationBar.propTypes = {
   isViewable: PropTypes.bool,
-  items: PropTypes.array
+  items: PropTypes.array,
 };
 
 NavigationBar.defaultProps = {
   isViewable: false,
-  items: []
+  items: [],
 };
 
 export default NavigationBar;
