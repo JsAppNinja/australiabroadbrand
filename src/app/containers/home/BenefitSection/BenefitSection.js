@@ -38,7 +38,12 @@ class BenefitSection extends Component {
 
     return (
       <div className="benefit">
-        <div className="benefit-section__title" />
+        <div className="benefit-section__title">
+          <div className="benefit-section__title-item">
+            Amazining simple nbn<sup>TM</sup>
+          </div>
+          <div className="benefit-section__title-line" />
+        </div>
         <div className="benefit-content">
           <ul id="links">
             {Benefits.map((item, index) => (
