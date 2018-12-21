@@ -10,6 +10,7 @@ class PromoCard extends Component {
 
   render() {
     const { title, avatar, price, priceInfo, description } = this.props;
+
     return (
       <div className="card-section">
         <div className="card-title">{title}</div>
