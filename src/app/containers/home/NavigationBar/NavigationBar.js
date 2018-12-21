@@ -13,13 +13,13 @@ class NavigationBar extends Component {
     };
   }
 
-  mouseEnter = () => {
+  mouseEnter() {
     this.setState({ isVisible: true });
-  };
+  }
 
-  mouseLeave = () => {
+  mouseLeave() {
     this.setState({ isVisible: false });
-  };
+  }
 
   render() {
     const { items, isViewable } = this.props;
