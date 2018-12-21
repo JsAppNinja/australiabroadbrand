@@ -1,0 +1,22 @@
+.check-address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Roboto;
+  font-weight: 500;
+  padding: 50px;
+
+  .check-address__title {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2.15;
+    text-align: center;
+    padding-top: 8px;
+    color: #4d565a;
+  }
+
+  .check-address__button {
+    padding-top: 25px;
+  }
+}
