@@ -11,6 +11,24 @@
     justify-content: center;
     flex-direction: column;
     text-align: left;
+
+    .hero-action__title {
+      font-family: Roboto;
+      font-size: 34px;
+      line-height: 1.47;
+      color: #323c5a;
+    }
+
+    .hero-action__desc {
+      font-size: 15px;
+      line-height: 1.57;
+      padding-top: 32px;
+      color: #000000;
+    }
+
+    .hero-action__button {
+      padding-top: 30px;
+    }
   }
 
   .hero-cards {
