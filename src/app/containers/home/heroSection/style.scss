@@ -3,31 +3,34 @@
   justify-content: space-between;
   align-items: center;
   font-weight: 500;
-  padding: 108px 52px 105px 105px;
-  background-color: #4dbba6;
+  padding: 108px 61px 105px 105px;
+  background-color: #67cebb;
 
   .hero-action {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: left;
+    width: 407px;
 
     .hero-action__title {
-      font-family: Roboto;
-      font-size: 34px;
-      line-height: 1.47;
-      color: #323c5a;
+      font-family: Baloo;
+      font-size: 50px;
+      line-height: 1;
+      color: #ffffff;
     }
 
     .hero-action__desc {
-      font-size: 15px;
-      line-height: 1.57;
-      padding-top: 32px;
-      color: #000000;
+      font-family: Roboto;
+      font-size: 16px;
+      line-height: 1.5;
+      padding-top: 17px;
+      color: #ffffff;
+      font-weight: bold;
     }
 
     .hero-action__button {
-      padding-top: 30px;
+      padding-top: 42px;
     }
   }
 

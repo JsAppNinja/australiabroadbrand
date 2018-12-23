@@ -3,8 +3,9 @@ import Avatar2 from '../../../assets/card_avatar2.png';
 import Avatar3 from '../../../assets/card_avatar3.png';
 
 export default {
-  herotitle: ['Share the love with', 'Australia Broadband'],
-  heroDescription: 'Earn 100$ for each friend that you bring on board',
+  herotitle: ['Drool worthy', 'mobile plan'],
+  heroDescription:
+    'For use in Australia. Must be over 18. Calls and text to standard Australian landline and mobile numbers.',
   buttonContent: 'Check address',
   cards: [
     {
