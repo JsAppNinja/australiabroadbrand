@@ -9,10 +9,10 @@
   display: flex;
   flex-direction: row;
 
-  @media (max-width: $phone-width) {
-    @include flexCol;
-    margin: 20px 0;
-  }
+  // @media (max-width: $phone-width) {
+  //   @include flexCol;
+  //   margin: 20px 0;
+  // }
 
   &--featured {
     border: none;
@@ -30,49 +30,6 @@
     padding-bottom: 12px;
     .star-rating {
       font-size: 16px;
-    }
-  }
-
-  &__content {
-    flex: 1;
-
-    &-title {
-      font-size: 16px;
-      font-weight: 700;
-      margin-bottom: 15px;
-    }
-
-    &-reviewer {
-      display: flex;
-      flex-direction: row;
-      font-size: 14px;
-      margin-bottom: 15px;
-
-      &__name {
-        font-weight: 700;
-        margin-right: 10px;
-      }
-
-      &__date {
-        color: #aaa;
-      }
-    }
-
-    &-description {
-      font-size: 14px;
-    }
-
-    @media (max-width: $phone-width) {
-      &-reviewer {
-        &,
-        &__name,
-        &__date {
-          font-size: 16px;
-        }
-      }
-      &-description {
-        font-size: 16px;
-      }
     }
   }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
-import StarRating from 'components/StarRating';
+import StarRating from '../StarRating';
 
 const ReviewItem = ({ rating, date, description, title, name, featured }) => {
   const className = cx('kreview', {
@@ -12,16 +12,6 @@ const ReviewItem = ({ rating, date, description, title, name, featured }) => {
     <div className={className}>
       <div className="kreview__rating">
         <StarRating rating={rating} />
-      </div>
-      <div className="kreview__content">
-        {title && <div className="kreview__content-title">“{title}”</div>}
-        <div className="kreview__content-reviewer">
-          <div className="kreview__content-reviewer__name">
-            {name || 'Anonymous'}
-          </div>
-          <div className="kreview__content-reviewer__date">{date}</div>
-        </div>
-        <div className="kreview__content-description">{description}</div>
       </div>
     </div>
   );
