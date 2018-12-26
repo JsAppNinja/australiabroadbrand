@@ -4,6 +4,7 @@ import HeroSection from './HeroSection';
 import BenefitSection from './BenefitSection';
 import CheckAddress from './CheckAddress';
 import Information from './ImpInformation';
+import ReviewSection from './ReviewSection';
 
 export default () => (
   <Page id="homepage">
@@ -11,5 +12,6 @@ export default () => (
     <BenefitSection />
     <CheckAddress />
     <Information />
+    <ReviewSection />
   </Page>
 );

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import cx from 'classnames';
 import StarRating from '../StarRating';
 
-const ReviewItem = ({ rating, userCount, reviewImg }) => {
+const ReviewItem = ({ featured, rating, userCount, reviewImg }) => {
   const className = cx('kreview', {
     'kreview--featured': featured,
   });
@@ -25,12 +25,14 @@ const ReviewItem = ({ rating, userCount, reviewImg }) => {
 };
 
 ReviewItem.propTypes = {
+  featured: PropTypes.bool,
   rating: PropTypes.number,
   userCount: PropTypes.string,
   reviewImg: PropTypes.string,
 };
 
 ReviewItem.defaultProps = {
+  featured: false,
   rating: 5,
 };
 

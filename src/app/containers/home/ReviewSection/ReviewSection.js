@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+import ReviewItem from '../../../components/ReviewItem';
+import Data from './Data';
 import './style.scss';
 
 class ReviewSection extends Component {
