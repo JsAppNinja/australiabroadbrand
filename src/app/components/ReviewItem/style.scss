@@ -9,22 +9,6 @@
   display: flex;
   flex-direction: row;
 
-  // @media (max-width: $phone-width) {
-  //   @include flexCol;
-  //   margin: 20px 0;
-  // }
-
-  &--featured {
-    border: none;
-    padding: 35px 35px 35px 25px;
-    background: $color-grey-light;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-
-    .kreview__content-title {
-      font-size: 22px;
-    }
-  }
-
   &__rating {
     margin-right: 20px;
     padding-bottom: 12px;
