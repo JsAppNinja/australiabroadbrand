@@ -1,23 +1,22 @@
 import React, { Component } from 'react';
-import cx from 'classnames';
 import PropTypes from 'prop-types';
 import './style.scss';
 
 class StarRating extends Component {
   render() {
     const { total, rating } = this.props;
-    let value = parseInt(rating, 10);
+    const value = parseInt(rating, 10);
     const stars = [];
 
-    for (let i = 0; i < total; i += 1) {
-      const starClassName = cx('icon_star', {
-        'star-rating__star': value >= 1,
-        'star-rating__star--off': value < 1,
-      });
-      stars.push(<i key={`star_${i}`} className={starClassName} />);
-      value -= 1;
-    }
+    for (var i = 0; i < 5; i++) {
+      var klass = 'star-rating__star';
 
+      if (value >= i && rating != null) {
+        klass += ' is-selected';
+      }
+
+      stars.push(<label className={klass}>★</label>);
+    }
     return <div className="star-rating">{stars}</div>;
   }
 }
