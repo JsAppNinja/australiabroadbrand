@@ -15,7 +15,11 @@ class StarRating extends Component {
         klass += ' is-selected';
       }
 
-      stars.push(<label className={klass}>★</label>);
+      stars.push(
+        <label key={i} className={klass}>
+          ★
+        </label>
+      );
     }
     return <div className="star-rating">{stars}</div>;
   }

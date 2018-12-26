@@ -7,17 +7,17 @@ export default {
   reviews: [
     {
       rating: 4.6,
-      userCount: 1328,
+      userCount: '1328',
       reviewImg: ReviewImg1,
     },
     {
       rating: 4.9,
-      userCount: 1328,
+      userCount: '1328',
       reviewImg: ReviewImg2,
     },
     {
       rating: 4.4,
-      userCount: 1328,
+      userCount: '1328',
       reviewImg: ReviewImg3,
     },
   ],

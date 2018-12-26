@@ -1,11 +1,9 @@
-@import '~styles/variables';
-@import '~styles/mixins';
-
 .kreview {
   margin: 10px 0 20px;
-  color: $color-gray;
-  padding: 20px;
-  border: 1px solid $color-grey-2;
+  padding: 40px 60px 27px 40px;
+  border: 1px solid #edf2fb;
+  border-radius: 4px;
+  box-shadow: 0 2px 12px 0 #edf2fb;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,16 +11,30 @@
 
   .kreview-score {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
+
+    &__mark {
+      opacity: 0.82;
+      font-family: Roboto;
+      font-size: 40px;
+      line-height: 1.08;
+      color: #2e2e2f;
+    }
+
+    .kreview__rating {
+      padding-left: 20px;
+      font-size: 16px;
+      color: #313541;
+
+      &-count {
+        padding-bottom: 10px;
+      }
+    }
   }
 
-  &__rating {
-    margin-right: 20px;
-    padding-bottom: 12px;
-    .star-rating {
-      font-size: 16px;
-    }
+  .kreview-reviewImage {
+    padding-top: 25px;
   }
 }
