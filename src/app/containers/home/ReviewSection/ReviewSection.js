@@ -9,7 +9,13 @@ class ReviewSection extends Component {
   }
 
   render() {
-    return <div className="review-section" />;
+    return (
+      <div className="review-section">
+        <div className="review-section__titlebar" />
+        <div className="review-section__title">{Data.title}</div>
+        <div className="review-section__bar" />
+      </div>
+    );
   }
 }
 
