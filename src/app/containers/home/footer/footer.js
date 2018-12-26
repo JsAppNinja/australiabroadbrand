@@ -48,9 +48,38 @@ class Footer extends Component {
             </div>
           </Col>
         </Col>
-        {/* <Col xs={12} md={12} className="footer__help-section">
-      Footer2 Test
-      </Col>
+        <Col xs={12} md={12} className="footer__help-section">
+          <div className="footer__help-section__left">
+            <img src={FAV_NBN} />
+            <img src={FAV_EWAY} />
+            <img src={FAV_GOOGLE_PLAY} />
+            <img src={FAV_APPSTORE} />
+          </div>
+          <div className="footer__help-section__right">
+            <div className="footer__help-section__right-title">
+              Australia Broadband Help
+            </div>
+            <div className="footer__help-section__right-content">
+              <div className="footer__help-section__right-content__content">
+                <Link to={DATA.help[0].path}>{DATA.help[0].title}</Link>
+                <Link to={DATA.help[4].path}>{DATA.help[4].title}</Link>
+              </div>
+              <div className="footer__help-section__right-content__content">
+                <Link to={DATA.help[1].path}>{DATA.help[1].title}</Link>
+                <Link to={DATA.help[5].path}>{DATA.help[5].title}</Link>
+              </div>
+              <div className="footer__help-section__right-content__content">
+                <Link to={DATA.help[2].path}>{DATA.help[2].title}</Link>
+                <Link to={DATA.help[6].path}>{DATA.help[6].title}</Link>
+              </div>
+              <div className="footer__help-section__right-content__content">
+                <Link to={DATA.help[3].path}>{DATA.help[3].title}</Link>
+                <Link to={DATA.help[7].path}>{DATA.help[7].title}</Link>
+              </div>
+            </div>
+          </div>
+        </Col>
+        {/* 
       <Col xs={12} md={12} className="footer__contact-section">
       Footer3 Test
       </Col>
