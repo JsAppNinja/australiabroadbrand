@@ -1,12 +1,13 @@
 import React from 'react';
+import ArrowDown from '../../../assets/svgs/angle-down-solid.svg';
 import './style.scss';
 
 const ImpInformation = () => (
   <div className="imp-information">
     Important information
-    <a>
-      <i className="fa fa-chevron-down" />
-    </a>
+    <div className="imp-information__img">
+      <img src={ArrowDown} />
+    </div>
   </div>
 );
 
