@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Col from 'react-bootstrap/lib/Col';
 import { Link } from 'react-router-dom';
 
 import DATA from './DATA';
@@ -16,7 +17,48 @@ class Footer extends Component {
   }
 
   render() {
-    return <div className="footer">Test</div>;
+    return (
+      <div className="footer">
+        <Col xs={12} md={12} className="footer__first-section">
+          <Col xs={3} md={3} className="footer__first-section_item">
+            <div className="footer__first-section_item-content">
+              <img src={LOREM} />
+              <div>Lorem ipsum</div>
+            </div>
+          </Col>
+          <div className="footer__first-section_item-end" />
+          <Col xs={3} md={3} className="footer__first-section_item">
+            <div className="footer__first-section_item-content">
+              <img src={LOREM} />
+              <div>Lorem ipsum</div>
+            </div>
+          </Col>
+          <div className="footer__first-section_item-end" />
+          <Col xs={3} md={3} className="footer__first-section_item">
+            <div className="footer__first-section_item-content">
+              <img src={LOREM} />
+              <div>Lorem ipsum</div>
+            </div>
+          </Col>
+          <div className="footer__first-section_item-end" />
+          <Col xs={3} md={3} className="footer__first-section_item">
+            <div className="footer__first-section_item-content">
+              <img src={LOREM} />
+              <div>Lorem ipsum</div>
+            </div>
+          </Col>
+        </Col>
+        {/* <Col xs={12} md={12} className="footer__help-section">
+      Footer2 Test
+      </Col>
+      <Col xs={12} md={12} className="footer__contact-section">
+      Footer3 Test
+      </Col>
+      <Col xs={12} md={12} className="footer__final-section">
+      Footer4 Test
+      </Col> */}
+      </div>
+    );
   }
 }
 

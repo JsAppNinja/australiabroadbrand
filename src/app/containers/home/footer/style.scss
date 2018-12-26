@@ -1,0 +1,39 @@
+.footer {
+  .footer__first-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 50px 60px 50px;
+
+    &_item {
+      width: 300px;
+
+      &-content {
+        display: flex;
+        flex-direction: column;
+
+        img {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+        }
+
+        div {
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: bold;
+          padding-top: 10px;
+          color: #4d565a;
+        }
+      }
+    }
+
+    .footer__first-section_item-end {
+      width: 2px;
+      height: 50px;
+      background-color: #b6b6b9;
+      border-radius: 2px;
+      margin: auto;
+    }
+  }
+}
