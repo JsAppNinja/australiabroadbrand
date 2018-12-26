@@ -11,7 +11,7 @@ export default () => (
     <HeroSection />
     <BenefitSection />
     <CheckAddress />
-    <Information />
     <ReviewSection />
+    <Information />
   </Page>
 );

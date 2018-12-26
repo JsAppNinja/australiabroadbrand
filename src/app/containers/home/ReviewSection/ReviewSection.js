@@ -11,9 +11,23 @@ class ReviewSection extends Component {
   render() {
     return (
       <div className="review-section">
-        <div className="review-section__titlebar" />
-        <div className="review-section__title">{Data.title}</div>
-        <div className="review-section__bar" />
+        <div className="review-section__titlebar">
+          <div className="review-section__title">{Data.title}</div>
+          <div className="review-section__line" />
+        </div>
+        <div className="review-section__content">
+          <ul id="reviews">
+            {Data.reviews.map((item, index) => (
+              <li key={index} className="review-cards__item">
+                <ReviewItem
+                  rating={item.rating}
+                  userCount={item.userCount}
+                  reviewImg={item.reviewImg}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     );
   }
