@@ -5,6 +5,7 @@ import BenefitSection from './BenefitSection';
 import CheckAddress from './CheckAddress';
 import Information from './ImpInformation';
 import ReviewSection from './ReviewSection';
+import Footer from './footer';
 
 export default () => (
   <Page id="homepage">
@@ -13,5 +14,6 @@ export default () => (
     <CheckAddress />
     <ReviewSection />
     <Information />
+    <Footer />
   </Page>
 );
