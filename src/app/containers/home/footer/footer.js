@@ -11,11 +11,13 @@ import FAV_EWAY from '../../../assets/footer-eway.png';
 import FAV_GOOGLE_PLAY from '../../../assets/footer-gplay.png';
 import FAV_APPSTORE from '../../../assets/footer-appstore.png';
 
-class Footer extends Component {
-  constructor(props) {
-    super(props);
-  }
+import favPhone from '../../../assets/svgs/header-phone.svg';
+import favFacebook from '../../../assets/svgs/fav-facebook.svg';
+import favTwitter from '../../../assets/svgs/fav-twitter.svg';
+import favYoutube from '../../../assets/svgs/fav-youtube.svg';
+import favInstagram from '../../../assets/svgs/fav-instagram.svg';
 
+class Footer extends Component {
   render() {
     return (
       <div className="footer">
@@ -79,10 +81,29 @@ class Footer extends Component {
             </div>
           </div>
         </Col>
+        <Col xs={12} md={12} className="footer__contact-section">
+          <div className="footer__contact-section__left">
+            <div className="footer__contact-section__favicon">
+              <img src={favPhone} />
+            </div>
+            <div className="footer__contact-section__phonecall">Call</div>
+          </div>
+          <div className="footer__contact-section__right">
+            <div className="footer__contact-section__favicon">
+              <img src={favFacebook} />
+            </div>
+            <div className="footer__contact-section__favicon">
+              <img src={favTwitter} />
+            </div>
+            <div className="footer__contact-section__favicon">
+              <img src={favYoutube} />
+            </div>
+            <div className="footer__contact-section__favicon">
+              <img src={favInstagram} />
+            </div>
+          </div>
+        </Col>
         {/* 
-      <Col xs={12} md={12} className="footer__contact-section">
-      Footer3 Test
-      </Col>
       <Col xs={12} md={12} className="footer__final-section">
       Footer4 Test
       </Col> */}
