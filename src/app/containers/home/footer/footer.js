@@ -107,7 +107,26 @@ class Footer extends Component {
           </div>
         </Col>
         <Col xs={12} md={12} className="footer__final-section">
-          Footer4 Test
+          <div className="footer__final-section__left">
+            <div className="footer__final-section__left-iterm">
+              <Link to={DATA.siteInfo[0].path}>{DATA.siteInfo[0].title}</Link>
+            </div>
+            <div className="footer__final-section__left-iterm">
+              <Link to={DATA.siteInfo[1].path}>{DATA.siteInfo[1].title}</Link>
+            </div>
+            <div className="footer__final-section__left-iterm">
+              <Link to={DATA.siteInfo[2].path}>{DATA.siteInfo[2].title}</Link>
+            </div>
+            <div className="footer__final-section__left-iterm">
+              <Link to={DATA.siteInfo[3].path}>{DATA.siteInfo[3].title}</Link>
+            </div>
+          </div>
+          <div className="footer__final-section__right">
+            Australia Broadband is not available in all areas or to all homes.
+            Australia Broadband and the Australia Broadband logo are trademarks
+            of Australia Broadband Pty Ltd (ABN 14 610 870 249). nbn™ is a
+            trademark of NBN Co Limited and is used under license.
+          </div>
         </Col>
       </div>
     );

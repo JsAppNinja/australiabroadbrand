@@ -130,4 +130,36 @@
       text-align: left;
     }
   }
+
+  .footer__final-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #4d565a;
+    margin: 0px 50px;
+
+    &__left {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 45px 10px 67px 0px;
+
+      &-iterm {
+        white-space: nowrap;
+        padding: 0px 10px;
+
+        a {
+          text-decoration: none;
+          color: #4d565a;
+        }
+      }
+    }
+
+    &__right {
+      text-align: right;
+      padding: 21px 0px 37px 35px;
+    }
+  }
 }
