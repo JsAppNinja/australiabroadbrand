@@ -7,10 +7,6 @@ import BenefitImg3 from '../../../assets/svgs/data-sharing.svg';
 import './style.scss';
 
 class BenefitSection extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const Benefits = [
       {

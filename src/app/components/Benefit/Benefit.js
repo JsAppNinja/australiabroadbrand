@@ -3,10 +3,6 @@ import PropTypes from 'prop-types';
 import './style.scss';
 
 class Benefit extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { img, title, desc, color } = this.props;
 

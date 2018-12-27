@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import CheckButton from '../../../components/CheckButton';
 
 import AddressImg from '../../../assets/svgs/address-check.svg';
@@ -19,7 +19,7 @@ const btnTitle = 'Сheck address';
 const CheckAddress = () => (
   <div className="check-address">
     <div className="check-address__image">
-      <img src={AddressImg} />
+      <img src={AddressImg} alt="Smiley face" height="42" width="42" />
     </div>
     <div className="check-address__title">Check your Address Section</div>
     <div className="check-address__button">

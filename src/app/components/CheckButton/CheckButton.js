@@ -3,10 +3,6 @@ import PropTypes from 'prop-types';
 import './style.scss';
 
 class CheckButton extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { CustomStyle, Content } = this.props;
     return (

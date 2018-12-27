@@ -6,10 +6,6 @@ import './style.scss';
 import Data from './Data';
 
 class HeroSection extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const customStyle = {
       width: '230px',

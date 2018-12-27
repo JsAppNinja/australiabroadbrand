@@ -6,7 +6,7 @@ const ImpInformation = () => (
   <div className="imp-information">
     Important information
     <div className="imp-information__img">
-      <img src={ArrowDown} />
+      <img src={ArrowDown} alt="lorem" height="30" width="30" />
     </div>
   </div>
 );

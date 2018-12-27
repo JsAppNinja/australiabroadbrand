@@ -4,10 +4,6 @@ import AnonymousPhoto from '../AnonymousPhoto';
 import './style.scss';
 
 class PromoCard extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { title, avatar, price, priceInfo, description } = this.props;
 

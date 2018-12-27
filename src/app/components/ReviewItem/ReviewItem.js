@@ -11,7 +11,7 @@ const ReviewItem = ({ featured, rating, userCount, reviewImg }) => {
   });
 
   return (
-    <div className="kreview">
+    <div className={className}>
       <div className="kreview-score">
         <div className="kreview-score__mark">{rating}</div>
         <div className="kreview__rating">
@@ -20,7 +20,7 @@ const ReviewItem = ({ featured, rating, userCount, reviewImg }) => {
         </div>
       </div>
       <div className="kreview-reviewImage">
-        <img src={reviewImg} />
+        <img src={reviewImg} alt="lorem" height="30" width="30" />
       </div>
     </div>
   );

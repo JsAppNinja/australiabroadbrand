@@ -4,7 +4,7 @@ import './style.scss';
 
 class StarRating extends Component {
   render() {
-    const { total, rating } = this.props;
+    const { rating } = this.props;
     const value = parseInt(rating, 10);
     const stars = [];
 
@@ -26,12 +26,10 @@ class StarRating extends Component {
 }
 
 StarRating.propTypes = {
-  total: PropTypes.number,
   rating: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 };
 
 StarRating.defaultProps = {
-  total: 5,
   rating: 0,
 };
 
