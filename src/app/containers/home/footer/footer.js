@@ -24,38 +24,38 @@ class Footer extends Component {
         <Col xs={12} md={12} className="footer__first-section">
           <Col xs={3} md={3} className="footer__first-section_item">
             <div className="footer__first-section_item-content">
-              <img src={LOREM} alt="lorem" height="30" width="30" />
+              <img src={LOREM} alt="lorem" />
               <div>Lorem ipsum</div>
             </div>
           </Col>
           <div className="footer__first-section_item-end" />
           <Col xs={3} md={3} className="footer__first-section_item">
             <div className="footer__first-section_item-content">
-              <img src={LOREM} alt="lorem" height="30" width="30" />
+              <img src={LOREM} alt="lorem" />
               <div>Lorem ipsum</div>
             </div>
           </Col>
           <div className="footer__first-section_item-end" />
           <Col xs={3} md={3} className="footer__first-section_item">
             <div className="footer__first-section_item-content">
-              <img src={LOREM} alt="lorem" height="30" width="30" />
+              <img src={LOREM} alt="lorem" />
               <div>Lorem ipsum</div>
             </div>
           </Col>
           <div className="footer__first-section_item-end" />
           <Col xs={3} md={3} className="footer__first-section_item">
             <div className="footer__first-section_item-content">
-              <img src={LOREM} alt="lorem" height="30" width="30" />
+              <img src={LOREM} alt="lorem" />
               <div>Lorem ipsum</div>
             </div>
           </Col>
         </Col>
         <Col xs={12} md={12} className="footer__help-section">
           <div className="footer__help-section__left">
-            <img src={FAV_NBN} alt="lorem" height="30" width="30" />
-            <img src={FAV_EWAY} alt="lorem" height="30" width="30" />
-            <img src={FAV_GOOGLE_PLAY} alt="lorem" height="30" width="30" />
-            <img src={FAV_APPSTORE} alt="lorem" height="30" width="30" />
+            <img src={FAV_NBN} alt="lorem" />
+            <img src={FAV_EWAY} alt="lorem" />
+            <img src={FAV_GOOGLE_PLAY} alt="lorem" />
+            <img src={FAV_APPSTORE} alt="lorem" />
           </div>
           <div className="footer__help-section__right">
             <div className="footer__help-section__right-title">
@@ -84,7 +84,7 @@ class Footer extends Component {
         <Col xs={12} md={12} className="footer__contact-section">
           <div className="footer__contact-section__left">
             <div className="footer__contact-section__favicon">
-              <img src={favPhone} alt="lorem" height="30" width="30" />
+              <img src={favPhone} alt="lorem" />
             </div>
             <div className="footer__contact-section__phonecall">
               <div>CALL US</div>
@@ -93,16 +93,16 @@ class Footer extends Component {
           </div>
           <div className="footer__contact-section__right">
             <div className="footer__contact-section__favicon">
-              <img src={favFacebook} alt="lorem" height="30" width="30" />
+              <img src={favFacebook} alt="lorem" />
             </div>
             <div className="footer__contact-section__favicon">
-              <img src={favTwitter} alt="lorem" height="30" width="30" />
+              <img src={favTwitter} alt="lorem" />
             </div>
             <div className="footer__contact-section__favicon">
-              <img src={favYoutube} alt="lorem" height="30" width="30" />
+              <img src={favYoutube} alt="lorem" />
             </div>
             <div className="footer__contact-section__favicon">
-              <img src={favInstagram} alt="lorem" height="30" width="30" />
+              <img src={favInstagram} alt="lorem" />
             </div>
           </div>
         </Col>
