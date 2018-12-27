@@ -92,6 +92,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: -40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 21px 0px;
+    border-bottom: 1px solid #b6b6b9;
 
     &__left {
       display: flex;
@@ -109,10 +114,20 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      margin: 0px 10px;
       width: 40px;
       height: 40px;
       border-radius: 50%;
       border: 1px solid rgba(158, 176, 186, 0.44);
+      box-shadow: 0 2px 4px 0 #cdd1d3;
+    }
+
+    &__phonecall {
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 500;
+      color: #4d565a;
+      text-align: left;
     }
   }
 }

@@ -86,7 +86,10 @@ class Footer extends Component {
             <div className="footer__contact-section__favicon">
               <img src={favPhone} />
             </div>
-            <div className="footer__contact-section__phonecall">Call</div>
+            <div className="footer__contact-section__phonecall">
+              <div>CALL US</div>
+              <div>Call 1300 023 354 and talk to us.</div>
+            </div>
           </div>
           <div className="footer__contact-section__right">
             <div className="footer__contact-section__favicon">
@@ -103,10 +106,9 @@ class Footer extends Component {
             </div>
           </div>
         </Col>
-        {/* 
-      <Col xs={12} md={12} className="footer__final-section">
-      Footer4 Test
-      </Col> */}
+        <Col xs={12} md={12} className="footer__final-section">
+          Footer4 Test
+        </Col>
       </div>
     );
   }
