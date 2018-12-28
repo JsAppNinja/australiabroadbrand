@@ -2,11 +2,33 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './style.scss';
 
-class ExCircle extends Component {
-  render() {
-    return <div className="custom-circle">Test Values</div>;
-  }
-}
+const ExCircle = ({
+  ParentSize,
+  ChildSize,
+  ChildContent,
+  ChildBgColor,
+  BgImgPath,
+}) => (
+  <div
+    className="custom-circle"
+    style={{
+      width: ParentSize,
+      height: ParentSize,
+    }}
+  >
+    <div
+      className="custom-circle__child"
+      style={{
+        width: ChildSize,
+        height: ChildSize,
+        backgroundColor: ChildBgColor,
+      }}
+    >
+      {ChildContent}
+    </div>
+    <img src={BgImgPath} alt="circle" />
+  </div>
+);
 
 ExCircle.propTypes = {
   ParentSize: PropTypes.string,
@@ -17,8 +39,8 @@ ExCircle.propTypes = {
 };
 
 ExCircle.defaultProps = {
-  ParentSize: '119',
-  ChildSize: '38',
+  ParentSize: '119px',
+  ChildSize: '38px',
   ChildContent: '1',
   ChildBgColor: '#f89729',
   BgImgPath: '',
