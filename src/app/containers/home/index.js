@@ -6,11 +6,13 @@ import CheckAddress from './CheckAddress';
 import Information from './ImpInformation';
 import ReviewSection from './ReviewSection';
 import Footer from './footer';
+import EasyConnection from './EasyConnection';
 
 export default () => (
   <Page id="homepage">
     <HeroSection />
     <BenefitSection />
+    <EasyConnection />
     <CheckAddress />
     <ReviewSection />
     <Information />

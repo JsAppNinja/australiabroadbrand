@@ -4,7 +4,7 @@ import './style.scss';
 
 class ExCircle extends Component {
   render() {
-    return <div className="custom-circle" />;
+    return <div className="custom-circle">Test Values</div>;
   }
 }
 
