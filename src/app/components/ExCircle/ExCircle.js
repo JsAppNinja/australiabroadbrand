@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import './style.scss';
 
@@ -33,7 +33,7 @@ const ExCircle = ({
 ExCircle.propTypes = {
   ParentSize: PropTypes.string,
   ChildSize: PropTypes.string,
-  ChildContent: PropTypes.string,
+  ChildContent: PropTypes.number,
   ChildBgColor: PropTypes.string,
   BgImgPath: PropTypes.string,
 };
@@ -41,7 +41,7 @@ ExCircle.propTypes = {
 ExCircle.defaultProps = {
   ParentSize: '119px',
   ChildSize: '38px',
-  ChildContent: '1',
+  ChildContent: 1,
   ChildBgColor: '#f89729',
   BgImgPath: '',
 };
