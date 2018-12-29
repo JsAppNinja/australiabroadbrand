@@ -39,7 +39,7 @@ ExCircle.propTypes = {
 };
 
 ExCircle.defaultProps = {
-  ParentSize: '119px',
+  ParentSize: '108px',
   ChildSize: '38px',
   ChildContent: 1,
   ChildBgColor: '#f89729',
