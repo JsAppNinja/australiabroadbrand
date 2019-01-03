@@ -1,3 +1,26 @@
-.easy-connnection {
-  background-size: 100% 100%;
+.easy-connection {
+  background: linear-gradient(
+      315deg,
+      rgba(135, 162, 234, 0),
+      rgba(114, 139, 207, 0.7),
+      rgba(135, 162, 234, 0) 70%
+    ),
+    linear-gradient(
+      225deg,
+      rgba(135, 162, 234, 0),
+      rgba(135, 162, 234, 0.7),
+      rgba(135, 162, 234, 0) 70%
+    ),
+    linear-gradient(
+      135deg,
+      rgba(124, 232, 211, 0),
+      rgba(124, 232, 211, 0.7),
+      rgba(124, 232, 211, 0) 70%
+    ),
+    linear-gradient(
+      45deg,
+      rgba(124, 232, 211, 0),
+      rgba(124, 232, 211, 0.7),
+      rgba(124, 232, 211, 0) 70%
+    );
 }

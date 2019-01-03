@@ -10,13 +10,31 @@ import EasyBg from '../../../assets/easy-connection-bg.png';
 
 const favIconList = [FavHome, FavUser, FavNbn, FavEnjoy];
 
-const EasyConnection = () => (
-  <div
-    className="easy-connection"
-    style={{ backgroundImage: `url('${EasyBg}')` }}
-  >
-    <CircleLink ImgPaths={favIconList} />
-  </div>
-);
+const EasyConnection = () => {
+  const path = (
+    <path
+      d={`
+        M 25,25
+        C 100,50 25,75 25,100
+        C 25,125 300,150 25,175
+      `}
+      fill="none"
+      stroke="hotpink"
+      strokeWidth={5}
+    />
+  );
+
+  return (
+    <div className="easy-connection">
+      <CircleLink ImgPaths={favIconList} />
+      {/* <svg
+        viewBox="0 0 200 200"
+        style={{ maxHeight: 400 }}
+      >
+        {path}
+      </svg> */}
+    </div>
+  );
+};
 
 export default EasyConnection;
