@@ -1,4 +1,8 @@
 .easy-connection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   background: linear-gradient(
       315deg,
       rgba(135, 162, 234, 0),
@@ -24,5 +28,16 @@
       rgba(124, 232, 211, 0) 70%
     );
 
-  padding: 100px 0px;
+  padding: 100px 100px;
+
+  .easy-connection__left-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .section-description {
+    max-width: 359px;
+  }
 }
