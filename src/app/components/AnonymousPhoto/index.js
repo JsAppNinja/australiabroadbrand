@@ -1,3 +1,3 @@
-import AnonymousPhoto from '../../assets/anonymous.png';
+import AnonymousPhoto from 'assets/anonymous.png';
 
 export default AnonymousPhoto;

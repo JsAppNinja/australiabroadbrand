@@ -1,5 +1,5 @@
 import React from 'react';
-import ArrowDown from '../../../assets/svgs/angle-down-solid.svg';
+import ArrowDown from 'assets/svgs/angle-down-solid.svg';
 import './style.scss';
 
 const ImpInformation = () => (

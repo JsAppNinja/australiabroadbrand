@@ -1,11 +1,11 @@
 import React from 'react';
-import CircleLink from '../../../components/CircleLink';
+import CircleLink from 'components/CircleLink';
 
 import './style.scss';
-import FavHome from '../../../assets/svgs/connect-home.svg';
-import FavUser from '../../../assets/svgs/connect-user.svg';
-import FavNbn from '../../../assets/svgs/connect-nbn.png';
-import FavEnjoy from '../../../assets/svgs/connect-enjoy.svg';
+import FavHome from 'assets/svgs/connect-home.svg';
+import FavUser from 'assets/svgs/connect-user.svg';
+import FavNbn from 'assets/svgs/connect-nbn.png';
+import FavEnjoy from 'assets/svgs/connect-enjoy.svg';
 
 import Data from './DATA';
 const favIconList = [FavHome, FavUser, FavNbn, FavEnjoy];
