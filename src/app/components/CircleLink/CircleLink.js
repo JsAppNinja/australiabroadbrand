@@ -27,17 +27,43 @@ const path2 = (
   />
 );
 
+const path3 = (
+  <path
+    d={`
+      M 0, 50
+      C 80,10 105,15 180,30
+    `}
+    fill="none"
+    stroke="#ffffff"
+    stroke-dasharray="10,10"
+    strokeWidth={3}
+  />
+);
+
 const CircleLink = ({ ImgPaths }) => (
   <div className="circle-link">
-    {ImgPaths.map((item, index) => (
-      <div key={index} className="circle-link__one-circle">
-        <ExCircle BgImgPath={item} ChildContent={index + 1} />
-        <svg viewBox="0 0 85 85" style={{ maxHeight: 90, maxWidth: 90 }}>
-          {path1}
-          {path2}
-        </svg>
-      </div>
-    ))}
+    {ImgPaths.map((item, index) => {
+      if (index < ImgPaths.length - 1) {
+        return (
+          <div key={index} className="circle-link__one-circle">
+            <ExCircle BgImgPath={item} ChildContent={index + 1} />
+            <svg viewBox="0 0 85 85" style={{ maxHeight: 90, maxWidth: 90 }}>
+              {path1}
+              {path2}
+            </svg>
+          </div>
+        );
+      } else {
+        return (
+          <div key={index} className="circle-link__one-circle">
+            <ExCircle BgImgPath={item} ChildContent={index + 1} />
+          </div>
+        );
+      }
+    })}
+    {/* <svg viewBox="0 0 180 100" style={{ maxHeight: 180, maxWidth: 100 }}>
+      {path3}
+    </svg> */}
   </div>
 );
 
