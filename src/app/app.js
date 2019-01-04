@@ -1,12 +1,12 @@
-import React, { Component } from "react";
-import { connect } from "react-redux";
-import { bindActionCreators } from "redux";
-import { withRouter } from "react-router";
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { withRouter } from 'react-router';
 
-import { isServer } from "../store";
-import Header from "./containers/home/header";
-import Routes from "./containers";
-import "./app.css";
+import { isServer } from '../store';
+import Header from './containers/home/header';
+import Routes from './containers';
+import './app.css';
 
 class App extends Component {
   componentWillMount() {
@@ -31,7 +31,7 @@ class App extends Component {
 }
 
 const mapStateToProps = state => ({
-  isAuthenticated: state.auth.isAuthenticated
+  isAuthenticated: state.auth.isAuthenticated,
 });
 
 export default withRouter(connect(mapStateToProps)(App));

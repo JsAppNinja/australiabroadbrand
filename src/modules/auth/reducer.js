@@ -2,12 +2,12 @@ import {
   AUTHENTICATE,
   LOGIN_USER,
   SET_CURRENT_USER,
-  LOGOUT_USER
-} from "./actions";
+  LOGOUT_USER,
+} from './actions';
 
 const initialState = {
   isAuthenticated: false,
-  currentUser: {}
+  currentUser: {},
 };
 
 function auth(state = initialState, action) {
@@ -16,24 +16,24 @@ function auth(state = initialState, action) {
     case AUTHENTICATE:
       return {
         ...state,
-        isAuthenticated: action.authenticated
+        isAuthenticated: action.authenticated,
       };
     case SET_CURRENT_USER:
       return {
         ...state,
-        currentUser: action.payload
+        currentUser: action.payload,
       };
     case LOGIN_USER:
       return {
         ...state,
         currentUser: action.palyload,
-        isAuthenticated: action.palyload
+        isAuthenticated: action.palyload,
       };
     case LOGOUT_USER:
       return {
         ...state,
         currentUser: action.palyload.user,
-        isAuthenticated: action.palyload.auth
+        isAuthenticated: action.palyload.auth,
       };
     default:
       return state;

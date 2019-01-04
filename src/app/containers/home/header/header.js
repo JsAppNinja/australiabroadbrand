@@ -1,16 +1,16 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import DATA from "./DATA";
-import LogoImage from "../../../assets/logo.png";
-import PhoneSvg from "../../../assets/svgs/header-phone.svg";
-import NavigationBar from "../NavigationBar";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import DATA from './DATA';
+import LogoImage from '../../../assets/logo.png';
+import PhoneSvg from '../../../assets/svgs/header-phone.svg';
+import NavigationBar from '../NavigationBar';
 
-import "./style.scss";
+import './style.scss';
 
 const isCurrent = (to, current) => {
-  if (to === "/" && current === to) {
+  if (to === '/' && current === to) {
     return true;
-  } else if (to !== "/" && current.includes(to)) {
+  } else if (to !== '/' && current.includes(to)) {
     return true;
   }
 
@@ -22,7 +22,7 @@ class Header extends Component {
     super(props);
     this.state = {
       flipped: false,
-      selectedItem: 0
+      selectedItem: 0,
     };
   }
 
@@ -52,7 +52,7 @@ class Header extends Component {
                 {DATA.map((item, index) => (
                   <li
                     key={index}
-                    className={isCurrent(item.to, current) ? "current" : ""}
+                    className={isCurrent(item.to, current) ? 'current' : ''}
                   >
                     <div
                       className="header-left__menu__item"
@@ -71,9 +71,9 @@ class Header extends Component {
               <ul className="header-right__items">
                 <li
                   className={
-                    isCurrent("/", current)
-                      ? "current header-right__items__phone"
-                      : "header-right__items__phone"
+                    isCurrent('/', current)
+                      ? 'current header-right__items__phone'
+                      : 'header-right__items__phone'
                   }
                 >
                   <Link to="/">
@@ -82,9 +82,9 @@ class Header extends Component {
                 </li>
                 <li
                   className={
-                    isCurrent("/login", current)
-                      ? "current header-right__items__login"
-                      : "header-right__items__login"
+                    isCurrent('/login', current)
+                      ? 'current header-right__items__login'
+                      : 'header-right__items__login'
                   }
                 >
                   <div>
@@ -93,9 +93,9 @@ class Header extends Component {
                 </li>
                 <li
                   className={
-                    isCurrent("/support", current)
-                      ? "current header-right__items__support"
-                      : "header-right__items__support"
+                    isCurrent('/support', current)
+                      ? 'current header-right__items__support'
+                      : 'header-right__items__support'
                   }
                 >
                   <Link to="/support">Support</Link>
