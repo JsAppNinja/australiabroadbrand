@@ -1,6 +1,6 @@
-import ReviewImg1 from '../../../assets/product_review.png';
-import ReviewImg2 from '../../../assets/facebook.png';
-import ReviewImg3 from '../../../assets/google.png';
+import ReviewImg1 from 'assets/product_review.png';
+import ReviewImg2 from 'assets/facebook.png';
+import ReviewImg3 from 'assets/google.png';
 
 export default {
   title: 'WHAT OUR CUSTOMERS ARE SAYING ABOUT US',
