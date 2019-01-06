@@ -5,7 +5,11 @@ import { Link } from 'react-router-dom';
 import DATA from './DATA';
 import './style.scss';
 
-import LOREM from 'assets/svgs/lorem.svg';
+import FOOTER_FAV1 from 'assets/svgs/footer-fav1.svg';
+import FOOTER_FAV2 from 'assets/svgs/footer-fav2.svg';
+import FOOTER_FAV3 from 'assets/svgs/footer-fav3.svg';
+import FOOTER_FAV4 from 'assets/svgs/footer-fav4.svg';
+
 import FAV_NBN from 'assets/footer-nbn.png';
 import FAV_EWAY from 'assets/footer-eway.png';
 import FAV_GOOGLE_PLAY from 'assets/footer-gplay.png';
@@ -24,29 +28,29 @@ class Footer extends Component {
         <Col xs={12} md={12} className="footer__first-section">
           <Col xs={3} md={3} className="footer__first-section_item">
             <div className="footer__first-section_item-content">
-              <img src={LOREM} alt="lorem" />
-              <div>Lorem ipsum</div>
+              <img src={FOOTER_FAV1} alt="lorem" />
+              <div>No Contracts</div>
             </div>
           </Col>
           <div className="footer__first-section_item-end" />
           <Col xs={3} md={3} className="footer__first-section_item">
             <div className="footer__first-section_item-content">
-              <img src={LOREM} alt="lorem" />
-              <div>Lorem ipsum</div>
+              <img src={FOOTER_FAV2} alt="lorem" />
+              <div>Amazingly Simple</div>
             </div>
           </Col>
           <div className="footer__first-section_item-end" />
           <Col xs={3} md={3} className="footer__first-section_item">
             <div className="footer__first-section_item-content">
-              <img src={LOREM} alt="lorem" />
-              <div>Lorem ipsum</div>
+              <img src={FOOTER_FAV3} alt="lorem" />
+              <div>Save Money</div>
             </div>
           </Col>
           <div className="footer__first-section_item-end" />
           <Col xs={3} md={3} className="footer__first-section_item">
             <div className="footer__first-section_item-content">
-              <img src={LOREM} alt="lorem" />
-              <div>Lorem ipsum</div>
+              <img src={FOOTER_FAV4} alt="lorem" />
+              <div>Earn Rewards</div>
             </div>
           </Col>
         </Col>
