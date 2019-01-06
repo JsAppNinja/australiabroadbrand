@@ -34,6 +34,7 @@ class BenefitSection extends Component {
 
     return (
       <div className="benefit">
+        <div className="benefit-blurtitle">UNLIMITED DATA</div>
         <div className="benefit-section__title">
           <div className="benefit-section__title-item">
             amazingly simple nbn<sup>TM</sup>

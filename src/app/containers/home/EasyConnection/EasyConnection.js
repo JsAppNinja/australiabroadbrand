@@ -14,6 +14,7 @@ const favIconList = [FavHome, FavUser, FavNbn, FavEnjoy];
 const EasyConnection = () => {
   return (
     <div className="easy-connection__section">
+      <div className="easyconnection-blurtitle">CONNECT TO THE NBN</div>
       <div className="easy-connection__title">
         <div className="easy-connection__title-item">
           connecting with Australia Broadband is easy

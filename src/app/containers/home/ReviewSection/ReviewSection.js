@@ -7,6 +7,7 @@ class ReviewSection extends Component {
   render() {
     return (
       <div className="review-section">
+        <div className="reviewconnection-blurtitle">OUR REVIEWS</div>
         <div className="review-section__titlebar">
           <div className="review-section__title">{Data.title}</div>
           <div className="review-section__line" />

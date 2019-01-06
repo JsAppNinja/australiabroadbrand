@@ -3,11 +3,19 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 120px;
+
+  .reviewconnection-blurtitle {
+    position: absolute;
+    font-size: 100px;
+    color: #f6f9ff;
+    z-index: -100;
+  }
 
   &__titlebar {
     font-family: Roboto;
+    margin-top: 50px;
     font-size: 28px;
     font-weight: 500;
     line-height: 1.54;

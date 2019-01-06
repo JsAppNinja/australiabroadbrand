@@ -6,7 +6,15 @@
   align-items: center;
   font-family: Roboto;
 
+  .benefit-blurtitle {
+    position: absolute;
+    font-size: 100px;
+    color: #f6f9ff;
+    z-index: -100;
+  }
+
   .benefit-section__title {
+    margin-top: 50px;
     margin-bottom: 60px;
     text-align: center;
 

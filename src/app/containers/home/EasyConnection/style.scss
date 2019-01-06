@@ -3,9 +3,18 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  padding-top: 80px;
+
+  .easyconnection-blurtitle {
+    position: absolute;
+    font-size: 100px;
+    color: #f6f9f9;
+    z-index: -100;
+  }
 }
 .easy-connection__title {
   text-align: center;
+  margin-top: 50px;
 
   &-item {
     font-size: 28px;
