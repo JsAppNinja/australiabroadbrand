@@ -17,7 +17,7 @@ const EasyConnection = () => {
       <div className="easy-connection__left-section">
         <div className="easy-connection__left-section-top">
           <div className="description-curveline">
-            <svg
+            {/* <svg
               viewBox="0 0 160 110"
               style={{ maxHeight: 110, maxWidth: 160 }}
             >
@@ -33,7 +33,7 @@ const EasyConnection = () => {
               />
               <circle cx="50" cy="100" r="4" />
               <circle cx="150" cy="70" r="4" />
-            </svg>
+            </svg> */}
           </div>
           <div className="section-description">
             <div className="section-description__title">
