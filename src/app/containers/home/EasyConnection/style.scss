@@ -1,34 +1,32 @@
+.easy-connection__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.easy-connection__title {
+  text-align: center;
+
+  &-item {
+    font-size: 28px;
+    line-height: 1.36;
+    color: #4d565a;
+    padding: 10px;
+  }
+
+  &-line {
+    width: 150px;
+    height: 4px;
+    background-color: #f89729;
+    border-radius: 2px;
+    margin: auto;
+  }
+}
 .easy-connection {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #ffffff;
-
-  background: linear-gradient(
-      315deg,
-      rgba(135, 162, 234, 0),
-      rgba(114, 139, 207, 0.7),
-      rgba(135, 162, 234, 0) 70%
-    ),
-    linear-gradient(
-      225deg,
-      rgba(135, 162, 234, 0),
-      rgba(135, 162, 234, 0.7),
-      rgba(135, 162, 234, 0) 70%
-    ),
-    linear-gradient(
-      135deg,
-      rgba(124, 232, 211, 0),
-      rgba(124, 232, 211, 0.7),
-      rgba(124, 232, 211, 0) 70%
-    ),
-    linear-gradient(
-      45deg,
-      rgba(124, 232, 211, 0),
-      rgba(124, 232, 211, 0.7),
-      rgba(124, 232, 211, 0) 70%
-    );
-
   padding: 100px 100px;
 
   .easy-connection__left-section {
@@ -36,12 +34,12 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    height: 600px;
 
     &-top,
     &-down {
       display: inline-flex;
       font-family: Roboto;
-      margin-bottom: 270px;
 
       .section-description {
         text-align: right;
@@ -68,8 +66,7 @@
     }
 
     &-down {
-      margin-top: 100px;
-      margin-bottom: 0px;
+      margin-bottom: 100px;
     }
   }
 
@@ -78,12 +75,12 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    height: 600px;
 
     &-top,
     &-down {
       display: inline-flex;
       font-family: Roboto;
-      margin-bottom: 200px;
 
       .section-description {
         text-align: left;
@@ -105,7 +102,16 @@
 
       .description-curveline {
         min-width: 200px;
+        margin-top: -100px;
       }
+    }
+
+    &-top {
+      margin-top: 200px;
+    }
+
+    &-down {
+      margin-bottom: -100px;
     }
   }
 

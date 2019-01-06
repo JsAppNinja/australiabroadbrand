@@ -8,12 +8,16 @@ import ReviewSection from './ReviewSection';
 import Footer from './footer';
 import EasyConnection from './EasyConnection';
 
+import './style.scss';
+
 export default () => (
   <Page id="homepage">
     <HeroSection />
     <BenefitSection />
-    <EasyConnection />
-    <CheckAddress />
+    <div className="connection-check__section">
+      <EasyConnection />
+      <CheckAddress />
+    </div>
     <ReviewSection />
     <Information />
     <Footer />
