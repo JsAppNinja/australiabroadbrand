@@ -9,19 +9,6 @@ import FavEnjoy from 'assets/svgs/connect-enjoy.svg';
 
 import Data from './DATA';
 
-const curve1 = (
-  <path
-    d={`
-      M 0, 50
-      C 80,10 105,15 180,30
-    `}
-    fill="none"
-    stroke="#ffffff"
-    strokeDasharray="10,10"
-    strokeWidth={3}
-  />
-);
-
 const favIconList = [FavHome, FavUser, FavNbn, FavEnjoy];
 
 const EasyConnection = () => {
@@ -31,10 +18,21 @@ const EasyConnection = () => {
         <div className="easy-connection__left-section-top">
           <div className="description-curveline">
             <svg
-              viewBox="0 0 180 100"
-              style={{ maxHeight: 180, maxWidth: 100 }}
+              viewBox="0 0 160 110"
+              style={{ maxHeight: 110, maxWidth: 160 }}
             >
-              {curve1}
+              <path
+                d={`
+                  M 50,100
+                  S 85,55,150,70
+                `}
+                fill="none"
+                stroke="#fff"
+                strokeDasharray="4,4"
+                strokeWidth={1}
+              />
+              <circle cx="50" cy="100" r="4" />
+              <circle cx="150" cy="70" r="4" />
             </svg>
           </div>
           <div className="section-description">
