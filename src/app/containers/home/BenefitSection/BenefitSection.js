@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Benefit from 'components/Benefit';
-import BenefitImg1 from 'assets/svgs/chat.svg';
-import BenefitImg2 from 'assets/svgs/simple-plan.svg';
-import BenefitImg3 from 'assets/svgs/data-sharing.svg';
+import BenefitImg1 from 'assets/svgs/benefit-1.svg';
+import BenefitImg2 from 'assets/svgs/benefit-2.svg';
+import BenefitImg3 from 'assets/svgs/benefit-3.svg';
 
 import './style.scss';
 
@@ -36,7 +36,7 @@ class BenefitSection extends Component {
       <div className="benefit">
         <div className="benefit-section__title">
           <div className="benefit-section__title-item">
-            Amazining simple nbn<sup>TM</sup>
+            amazingly simple nbn<sup>TM</sup>
           </div>
           <div className="benefit-section__title-line" />
         </div>

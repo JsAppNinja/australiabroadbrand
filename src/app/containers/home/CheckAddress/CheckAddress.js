@@ -22,7 +22,7 @@ const CheckAddress = () => (
       <img src={AddressImg} alt="Smiley face" height="42" width="42" />
     </div>
     <div className="check-address__title">
-      Fast & amazingly simple nbn™ with unlimited data, no contracts and $0
+      fast & amazingly simple nbn™ with unlimited data, no contracts and $0
       activation
     </div>
     <div className="check-address__button">
