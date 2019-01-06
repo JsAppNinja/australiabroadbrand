@@ -41,7 +41,7 @@
     &-down {
       display: inline-flex;
       font-family: Roboto;
-      margin-bottom: 200px;
+      margin-bottom: 270px;
 
       .section-description {
         text-align: right;
@@ -63,7 +63,13 @@
 
       .description-curveline {
         min-width: 200px;
+        margin-top: -100px;
       }
+    }
+
+    &-down {
+      margin-top: 100px;
+      margin-bottom: 0px;
     }
   }
 
@@ -80,7 +86,7 @@
       margin-bottom: 200px;
 
       .section-description {
-        text-align: right;
+        text-align: left;
 
         &__title {
           font-size: 18px;
