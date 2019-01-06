@@ -3,7 +3,7 @@ import ReviewImg2 from 'assets/rview-gather-up.png';
 import ReviewImg3 from 'assets/rview-google.png';
 
 export default {
-  title: 'WHAT OUR CUSTOMERS ARE SAYING ABOUT US',
+  title: 'what our customers are saying about us',
   reviews: [
     {
       rating: 4.6,
