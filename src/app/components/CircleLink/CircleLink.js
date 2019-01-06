@@ -27,19 +27,6 @@ const path2 = (
   />
 );
 
-const path3 = (
-  <path
-    d={`
-      M 0, 50
-      C 80,10 105,15 180,30
-    `}
-    fill="none"
-    stroke="#ffffff"
-    stroke-dasharray="10,10"
-    strokeWidth={3}
-  />
-);
-
 const CircleLink = ({ ImgPaths }) => (
   <div className="circle-link">
     {ImgPaths.map((item, index) => {
@@ -61,9 +48,6 @@ const CircleLink = ({ ImgPaths }) => (
         );
       }
     })}
-    {/* <svg viewBox="0 0 180 100" style={{ maxHeight: 180, maxWidth: 100 }}>
-      {path3}
-    </svg> */}
   </div>
 );
 
