@@ -15,8 +15,10 @@ export default () => (
     <HeroSection />
     <BenefitSection />
     <div className="connection-check__section">
+      <div className="connection-top__hidden" />
       <EasyConnection />
       <CheckAddress />
+      <div className="connection-down__hidden" />
     </div>
     <ReviewSection />
     <Information />

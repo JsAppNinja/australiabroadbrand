@@ -24,3 +24,22 @@
       rgba(124, 232, 211, 0) 70%
     );
 }
+
+.connection-top__hidden {
+  height: 300px;
+  margin-top: -100px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.01) 90%
+  );
+}
+
+.connection-down__hidden {
+  height: 300px;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.01) 90%
+  );
+}
