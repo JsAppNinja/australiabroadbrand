@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Benefit from 'components/Benefit';
-import BenefitImg1 from 'assets/svgs/benefit-1.svg';
-import BenefitImg2 from 'assets/svgs/benefit-2.svg';
-import BenefitImg3 from 'assets/svgs/benefit-3.svg';
+import Benefit from '../../../components/Benefit';
+import BenefitImg1 from '../../../assets/svgs/benefit-1.svg';
+import BenefitImg2 from '../../../assets/svgs/benefit-2.svg';
+import BenefitImg3 from '../../../assets/svgs/benefit-3.svg';
 
 import './style.scss';
 
