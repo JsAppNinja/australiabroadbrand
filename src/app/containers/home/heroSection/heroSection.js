@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import PromoCard from 'components/PromoCard';
-import CheckButton from 'components/CheckButton';
+import PromoCard from '../../../components/PromoCard';
+import CheckButton from '../../../components/CheckButton';
 
 import './style.scss';
 import Data from './Data';

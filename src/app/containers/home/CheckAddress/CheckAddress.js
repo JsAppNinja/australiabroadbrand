@@ -1,7 +1,7 @@
 import React from 'react';
-import CheckButton from 'components/CheckButton';
+import CheckButton from '../../../components/CheckButton';
 
-import AddressImg from 'assets/svgs/address-light.svg';
+import AddressImg from '../../../assets/svgs/address-light.svg';
 import './style.scss';
 
 const customStyle = {

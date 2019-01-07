@@ -1,6 +1,6 @@
-import Avatar1 from 'assets/card_avatar1.png';
-import Avatar2 from 'assets/card_avatar2.png';
-import Avatar3 from 'assets/card_avatar3.png';
+import Avatar1 from '../../../assets/card_avatar1.png';
+import Avatar2 from '../../../assets/card_avatar2.png';
+import Avatar3 from '../../../assets/card_avatar3.png';
 
 export default {
   herotitle: ['Drool worthy', 'mobile plan'],
