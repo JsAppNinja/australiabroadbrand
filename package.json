@@ -110,9 +110,7 @@
       "src/**/*.{js,jsx}"
     ],
     "resolver": "jest-pnp-resolver",
-    "setupFiles": [
-      "react-app-polyfill/jsdom"
-    ],
+    "setupTestFrameworkScriptFile": "<rootDir>src/enzyme.js",
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.{js,jsx}",
       "<rootDir>/src/**/?(*.)(spec|test).{js,jsx}"
