@@ -1,12 +1,12 @@
 (window.webpackJsonp = window.webpackJsonp || []).push([
   [3],
   {
-    106: function(t, e, a) {
+    218: function(t, e, a) {
       'use strict';
       a.r(e);
       var n = a(1),
         o = a.n(n),
-        u = a(39);
+        u = a(41);
       e.default = function() {
         return o.a.createElement(
           u.a,
@@ -21,4 +21,4 @@
     },
   },
 ]);
-//# sourceMappingURL=about.1f717dfb.chunk.js.map
+//# sourceMappingURL=about.892ab5e3.chunk.js.map

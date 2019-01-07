@@ -1,13 +1,13 @@
 (window.webpackJsonp = window.webpackJsonp || []).push([
   [2],
   {
-    105: function(n, t, e) {
+    217: function(n, t, e) {
       'use strict';
       e.r(t);
       var i = e(1),
         o = e.n(i),
-        c = e(10),
-        u = e(39);
+        c = e(20),
+        u = e(41);
       t.default = Object(c.connect)(function(n) {
         return { isAuthenticated: n.auth.isAuthenticated };
       }, null)(function(n) {
@@ -23,4 +23,4 @@
     },
   },
 ]);
-//# sourceMappingURL=2.5f24286e.chunk.js.map
+//# sourceMappingURL=2.0be42b85.chunk.js.map
