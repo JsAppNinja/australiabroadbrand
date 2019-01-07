@@ -44,7 +44,7 @@ class BenefitSection extends Component {
         <div className="benefit-content">
           <ul id="links">
             {Benefits.map((item, index) => (
-              <li key={index}>
+              <li key={index} className="items">
                 <Benefit
                   img={item.img}
                   title={item.title}
