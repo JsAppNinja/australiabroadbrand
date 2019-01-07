@@ -5,21 +5,21 @@ import { Link } from 'react-router-dom';
 import DATA from './DATA';
 import './style.scss';
 
-import FOOTER_FAV1 from 'assets/svgs/footer-fav1.svg';
-import FOOTER_FAV2 from 'assets/svgs/footer-fav2.svg';
-import FOOTER_FAV3 from 'assets/svgs/footer-fav3.svg';
-import FOOTER_FAV4 from 'assets/svgs/footer-fav4.svg';
+import FOOTER_FAV1 from '../../../assets/svgs/footer-fav1.svg';
+import FOOTER_FAV2 from '../../../assets/svgs/footer-fav2.svg';
+import FOOTER_FAV3 from '../../../assets/svgs/footer-fav3.svg';
+import FOOTER_FAV4 from '../../../assets/svgs/footer-fav4.svg';
 
-import FAV_NBN from 'assets/footer-nbn.png';
-import FAV_EWAY from 'assets/footer-eway.png';
-import FAV_GOOGLE_PLAY from 'assets/footer-gplay.png';
-import FAV_APPSTORE from 'assets/footer-appstore.png';
+import FAV_NBN from '../../../assets/footer-nbn.png';
+import FAV_EWAY from '../../../assets/footer-eway.png';
+import FAV_GOOGLE_PLAY from '../../../assets/footer-gplay.png';
+import FAV_APPSTORE from '../../../assets/footer-appstore.png';
 
-import favPhone from 'assets/svgs/header-phone.svg';
-import favFacebook from 'assets/svgs/fav-facebook.svg';
-import favTwitter from 'assets/svgs/fav-twitter.svg';
-import favYoutube from 'assets/svgs/fav-youtube.svg';
-import favInstagram from 'assets/svgs/fav-instagram.svg';
+import favPhone from '../../../assets/svgs/header-phone.svg';
+import favFacebook from '../../../assets/svgs/fav-facebook.svg';
+import favTwitter from '../../../assets/svgs/fav-twitter.svg';
+import favYoutube from '../../../assets/svgs/fav-youtube.svg';
+import favInstagram from '../../../assets/svgs/fav-instagram.svg';
 
 class Footer extends Component {
   render() {
