@@ -6,7 +6,7 @@
       a.r(e);
       var n = a(1),
         o = a.n(n),
-        u = a(41);
+        u = a(38);
       e.default = function() {
         return o.a.createElement(
           u.a,
@@ -21,4 +21,4 @@
     },
   },
 ]);
-//# sourceMappingURL=about.892ab5e3.chunk.js.map
+//# sourceMappingURL=about.44b44a03.chunk.js.map

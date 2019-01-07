@@ -7,7 +7,7 @@
       var i = e(1),
         o = e.n(i),
         c = e(20),
-        u = e(41);
+        u = e(38);
       t.default = Object(c.connect)(function(n) {
         return { isAuthenticated: n.auth.isAuthenticated };
       }, null)(function(n) {
@@ -23,4 +23,4 @@
     },
   },
 ]);
-//# sourceMappingURL=2.0be42b85.chunk.js.map
+//# sourceMappingURL=2.f9fb5186.chunk.js.map
