@@ -141,7 +141,13 @@
   },
   "babel": {
     "presets": [
-      "react-app"
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-syntax-dynamic-import",
+      "dynamic-import-node",
+      "react-loadable/babel"
     ]
   },
   "eslintConfig": {
