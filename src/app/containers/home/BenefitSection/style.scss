@@ -9,6 +9,7 @@
   .benefit-blurtitle {
     position: absolute;
     font-size: 100px;
+    font-weight: bold;
     color: #f6f9ff;
     z-index: -100;
   }
@@ -19,6 +20,7 @@
     text-align: center;
 
     &-item {
+      font-weight: bold;
       font-size: 28px;
       line-height: 1.54;
       color: #4d565a;

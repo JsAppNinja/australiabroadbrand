@@ -18,7 +18,7 @@ export default {
     {
       title: 'Switch to fast',
       avatar: Avatar2,
-      price: '$48.95',
+      price: '$48.9',
       priceInfo: ['From only', 'Per month'],
       description: 'Earn 100$ for each friend that you bring on board',
     },
