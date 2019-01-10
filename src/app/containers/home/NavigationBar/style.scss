@@ -10,6 +10,11 @@
   font-size: 14px;
   color: #313541;
 
+  z-index: 99;
+  transform: translateY(0%);
+  transition: all 0.7s;
+  -webkit-transition: all 0.7s;
+
   #links {
     list-style-type: none;
     margin: 0px;
