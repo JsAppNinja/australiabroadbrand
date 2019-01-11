@@ -5,32 +5,44 @@ export default {
       path: '/nbn-plans',
     },
     {
+      title: 'NBN Explained',
+      path: '/nbn-explained',
+    },
+    {
       title: 'Moving',
       path: '/moving-nbn',
+    },
+    {
+      title: 'NBN Plans',
+      path: '/nbn-plans',
+    },
+    {
+      title: 'NBN Hardware',
+      path: '/nbn-hardware',
+    },
+    {
+      title: 'Hosted PBX',
+      path: '/hosted-pbx',
     },
     {
       title: 'NBN Explained',
       path: '/nbn-explained',
     },
     {
-      title: 'Support',
-      path: '/support',
-    },
-    {
-      title: 'Internet Speeds',
-      path: '/internet-speed',
-    },
-    {
-      title: 'Get NBN',
-      path: '/get-nbn',
-    },
-    {
-      title: 'NBN Coverage',
-      path: '/nbn-coverage',
+      title: 'Spread',
+      path: '/spread',
     },
     {
       title: 'About Us',
       path: '/nbn-plans',
+    },
+    {
+      title: 'Blog',
+      path: '/blog',
+    },
+    {
+      title: 'Support',
+      path: '/support',
     },
   ],
   siteInfo: [

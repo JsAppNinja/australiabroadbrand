@@ -55,11 +55,38 @@ class Footer extends Component {
           </Col>
         </Col>
         <Col xs={12} md={12} className="footer__help-section">
-          <div className="footer__help-section__left">
-            <img src={FAV_NBN} alt="lorem" />
-            <img src={FAV_EWAY} alt="lorem" />
-            <img src={FAV_GOOGLE_PLAY} alt="lorem" />
-            <img src={FAV_APPSTORE} alt="lorem" />
+          <div className="footer__help-section__leftgroup">
+            <div className="footer__help-section__left">
+              <img src={FAV_NBN} alt="lorem" />
+              <img src={FAV_EWAY} alt="lorem" />
+              <img src={FAV_GOOGLE_PLAY} alt="lorem" />
+              <img src={FAV_APPSTORE} alt="lorem" />
+            </div>
+            <div className="footer__contact-section">
+              <div className="footer__contact-section__left">
+                <div className="footer__contact-section__favicon">
+                  <img src={favPhone} alt="lorem" />
+                </div>
+                <div className="footer__contact-section__phonecall">
+                  <div>CALL US</div>
+                  <div>Call 1300 023 354 and talk to us.</div>
+                </div>
+              </div>
+              <div className="footer__contact-section__right">
+                <div className="footer__contact-section__favicon">
+                  <img src={favFacebook} alt="lorem" />
+                </div>
+                <div className="footer__contact-section__favicon">
+                  <img src={favTwitter} alt="lorem" />
+                </div>
+                <div className="footer__contact-section__favicon">
+                  <img src={favYoutube} alt="lorem" />
+                </div>
+                <div className="footer__contact-section__favicon">
+                  <img src={favInstagram} alt="lorem" />
+                </div>
+              </div>
+            </div>
           </div>
           <div className="footer__help-section__right">
             <div className="footer__help-section__right-title">
@@ -67,69 +94,51 @@ class Footer extends Component {
             </div>
             <div className="footer__help-section__right-content">
               <div className="footer__help-section__right-content__content">
+                <a>Personal</a>
                 <Link to={DATA.help[0].path}>{DATA.help[0].title}</Link>
-                <Link to={DATA.help[4].path}>{DATA.help[4].title}</Link>
-              </div>
-              <div className="footer__help-section__right-content__content">
                 <Link to={DATA.help[1].path}>{DATA.help[1].title}</Link>
-                <Link to={DATA.help[5].path}>{DATA.help[5].title}</Link>
+                <Link to={DATA.help[2].path}>{DATA.help[2].title}</Link>
               </div>
               <div className="footer__help-section__right-content__content">
-                <Link to={DATA.help[2].path}>{DATA.help[2].title}</Link>
+                <a>Small Business</a>
+                <Link to={DATA.help[3].path}>{DATA.help[3].title}</Link>
+                <Link to={DATA.help[4].path}>{DATA.help[4].title}</Link>
+                <Link to={DATA.help[5].path}>{DATA.help[5].title}</Link>
                 <Link to={DATA.help[6].path}>{DATA.help[6].title}</Link>
               </div>
               <div className="footer__help-section__right-content__content">
-                <Link to={DATA.help[3].path}>{DATA.help[3].title}</Link>
+                <a>General</a>
                 <Link to={DATA.help[7].path}>{DATA.help[7].title}</Link>
+                <Link to={DATA.help[8].path}>{DATA.help[8].title}</Link>
+                <Link to={DATA.help[9].path}>{DATA.help[9].title}</Link>
+                <Link to={DATA.help[10].path}>{DATA.help[10].title}</Link>
               </div>
-            </div>
-          </div>
-        </Col>
-        <Col xs={12} md={12} className="footer__contact-section">
-          <div className="footer__contact-section__left">
-            <div className="footer__contact-section__favicon">
-              <img src={favPhone} alt="lorem" />
-            </div>
-            <div className="footer__contact-section__phonecall">
-              <div>CALL US</div>
-              <div>Call 1300 023 354 and talk to us.</div>
-            </div>
-          </div>
-          <div className="footer__contact-section__right">
-            <div className="footer__contact-section__favicon">
-              <img src={favFacebook} alt="lorem" />
-            </div>
-            <div className="footer__contact-section__favicon">
-              <img src={favTwitter} alt="lorem" />
-            </div>
-            <div className="footer__contact-section__favicon">
-              <img src={favYoutube} alt="lorem" />
-            </div>
-            <div className="footer__contact-section__favicon">
-              <img src={favInstagram} alt="lorem" />
             </div>
           </div>
         </Col>
         <Col xs={12} md={12} className="footer__final-section">
           <div className="footer__final-section__left">
-            <div className="footer__final-section__left-iterm">
-              <Link to={DATA.siteInfo[0].path}>{DATA.siteInfo[0].title}</Link>
-            </div>
-            <div className="footer__final-section__left-iterm">
-              <Link to={DATA.siteInfo[1].path}>{DATA.siteInfo[1].title}</Link>
-            </div>
-            <div className="footer__final-section__left-iterm">
-              <Link to={DATA.siteInfo[2].path}>{DATA.siteInfo[2].title}</Link>
-            </div>
-            <div className="footer__final-section__left-iterm">
-              <Link to={DATA.siteInfo[3].path}>{DATA.siteInfo[3].title}</Link>
-            </div>
-          </div>
-          <div className="footer__final-section__right">
             Australia Broadband is not available in all areas or to all homes.
             Australia Broadband and the Australia Broadband logo are trademarks
             of Australia Broadband Pty Ltd (ABN 14 610 870 249). nbn™ is a
             trademark of NBN Co Limited and is used under license.
+          </div>
+          <div className="footer__final-section__right">
+            <div className="footer__final-section__right-iterm">
+              <Link to={DATA.siteInfo[0].path}>{DATA.siteInfo[0].title}</Link>
+            </div>
+            |
+            <div className="footer__final-section__right-iterm">
+              <Link to={DATA.siteInfo[1].path}>{DATA.siteInfo[1].title}</Link>
+            </div>
+            |
+            <div className="footer__final-section__right-iterm">
+              <Link to={DATA.siteInfo[2].path}>{DATA.siteInfo[2].title}</Link>
+            </div>
+            |
+            <div className="footer__final-section__right-iterm">
+              <Link to={DATA.siteInfo[3].path}>{DATA.siteInfo[3].title}</Link>
+            </div>
           </div>
         </Col>
       </div>
