@@ -12,6 +12,12 @@ const Home = Loadable({
   modules: ['home'],
 });
 
+const NbnExplained = Loadable({
+  loader: () => import('./nbn-explained'),
+  loading: () => null,
+  modules: ['nbn-explained'],
+});
+
 const Login = Loadable({
   loader: () => import('./login'),
   loading: () => null,
@@ -19,7 +25,7 @@ const Login = Loadable({
 });
 
 const About = Loadable({
-  loader: () => import(/* webpackChunkName: "about" */ './about'),
+  loader: () => import('./about'),
   loading: () => null,
   modules: ['about'],
 });
@@ -27,8 +33,9 @@ const About = Loadable({
 export default () => (
   <Switch>
     <Route exact path="/" component={Home} />
-    <Route exact path="/about" component={About} />
+    <Route exact path="/nbn-explained" component={NbnExplained} />
 
+    <Route exact path="/about" component={About} />
     <UnauthenticatedRoute exact path="/login" component={Login} />
     {/* <AuthenticatedRoute exact path="/logout" component={Logout} /> */}
 
