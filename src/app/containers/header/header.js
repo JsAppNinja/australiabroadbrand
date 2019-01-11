@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import DATA from './DATA';
-import LogoImage from '../../../assets/logo.png';
-import PhoneSvg from '../../../assets/svgs/header-phone.svg';
-import NavigationBar from '../NavigationBar';
+import LogoImage from '../../assets/logo.png';
+import PhoneSvg from '../../assets/svgs/header-phone.svg';
+import NavigationBar from '../home/NavigationBar';
 
 import './style.scss';
 
