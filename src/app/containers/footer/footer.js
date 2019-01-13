@@ -94,20 +94,20 @@ class Footer extends Component {
             </div>
             <div className="footer__help-section__right-content">
               <div className="footer__help-section__right-content__content">
-                <a>Personal</a>
+                <a href="/personal">Personal</a>
                 <Link to={DATA.help[0].path}>{DATA.help[0].title}</Link>
                 <Link to={DATA.help[1].path}>{DATA.help[1].title}</Link>
                 <Link to={DATA.help[2].path}>{DATA.help[2].title}</Link>
               </div>
               <div className="footer__help-section__right-content__content">
-                <a>Small Business</a>
+                <a href="/small-business">Small Business</a>
                 <Link to={DATA.help[3].path}>{DATA.help[3].title}</Link>
                 <Link to={DATA.help[4].path}>{DATA.help[4].title}</Link>
                 <Link to={DATA.help[5].path}>{DATA.help[5].title}</Link>
                 <Link to={DATA.help[6].path}>{DATA.help[6].title}</Link>
               </div>
               <div className="footer__help-section__right-content__content">
-                <a>General</a>
+                <a href="/general">General</a>
                 <Link to={DATA.help[7].path}>{DATA.help[7].title}</Link>
                 <Link to={DATA.help[8].path}>{DATA.help[8].title}</Link>
                 <Link to={DATA.help[9].path}>{DATA.help[9].title}</Link>
