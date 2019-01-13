@@ -53,7 +53,26 @@ const NbnConcept = () => (
     </div>
     <div className="nbnconcept__understanding">
       <div className="nbnconcept__understanding-img">
-        <img src={EXPLAIN_IMG3} alt="Nbn Explained1" />
+        <div className="explain-img__topleft">
+          <div className="explain-img__topleft-line" />
+          History of nbn™
+          <br />
+          and the journey
+          <br />
+          ahead
+        </div>
+        <div className="explain-img__topright">
+          <img alt="lprem" />
+        </div>
+        <div className="explain-img__bottomleft" />
+        <div
+          className="explain-img__bottomright"
+          style={{
+            width: '420px',
+            height: '290px',
+            backgroundImage: 'url(' + EXPLAIN_IMG3 + ')',
+          }}
+        />
       </div>
       <div className="nbnconcept__understanding-txt">
         <div className="nbnconcept__understanding-txt__first">

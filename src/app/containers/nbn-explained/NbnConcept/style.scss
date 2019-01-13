@@ -101,6 +101,50 @@
 
     &-img {
       width: 50%;
+      margin-left: 105px;
+
+      .explain-img__topleft {
+        position: absolute;
+        width: 235px;
+        height: 235px;
+        background-color: #67cebb;
+        color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 2px 14px 0 #9eb0ba;
+        z-index: 200;
+      }
+
+      .explain-img__topright {
+        position: relative;
+        left: 220px;
+        top: 20px;
+        width: 209px;
+        height: 209px;
+        background-color: #ffffff;
+        border-radius: 12px;
+      }
+
+      .explain-img__bottomleft {
+        position: relative;
+        left: 35px;
+        top: -35px;
+        width: 228px;
+        height: 228px;
+        border-radius: 12px;
+        background-color: #3464aa;
+        opacity: 0.14;
+        z-index: 50;
+      }
+
+      .explain-img__bottomright {
+        position: relative;
+        left: 74px;
+        top: -355px;
+        width: 400px;
+        height: 275px;
+        object-fit: contain;
+        z-index: 100;
+      }
     }
 
     &-txt {
