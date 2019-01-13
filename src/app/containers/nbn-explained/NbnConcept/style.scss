@@ -1,0 +1,96 @@
+.nbnconcept {
+  &__blurtitle {
+    font-size: 100px;
+    font-weight: bold;
+    color: #f6f9ff;
+    z-index: -100;
+    margin-top: 40px;
+    margin-bottom: -45px;
+  }
+
+  &__title {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 0.86;
+    text-align: center;
+    color: #4d565a;
+
+    sup {
+      font-size: 14px;
+    }
+  }
+
+  &__titleline {
+    width: 150px;
+    height: 4px;
+    background-color: #81d0d4;
+    border-radius: 2px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+
+  .nbnconcept__explained {
+    width: 100%;
+
+    &-first {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      padding-bottom: 40px;
+
+      .nbnconcept_exlained-txt {
+        width: 55%;
+        max-width: 660px;
+        margin-left: 105px;
+        text-align: left;
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 1.71;
+        color: #313541;
+
+        sup {
+          font-size: 9px;
+        }
+      }
+
+      .nbnconcept_exlained-img {
+        margin-right: 100px;
+        padding-left: 100px;
+      }
+    }
+
+    &-second {
+      width: 100%;
+      display: flex;
+      align-items: center;
+
+      .nbnconcept_exlained-img {
+        width: 40%;
+      }
+
+      .nbnconcept_exlained-txt {
+        width: 55%;
+        max-width: 600px;
+        text-align: left;
+        margin-right: 100px;
+        padding-left: 100px;
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 1.71;
+        color: #313541;
+
+        &__title {
+          font-family: Baloo;
+          font-size: 24px;
+          color: #4d565a;
+        }
+      }
+    }
+  }
+
+  &__understanding {
+    width: 100%;
+  }
+}
