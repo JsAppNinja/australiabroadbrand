@@ -1,7 +1,8 @@
 import React from 'react';
+
 import EXPLAIN_IMG1 from '../../../assets/svgs/nbn-concept1.svg';
 import EXPLAIN_IMG2 from '../../../assets/nbn-concept2.png';
-
+import EXPLAIN_IMG3 from '../../../assets/nbn-concept-img1.png';
 import './style.scss';
 
 const NbnConcept = () => (
@@ -50,7 +51,39 @@ const NbnConcept = () => (
         </div>
       </div>
     </div>
-    <div className="nbnconcept__understanding" />
+    <div className="nbnconcept__understanding">
+      <div className="nbnconcept__understanding-img">
+        <img src={EXPLAIN_IMG3} alt="Nbn Explained1" />
+      </div>
+      <div className="nbnconcept__understanding-txt">
+        <div className="nbnconcept__understanding-txt__first">
+          <div className="nbnconcept__understanding-txt__first-title">
+            Understanding the nbn<sup>TM</sup>
+          </div>
+          The nbn™ is Australia’s first national wholesale only, open access
+          communications network that is being built to bring high speed
+          internet within the reach of all Australian premises. The nbn
+          <sup>TM</sup> network will utilise multiple technology types to
+          provide universal coverage and a minimum available speed of 25 Mbps.
+          Within the next decade, NBN Co's plan is for every home, school and
+          workplace in the country to have access to the nbn<sup>TM</sup>.
+        </div>
+        <div className="nbnconcept__understanding-txt__second">
+          <div className="nbnconcept__understanding-txt__second-title">
+            What's all this fuss about speed?
+          </div>
+          Historically internet speeds for Australia was determined by where you
+          lived and how far your place was from your local Telstra exchange. In
+          fact, most Australians using ADSL only received an average download
+          speed of less than 10 Mbps.
+          <br />
+          <br />
+          Powered by the nbn™, Australia Broadband offers fast & amazingly
+          simple broadband of up to 100 Mbps depending on the speed plan you
+          choose and the nbn™ technology type available at your address.
+        </div>
+      </div>
+    </div>
   </div>
 );
 
