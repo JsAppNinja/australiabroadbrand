@@ -169,6 +169,31 @@
           left: 20px;
           bottom: 10px;
         }
+
+        .explain-img-text {
+          position: absolute;
+          width: 77px;
+          height: 77px;
+          border-radius: 50%;
+          left: 42%;
+          top: 36%;
+          border: 4px lightgray solid;
+
+          .explain-img_button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            width: 59px;
+            height: 59px;
+            margin: auto;
+            margin-top: 8px;
+            border-radius: 50%;
+            background-color: #ffffff;
+            border: 1px lightgray solid;
+            color: #f89729;
+          }
+        }
       }
     }
 

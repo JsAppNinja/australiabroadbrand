@@ -83,7 +83,7 @@ const NbnConcept = () => (
         >
           <img src={EXPLAIN_IMG5} alt="lprem" />
           <div className="explain-img-text">
-            <div className="explain-img_items" />
+            <div className="explain-img_button">&#9658;</div>
           </div>
         </div>
       </div>
