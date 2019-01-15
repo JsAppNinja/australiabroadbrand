@@ -3,6 +3,8 @@ import React from 'react';
 import EXPLAIN_IMG1 from '../../../assets/svgs/nbn-concept1.svg';
 import EXPLAIN_IMG2 from '../../../assets/nbn-concept2.png';
 import EXPLAIN_IMG3 from '../../../assets/nbn-concept-img1.png';
+import EXPLAIN_IMG4 from '../../../assets/svgs/nbn-concept2.svg';
+import EXPLAIN_IMG5 from '../../../assets/logo.png';
 import './style.scss';
 
 const NbnConcept = () => (
@@ -62,7 +64,13 @@ const NbnConcept = () => (
           ahead
         </div>
         <div className="explain-img__topright">
-          <img alt="lprem" />
+          <img
+            src={EXPLAIN_IMG4}
+            alt="lprem"
+            style={{
+              width: '40px',
+            }}
+          />
         </div>
         <div className="explain-img__bottomleft" />
         <div
@@ -72,7 +80,12 @@ const NbnConcept = () => (
             height: '290px',
             backgroundImage: 'url(' + EXPLAIN_IMG3 + ')',
           }}
-        />
+        >
+          <img src={EXPLAIN_IMG5} alt="lprem" />
+          <div className="explain-img-text">
+            <div className="explain-img_items" />
+          </div>
+        </div>
       </div>
       <div className="nbnconcept__understanding-txt">
         <div className="nbnconcept__understanding-txt__first">

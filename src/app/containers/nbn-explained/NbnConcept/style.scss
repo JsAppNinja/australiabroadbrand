@@ -102,16 +102,31 @@
     &-img {
       width: 50%;
       margin-left: 105px;
+      max-height: 400px;
 
       .explain-img__topleft {
         position: absolute;
-        width: 235px;
-        height: 235px;
+        width: 205px;
+        height: 205px;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: bold;
         background-color: #67cebb;
         color: #ffffff;
         border-radius: 12px;
         box-shadow: 0 2px 14px 0 #9eb0ba;
         z-index: 200;
+        padding-left: 38px;
+        padding-top: 61px;
+        text-align: left;
+
+        &-line {
+          width: 80px;
+          height: 4px;
+          margin-bottom: 50px;
+          background-color: #ffffff;
+          border-radius: 2px;
+        }
       }
 
       .explain-img__topright {
@@ -122,6 +137,10 @@
         height: 209px;
         background-color: #ffffff;
         border-radius: 12px;
+
+        img {
+          margin-top: 15px;
+        }
       }
 
       .explain-img__bottomleft {
@@ -144,6 +163,12 @@
         height: 275px;
         object-fit: contain;
         z-index: 100;
+
+        img {
+          position: absolute;
+          left: 20px;
+          bottom: 10px;
+        }
       }
     }
 
