@@ -17,7 +17,7 @@ const NbnTypes = () => (
     <div className="nbntypes">
       <div className="nbntypes__blurtitle">YOUR CONNECTION TYPE</div>
       <div className="nbntypes__title">
-        Types of nbn<sup>TM</sup>?
+        Types of nbn<sup>TM</sup>
       </div>
       <div className="nbntypes__titleline" />
       <div className="nbntypes__contents">{Data.titleDescription}</div>

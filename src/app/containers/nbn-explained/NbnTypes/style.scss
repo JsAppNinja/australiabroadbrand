@@ -1,21 +1,111 @@
 .nbn_types {
   .nbntypes {
     width: 100%;
+    font-family: Roboto;
+    margin-top: 100px;
+
+    &__blurtitle {
+      font-size: 90px;
+      font-weight: bold;
+      color: #f6f9ff;
+    }
+
+    &__title {
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 0.8;
+      text-align: center;
+      color: #4d565a;
+      margin-top: -50px;
+
+      sup {
+        font-size: 12px;
+      }
+    }
+
+    &__titleline {
+      width: 160px;
+      height: 4px;
+      background-color: #81d0d4;
+      border-radius: 2px;
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 60px;
+    }
+
+    &__contents {
+      width: 80%;
+      display: inline-flex;
+      font-size: 14px;
+      line-height: 1.71;
+      text-align: center;
+      color: #313541;
+    }
+  }
+
+  .type-description {
+    max-width: 615px;
   }
 
   .nbnconcepts-section1 {
     width: 100%;
-
-    &__img {
-      width: 45%;
-    }
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #ffffff;
   }
 
   .nbnconcepts-section2 {
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #f6f9ff;
+  }
+}
 
-    &__img {
-      width: 45%;
+.type-description {
+  max-width: 615px;
+
+  &__main {
+    max-height: 200px;
+    padding: 49px 70px;
+    text-align: left;
+
+    &-title {
+      font-family: Baloo;
+      font-size: 20px;
+      line-height: 2.15;
+      color: #313541;
+      margin-bottom: 10px;
     }
+
+    &-content {
+      font-family: Roboto;
+      font-size: 14px;
+      line-height: 1.57;
+      color: #313541;
+      padding-bottom: 25px;
+    }
+
+    a {
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+
+  &__number {
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: relative;
+    left: -112px;
+    top: -8em;
   }
 }

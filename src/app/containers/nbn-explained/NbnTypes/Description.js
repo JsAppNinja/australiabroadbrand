@@ -16,24 +16,22 @@ class Description extends Component {
           }}
         >
           <div className="type-description__main-title">{title}</div>
-          <div className="type=description__main-content">{content}</div>
+          <div className="type-description__main-content">{content}</div>
           <Link
             to={link}
             style={{
-              fontColor: colors[1],
+              color: colors[1],
             }}
           >
             more info -->
           </Link>
-        </div>
-        <div className="type-description__number">
           <div
-            className="type-description__number-content"
+            className="type-description__number"
             style={{
               backgroundColor: colors[2],
             }}
           >
-            {number}
+            <div className="type-description__number-content">{number}</div>
           </div>
         </div>
       </div>
