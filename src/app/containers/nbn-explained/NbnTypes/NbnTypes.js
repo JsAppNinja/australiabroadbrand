@@ -77,7 +77,7 @@ const NbnTypes = () => (
         <img src={EXPLAIN_IMG5} alt="NBN Types" />
       </div>
     </div>
-    <div className="nbnconcepts-section2">
+    <div className="nbnconcepts-section2 lastsection">
       <div className="nbnconcepts-section2__img">
         <img src={EXPLAIN_IMG6} alt="NBN Types" />
       </div>

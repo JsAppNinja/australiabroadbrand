@@ -107,5 +107,15 @@
     position: relative;
     left: -112px;
     top: -8em;
+
+    &-content {
+      display: flex;
+      justify-content: center;
+      padding-top: 28px;
+    }
   }
+}
+
+.lastsection .type-description__number {
+  top: -10em;
 }
