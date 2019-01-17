@@ -4,4 +4,30 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    margin-top: 113px;
+    margin-bottom: 30px;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.43;
+    color: #4d565a;
+
+    sup {
+      font-size: 12px;
+    }
+  }
+
+  &__content {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.57;
+    color: #4a4a4a;
+    margin-bottom: 49px;
+  }
 }

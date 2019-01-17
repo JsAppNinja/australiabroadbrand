@@ -6,7 +6,7 @@ import './style.scss';
 const customStyle = {
   width: '230px',
   height: '45px',
-  backgroundColor: '#f89729',
+  backgroundColor: '#67cebb',
   color: '#ffffff',
   borderRadius: '22.5px',
   fontSize: '18px',
@@ -23,7 +23,7 @@ const Pick = () => (
     }}
   >
     <div className="nbn-pick__title">
-      Enjoy fast & amazingly simple nbn™ with Australia Broadband
+      Enjoy fast & amazingly simple nbn<sup>TM</sup> with Australia Broadband
     </div>
     <div className="nbn-pick__content">
       nbn™ Fibre to the Premise (FTTP) is ready to be connected to 132 Cremorne
