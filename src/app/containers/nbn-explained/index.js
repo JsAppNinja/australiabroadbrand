@@ -2,7 +2,7 @@ import React from 'react';
 import Page from '../../components/Page';
 import NbnConcept from './NbnConcept';
 import NbnTypes from './NbnTypes';
-import NbnCo from './NBNCo';
+import NbnCo from './NbnCo';
 import ReadyInstall from './ReadyInstall';
 import Install from './Install';
 import Pick from './Pick';
