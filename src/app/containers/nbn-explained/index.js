@@ -2,6 +2,7 @@ import React from 'react';
 import Page from '../../components/Page';
 import NbnConcept from './NbnConcept';
 import NbnTypes from './NbnTypes';
+import NbnCo from './NBNCo';
 import ReadyInstall from './ReadyInstall';
 import Install from './Install';
 import Pick from './Pick';
@@ -14,6 +15,7 @@ export default () => (
   <Page id="nbn-explained">
     <NbnConcept />
     <NbnTypes />
+    <NbnCo />
     <ReadyInstall />
     <Install />
     <Pick />
