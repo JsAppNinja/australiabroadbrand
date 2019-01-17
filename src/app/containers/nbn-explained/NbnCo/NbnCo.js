@@ -30,26 +30,26 @@ const NbnCo = () => (
     <div className="nbn-co__right">
       <div className="co_top1">amazingly simple</div>
       <div className="co_top2">
-        <div className="co_top2_img">
+        <div className="co_img">
           <img src={NBN_CO1} alt="lprem" />
         </div>
-        <div className="co_top2_txt">SMS</div>
-        <div className="co_top2_txt2">updates at every step</div>
+        <div className="co_txt">SMS</div>
+        <div className="co_txt2">updates at every step</div>
       </div>
       <div className="co_top3">fast</div>
       <div className="co_bottom1">
-        <div className="co_bottom1_img">
+        <div className="co_img">
           <img src={NBN_CO2} alt="lprem" />
         </div>
-        <div className="co_bottom1_txt">Phone</div>
-        <div className="co_bottom1_txt2">we're here to help</div>
+        <div className="co_txt">Phone</div>
+        <div className="co_txt2">we're here to help</div>
       </div>
       <div className="co_bottom2">
-        <div className="co_bottom2_img">
+        <div className="co_img">
           <img src={NBN_CO3} alt="lprem" />
         </div>
-        <div className="co_bottom2_txt">Phone</div>
-        <div className="co_bottom2_txt2">we're here to help</div>
+        <div className="co_txt">Email</div>
+        <div className="co_txt2">until your connected</div>
       </div>
       <div className="co_bottom3">
         nbn<sup>TM</sup> from Australia Broadband

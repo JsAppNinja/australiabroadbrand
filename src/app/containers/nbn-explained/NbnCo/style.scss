@@ -1,0 +1,112 @@
+.nbn-co {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 120px 105px 60px 105px;
+
+  &__left {
+    margin-top: 63px;
+    text-align: left;
+
+    &-title {
+      font-family: Baloo;
+      font-size: 28px;
+      line-height: 0.86;
+      color: #4d565a;
+      margin-bottom: 30px;
+
+      sup {
+        font-size: 12px;
+      }
+    }
+
+    &-content {
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 500;
+      max-width: 480px;
+      line-height: 1.57;
+      color: #313541;
+    }
+  }
+
+  &__right {
+    .co_top1 {
+      width: 190px;
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      background-color: #67cebb;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 600;
+      color: #ffffff;
+    }
+
+    .co_top2 {
+      width: 190px;
+      height: 215px;
+      border-radius: 8px;
+      box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.27);
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .co_img {
+      width: 67px;
+      height: 67px;
+      opacity: 0.69;
+      background-color: #fdeadb;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .co_top3 {
+      width: 131px;
+      height: 40px;
+      border-radius: 5px;
+      background-color: #f89729;
+      font-size: 14px;
+      font-weight: 600;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .co_bottom1,
+    .co_bottom2 {
+      width: 190px;
+      height: 215px;
+      border-radius: 8px;
+      box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.27);
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .co_bottom3 {
+      width: 247px;
+      height: 57px;
+      border-radius: 5px;
+      background-color: #c5d2f0;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 600;
+      color: #4a4a4a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      sup {
+        font-size: 8px;
+      }
+    }
+  }
+}
