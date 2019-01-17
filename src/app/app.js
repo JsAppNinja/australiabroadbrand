@@ -1,17 +1,12 @@
-// The basics
-import React, { Component } from "react";
-import { connect } from "react-redux";
-import { bindActionCreators } from "redux";
-import { withRouter } from "react-router";
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { withRouter } from 'react-router';
 
-// Action creators and helpers
-import { establishCurrentUser } from "../modules/auth";
-import { isServer } from "../store";
-
-import Header from "./header";
-import Routes from "./routes";
-
-import "./app.css";
+import { isServer } from '../store';
+import Header from './containers/header';
+import Routes from './containers';
+import './app.css';
 
 class App extends Component {
   componentWillMount() {
@@ -25,7 +20,7 @@ class App extends Component {
       <div id="app">
         <Header
           isAuthenticated={this.props.isAuthenticated}
-          current={"/dashboard"}
+          current={this.props.location.pathname}
         />
         <div id="content">
           <Routes />
@@ -36,7 +31,7 @@ class App extends Component {
 }
 
 const mapStateToProps = state => ({
-  isAuthenticated: state.auth.isAuthenticated
+  isAuthenticated: state.auth.isAuthenticated,
 });
 
 export default withRouter(connect(mapStateToProps)(App));

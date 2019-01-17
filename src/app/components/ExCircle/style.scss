@@ -1,0 +1,27 @@
+.custom-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  position: relative;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0 8px 12px 0 rgba(44, 105, 169, 0.6);
+  margin: -4px 0px;
+
+  &__child {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    border-radius: 50%;
+    background-color: #f89729;
+    box-shadow: 0 4px 8px 0 rgba(44, 105, 169, 0.6);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 20px;
+  }
+}

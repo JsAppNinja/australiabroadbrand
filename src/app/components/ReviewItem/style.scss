@@ -1,0 +1,40 @@
+.kreview {
+  margin: 10px 0 20px;
+  padding: 40px 60px 27px 40px;
+  border: 1px solid #edf2fb;
+  border-radius: 4px;
+  box-shadow: 0 2px 12px 0 #edf2fb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  .kreview-score {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &__mark {
+      opacity: 0.82;
+      font-family: Roboto;
+      font-size: 40px;
+      line-height: 1.08;
+      color: #2e2e2f;
+    }
+
+    .kreview__rating {
+      padding-left: 20px;
+      font-size: 16px;
+      color: #313541;
+
+      &-count {
+        padding-bottom: 10px;
+      }
+    }
+  }
+
+  .kreview-reviewImage {
+    padding-top: 25px;
+  }
+}
