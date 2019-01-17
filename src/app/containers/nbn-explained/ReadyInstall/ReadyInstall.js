@@ -22,10 +22,10 @@ const VideoOne = ({ title }) => (
         <img src={NBN_VIDEO_FAV2} alt="lprem" />
       </div>
     </div>
-    <div className="nbn-video__title">{title}</div>
     <div className="nbn-video__img">
       <img src={NBN_VIDEO_FAV3} alt="lprem" />
     </div>
+    <div className="nbn-video__title">{title}</div>
   </div>
 );
 
