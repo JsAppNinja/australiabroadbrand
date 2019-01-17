@@ -7,7 +7,7 @@ import NBN_VIDEO_IMG from '../../../assets/nbn-ready-video.png';
 
 import './style.scss';
 
-const VideoOne = title => (
+const VideoOne = ({ title }) => (
   <div className="nbn-video">
     <div
       className="nbn-video__content"

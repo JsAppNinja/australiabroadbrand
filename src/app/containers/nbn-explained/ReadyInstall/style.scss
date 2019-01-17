@@ -1,0 +1,65 @@
+.nbn-ready {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 105px 120px 105px;
+
+  &__blurtitle {
+    opacity: 0.41;
+    font-family: Roboto;
+    font-size: 100px;
+    font-weight: bold;
+    color: #e6eaec;
+  }
+
+  &__title {
+    font-family: Roboto;
+    font-size: 28px;
+    line-height: 0.8;
+    color: #4d565a;
+    margin-top: -45px;
+    z-index: 100;
+
+    sup {
+      font-size: 12px;
+    }
+  }
+
+  &__titleline {
+    width: 150px;
+    height: 4px;
+    background-color: #81d0d4;
+    border-radius: 2px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+
+  &__content {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #313541;
+    margin-bottom: 40px;
+  }
+
+  &__videos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.nbn-video {
+  padding: 12.5px;
+
+  &__content {
+    width: 393px;
+    min-height: 231px;
+    background-image: url(/static/media/nbn-ready-video.64596711.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
