@@ -22,8 +22,13 @@ const Pick = () => (
       backgroundImage: 'url(' + NBN_PICK + ')',
     }}
   >
-    <div className="nbn-pick__title" />
-    <div className="nbn-pick__content" />
+    <div className="nbn-pick__title">
+      Enjoy fast & amazingly simple nbn™ with Australia Broadband
+    </div>
+    <div className="nbn-pick__content">
+      nbn™ Fibre to the Premise (FTTP) is ready to be connected to 132 Cremorne
+      Street, Cremorne VIC 3121.
+    </div>
     <CheckButton CustomStyle={customStyle} Content={btnTitle} />
   </div>
 );
