@@ -46,8 +46,13 @@
       color: #313541;
     }
   }
+}
 
-  .nbn-install__between {
-    position: relative;
+.nbn-install__between {
+  img {
+    z-index: 10;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 30px;
   }
 }

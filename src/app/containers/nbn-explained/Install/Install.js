@@ -7,6 +7,9 @@ import './style.scss';
 
 const Install = () => (
   <div className="nbn-install-main">
+    <div className="nbn-install__between">
+      <img src={NBN_Install2} alt="lprem" />
+    </div>
     <div className="nbn-install">
       <div className="nbn-install__left">
         <div className="nbn-install__left-title">
@@ -56,9 +59,6 @@ const Install = () => (
           nbn™ service is active.
         </div>
       </div>
-    </div>
-    <div className="nbn-install__between">
-      <img src={NBN_Install2} alt="lprem" />
     </div>
   </div>
 );
