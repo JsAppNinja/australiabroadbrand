@@ -3,7 +3,7 @@ import NBN_HELP from '../../../assets/svgs/nbn-help1.svg';
 
 import NBN_ICON1 from '../../../assets/svgs/nbn-help2.svg';
 import NBN_ICON2 from '../../../assets/svgs/nbn-help3.svg';
-import NBN_ICON3 from '../../../assets/svgs/nbn-help5.svg';
+import NBN_ICON3 from '../../../assets/svgs/nbn-help4.svg';
 import NBN_ICON4 from '../../../assets/svgs/nbn-help5.svg';
 
 import NBN_HELP_PHONE from '../../../assets/svgs/nbn-help-phone.svg';
@@ -26,15 +26,25 @@ const NbnHelp = () => (
       </div>
       <div className="nbn-help__left-email">
         <img src={NBN_HELP_EMAIL} alt="lprem" />
-        Email Us 24/7. We'll make sure you're quickly put in
-        <br />
-        touch with someone who’s ready to help.
+        <div className="nbn-help__left-email__content">
+          Email Us 24/7. We'll make sure you're quickly put in
+          <br />
+          touch with someone who’s ready to help.
+        </div>
       </div>
       <div className="nbn-help__left-favicon">
-        <img src={NBN_ICON1} alt="lprem" />
-        <img src={NBN_ICON2} alt="lprem" />
-        <img src={NBN_ICON3} alt="lprem" />
-        <img src={NBN_ICON4} alt="lprem" />
+        <div className="nbn-help__left-favicon__one">
+          <img src={NBN_ICON1} alt="lprem" />
+        </div>
+        <div className="nbn-help__left-favicon__one">
+          <img src={NBN_ICON2} alt="lprem" />
+        </div>
+        <div className="nbn-help__left-favicon__one">
+          <img src={NBN_ICON3} alt="lprem" />
+        </div>
+        <div className="nbn-help__left-favicon__one">
+          <img src={NBN_ICON4} alt="lprem" />
+        </div>
       </div>
     </div>
     <div className="nbn-help-right">
