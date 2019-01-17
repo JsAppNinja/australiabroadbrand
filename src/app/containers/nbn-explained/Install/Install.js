@@ -34,7 +34,7 @@ const Install = () => (
       <div className="nbn-install__right-title">
         On the nbn installation day
       </div>
-      <img src={NBN_Install1} alt="qprem" />
+      <img className="nbn-install__right-img" src={NBN_Install1} alt="qprem" />
       <div className="nbn-install__right-content">
         An NBN Co technician will visit you to do the installation. They may
         need to work inside and outside your place for a few hours and should
@@ -51,9 +51,9 @@ const Install = () => (
         nbn™ service is active.
       </div>
     </div>
-    <div className="nbn-install__between">
+    {/* <div className="nbn-install__between">
       <img src={NBN_Install2} alt="lprem" />
-    </div>
+    </div> */}
   </div>
 );
 
