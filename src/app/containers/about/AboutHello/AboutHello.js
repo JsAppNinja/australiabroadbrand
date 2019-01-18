@@ -1,9 +1,10 @@
 import React from 'react';
 
 import CheckButton from '../../../components/CheckButton';
+import EXPLAIN_IMG1 from '../../../assets/svgs/about-hello1.svg';
+import EXPLAIN_IMG2 from '../../../assets/svgs/about-hello2.svg';
 import EXPLAIN_IMG3 from '../../../assets/nbn-concept-img1.png';
-import EXPLAIN_IMG4 from '../../../assets/svgs/nbn-concept2.svg';
-import EXPLAIN_IMG5 from '../../../assets/logo.png';
+import EXPLAIN_LOGO from '../../../assets/logo.png';
 import './style.scss';
 
 const customStyle = {
@@ -53,7 +54,7 @@ const NbnConcept = () => (
       </div>
       <div className="explain-img__topright">
         <img
-          src={EXPLAIN_IMG4}
+          src={EXPLAIN_IMG1}
           alt="lprem"
           style={{
             width: '40px',
@@ -69,7 +70,7 @@ const NbnConcept = () => (
           backgroundImage: 'url(' + EXPLAIN_IMG3 + ')',
         }}
       >
-        <img src={EXPLAIN_IMG5} alt="lprem" />
+        <img src={EXPLAIN_LOGO} alt="lprem" />
         <div className="explain-img-text">
           <div className="explain-img_button">&#9658;</div>
         </div>
