@@ -69,7 +69,9 @@ const AboutHello = () => (
       >
         <img src={EXPLAIN_LOGO} alt="lprem" />
         <div className="explain-img-text">
-          <div className="explain-img_button">&#9658;</div>
+          <div className="explain-img_button">
+            <img src={EXPLAIN_IMG2} alt="lprem" />
+          </div>
         </div>
       </div>
     </div>
