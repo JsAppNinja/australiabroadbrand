@@ -14,7 +14,7 @@ const AboutLock = () => (
     <div className="about__lock-content">
       <div className="about__lock-content-pad">
         <img src={ABOUT_LOCK_SVG1} alt="left" />
-        <div className="about__lock-content-pad__txt">
+        <div className="about__lock-content-pad__title">
           Amazingly simple nbn™ plans
         </div>
         <div className="about__lock-content-pad__txt">
@@ -25,7 +25,7 @@ const AboutLock = () => (
       </div>
       <div className="about__lock-content-pad">
         <img src={ABOUT_LOCK_SVG2} alt="center" />
-        <div className="about__lock-content-pad__txt">
+        <div className="about__lock-content-pad__title">
           Customer service drives everything we do
         </div>
         <div className="about__lock-content-pad__txt">
@@ -35,7 +35,7 @@ const AboutLock = () => (
       </div>
       <div className="about__lock-content-pad">
         <img src={ABOUT_LOCK_SVG3} alt="right" />
-        <div className="about__lock-content-pad__txt">
+        <div className="about__lock-content-pad__title">
           We reward you for sharing the love
         </div>
         <div className="about__lock-content-pad__txt">

@@ -3,6 +3,7 @@
   text-align: center;
   margin-top: 100px;
   margin-bottom: 120px;
+  background-color: #f6f9ff;
 
   &-blurtitle {
     width: 100%;
@@ -31,5 +32,45 @@
     background-color: #4dbba6;
     border-radius: 2px;
     margin: auto;
+  }
+
+  &-content {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    &-pad {
+      width: 326px;
+      height: 397px;
+      border-radius: 6px;
+      box-shadow: 0 2px 14px 0 #d5dbdc;
+      background-color: #ffffff;
+      margin-bottom: 120px;
+      padding: 36px 28px 42px 36px;
+      text-align: center;
+
+      &__title {
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.39;
+        text-align: center;
+        color: #4dbba6;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        max-width: 220px;
+        display: inline-flex;
+      }
+
+      &__txt {
+        font-size: 14px;
+        line-height: 1.71;
+        text-align: center;
+        color: #313541;
+        max-width: 290px;
+        display: inline-flex;
+      }
+    }
   }
 }
