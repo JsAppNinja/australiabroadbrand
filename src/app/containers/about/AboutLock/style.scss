@@ -1,0 +1,35 @@
+.about__lock {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 120px;
+
+  &-blurtitle {
+    width: 100%;
+    font-family: Roboto;
+    font-size: 100px;
+    font-weight: bold;
+    padding-top: 120px;
+    color: #ffffff;
+    text-shadow: 2px 2px #eff2f4, -2px 2px #eff2f4, 2px -2px #eff2f4,
+      -2px -2px #eff2f4;
+  }
+
+  &-title {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 0.86;
+    color: #4d565a;
+    margin-top: -45px;
+    margin-bottom: 25px;
+  }
+
+  &-titleline {
+    width: 130px;
+    height: 4px;
+    background-color: #4dbba6;
+    border-radius: 2px;
+    margin: auto;
+  }
+}
