@@ -19,7 +19,7 @@ const customStyle = {
 
 const btnTitle = 'Come join us';
 
-const NbnConcept = () => (
+const AboutHello = () => (
   <div className="about__hello">
     <div className="about__hello-txt">
       <div className="about__hello-txt__title">
@@ -57,7 +57,7 @@ const NbnConcept = () => (
           src={EXPLAIN_IMG1}
           alt="lprem"
           style={{
-            width: '40px',
+            width: '60px',
           }}
         />
       </div>
@@ -79,4 +79,4 @@ const NbnConcept = () => (
   </div>
 );
 
-export default NbnConcept;
+export default AboutHello;
