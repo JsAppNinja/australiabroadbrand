@@ -18,21 +18,23 @@
       width: 185px;
       height: 185px;
       font-family: Roboto;
-      font-size: 24px;
+      font-size: 16px;
       font-weight: bold;
       background-color: #67cebb;
       color: #ffffff;
       border-radius: 12px;
       box-shadow: 0 2px 14px 0 #9eb0ba;
       z-index: 200;
-      padding-left: 38px;
+      padding-left: 30px;
+      padding-right: 20px;
+      line-height: 2;
       padding-top: 61px;
       text-align: left;
 
       &-line {
         width: 80px;
         height: 4px;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         background-color: #ffffff;
         border-radius: 2px;
       }

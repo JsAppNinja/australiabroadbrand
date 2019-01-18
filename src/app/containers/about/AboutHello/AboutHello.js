@@ -46,11 +46,8 @@ const AboutHello = () => (
     <div className="about__hello-img">
       <div className="explain-img__topleft">
         <div className="explain-img__topleft-line" />
-        History of nbn™
-        <br />
-        and the journey
-        <br />
-        ahead
+        Are you sick of providers who lock you into a contract, then don't
+        provide you a service?
       </div>
       <div className="explain-img__topright">
         <img
