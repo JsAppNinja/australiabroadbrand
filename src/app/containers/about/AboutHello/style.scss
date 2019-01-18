@@ -8,7 +8,7 @@
 
   &-img {
     width: 50%;
-    margin-left: 105px;
+    margin-left: 200px;
     max-height: 400px;
 
     .explain-img__topleft {
@@ -107,15 +107,24 @@
   &-txt {
     width: 50%;
     max-width: 650px;
-    margin-right: 100px;
+    margin-left: 105px;
     text-align: left;
 
     &__title {
       font-family: Baloo;
-      font-size: 24px;
-      line-height: 0.86;
-      padding-bottom: 15px;
+      font-size: 30px;
+      line-height: 0.8;
       color: #4d565a;
+      margin-bottom: 26px;
+    }
+
+    &__content {
+      font-family: Roboto;
+      font-size: 14px;
+      line-height: 1.41;
+      color: #313541;
+      max-width: 630px;
+      margin-bottom: 45px;
     }
   }
 }
