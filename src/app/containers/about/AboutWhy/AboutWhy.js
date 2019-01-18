@@ -33,7 +33,7 @@ const AboutWhy = () => (
           </div>
         </div>
       </div>
-      <div className="about__why-content-center">
+      <div className="about__why-content__center">
         <div className="center-circle">
           <div className="inner-circle">
             <img src={ABOUT_WHY_IMG} alt="src" />
