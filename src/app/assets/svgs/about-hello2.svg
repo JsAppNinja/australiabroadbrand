@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="32px" viewBox="0 0 30 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>7897FD14-5E75-4129-AF53-0E82F7ECD3E7</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M53.751449,47.1394562 L39.3632105,54.4790332 C37.8872914,55.2319136 36.0804924,54.6457749 35.3276121,53.1698558 C35.1122697,52.7477064 35,52.2805466 35,51.8066453 L35,37.1274912 C35,35.4706369 36.3431458,34.1274912 38,34.1274912 C38.4739013,34.1274912 38.9410611,34.2397609 39.3632105,34.4551032 L53.751449,41.7946803 C55.2273681,42.5475607 55.8135068,44.3543596 55.0606265,45.8302787 C54.7731766,46.393785 54.3149554,46.8520062 53.751449,47.1394562 Z" id="path-1"></path>
+        <filter x="-29.6%" y="-33.7%" width="223.0%" height="225.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="6" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.180366848 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AU-about-design" transform="translate(-1025.000000, -358.000000)">
+            <g id="Group-34" transform="translate(990.000000, 324.000000)">
+                <g id="Triangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#F89729" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
