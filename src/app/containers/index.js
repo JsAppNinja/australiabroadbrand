@@ -34,11 +34,10 @@ export default () => (
   <Switch>
     <Route exact path="/" component={Home} />
     <Route exact path="/nbn-explained" component={NbnExplained} />
-
     <Route exact path="/about" component={About} />
+    <Route component={NotFound} />
+
     <UnauthenticatedRoute exact path="/login" component={Login} />
     {/* <AuthenticatedRoute exact path="/logout" component={Logout} /> */}
-
-    <Route component={NotFound} />
   </Switch>
 );
