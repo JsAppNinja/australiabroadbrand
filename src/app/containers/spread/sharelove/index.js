@@ -1,3 +1,3 @@
-import ImpInformation from './ImpInformation';
+import sharelove from './sharelove';
 
-export default ImpInformation;
+export default sharelove;

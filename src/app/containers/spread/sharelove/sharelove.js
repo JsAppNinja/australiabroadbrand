@@ -1,14 +1,12 @@
 import React from 'react';
-import ArrowDown from '../../../assets/svgs/angle-down-solid.svg';
+
 import './style.scss';
 
-const ImpInformation = () => (
-  <div className="imp-information">
+const sharelove = () => (
+  <div className="sharelove">
     Important information
-    <div className="imp-information__img">
-      <img src={ArrowDown} alt="lorem" height="30" width="30" />
-    </div>
+    <div className="imp-information__img" />
   </div>
 );
 
-export default ImpInformation;
+export default sharelove;
