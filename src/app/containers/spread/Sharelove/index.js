@@ -1,3 +1,3 @@
-import Sharelove from './sharelove';
+import Sharelove from './Sharelove';
 
-export default sharelove;
+export default Sharelove;
