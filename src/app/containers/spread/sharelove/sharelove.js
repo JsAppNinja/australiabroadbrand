@@ -30,8 +30,6 @@ const sharelove = () => (
     <div className="sharelove-right">
       <img src={ShareLove} alt="Share Love" />
     </div>
-    Important information
-    <div className="imp-information__img" />
   </div>
 );
 
