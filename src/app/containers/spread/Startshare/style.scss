@@ -1,0 +1,60 @@
+.startshare {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 110px;
+
+  &-blurtitle {
+    font-family: Roboto;
+    font-size: 90px;
+    font-weight: bold;
+    color: #f6f9ff;
+  }
+
+  &-title {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 0.86;
+    letter-spacing: normal;
+    color: #4d565a;
+    margin-top: -47px;
+    margin-bottom: 24px;
+  }
+
+  &-titleline {
+    width: 150px;
+    height: 4px;
+    background-color: #4dbba6;
+    border-radius: 2px;
+    margin-bottom: 62px;
+  }
+
+  &-content {
+    display: flex;
+    align-items: center;
+
+    &__img {
+      display: flex;
+      flex-direction: column;
+      margin-left: 34px;
+      margin-right: 34px;
+
+      &-content {
+        margin-top: 38px;
+        max-width: 328px;
+        display: flex;
+        flex-direction: column;
+        font-family: Roboto;
+        font-size: 17px;
+        line-height: 1.3;
+        text-align: center;
+        color: #4a4a4a;
+
+        sup {
+          font-size: 8px;
+        }
+      }
+    }
+  }
+}

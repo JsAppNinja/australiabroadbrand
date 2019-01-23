@@ -21,14 +21,15 @@ const Startshare = () => (
       <div className="startshare-content__img">
         <img src={Whyshare2} alt="whyshare" />
         <div className="startshare-content__img-content">
-          Your friend gets $10 off their nbn™ plan for 5 months ($50) plus they
-          can earn Payback
+          Your friend gets $10 off their nbn<sup>TM</sup> plan for 5 months
+          ($50) plus they can earn Payback
         </div>
       </div>
       <div className="startshare-content__img">
         <img src={Whyshare3} alt="whyshare" />
         <div className="startshare-content__img-content">
-          You both enjoy fast & amazingly simple nbn™ with no contracts
+          You both enjoy fast & amazingly simple nbn<sup>TM</sup> with no
+          contracts
         </div>
       </div>
     </div>
