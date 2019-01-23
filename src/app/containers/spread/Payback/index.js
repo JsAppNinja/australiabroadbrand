@@ -1,3 +1,3 @@
-import ImpInformation from './ImpInformation';
+import Payback from './Payback';
 
-export default ImpInformation;
+export default Payback;
