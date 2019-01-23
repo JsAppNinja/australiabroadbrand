@@ -10,7 +10,6 @@ import Page from '../../components/Page';
 // };
 
 const Login = props => {
-  console.log('render');
   return (
     <Page id="login" title="Login" description="We need to log in to stuff." />
   );
