@@ -1,3 +1,3 @@
-import ImpInformation from './ImpInformation';
+import Startshare from './Startshare';
 
-export default ImpInformation;
+export default Startshare;
