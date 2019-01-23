@@ -14,7 +14,6 @@ function* userLogInSaga(action) {
     // const response = yield call(fetchBook, bookUuid);
     yield put(getAuthicationAction(true));
   } catch (error) {
-    console.log('testing user');
     // yield put(receiveMessageAction(error));
   }
 }

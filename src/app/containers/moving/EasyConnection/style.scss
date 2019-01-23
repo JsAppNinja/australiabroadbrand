@@ -1,0 +1,38 @@
+.easy-connection {
+  .easy-connection__left-section {
+    &__existing {
+      height: 900px;
+      padding-top: 45px;
+      box-sizing: border-box;
+      .easy-connection {
+        &__left-section {
+          &-top,
+          &-center,
+          &-down {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+  .easy-connection__right-section {
+    &__existing {
+      height: 900px;
+      box-sizing: border-box;
+      .easy-connection {
+        &__right-section {
+          &-top,
+          &-down {
+            flex-grow: 1;
+          }
+          &-top {
+            margin-top: 230px;
+          }
+          &-down {
+            margin-top: 50px;
+          }
+        }
+      }
+    }
+  }
+}
