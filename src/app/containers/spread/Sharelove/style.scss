@@ -1,0 +1,30 @@
+.sharelove {
+  display: flex;
+  align-items: center;
+  padding: 86px 143px 77px 103px;
+  opacity: 0.99;
+  background-color: #f6f9ff;
+
+  &-left {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 80px;
+
+    &__title {
+      font-family: Baloo;
+      font-size: 30px;
+      line-height: 0.8;
+      color: #4d565a;
+      margin-bottom: 20px;
+    }
+
+    &__content {
+      font-family: Roboto;
+      font-size: 18px;
+      line-height: 1.33;
+      color: #313541;
+      margin-bottom: 40px;
+    }
+  }
+}
