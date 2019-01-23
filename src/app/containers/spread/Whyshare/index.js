@@ -1,3 +1,3 @@
-import ImpInformation from './ImpInformation';
+import Whyshare from './Whyshare';
 
-export default ImpInformation;
+export default Whyshare;
