@@ -2,4 +2,120 @@
   display: flex;
   align-items: center;
   padding: 108px 106px 94px 185px;
+  background-color: #f6f9ff;
+
+  &-left {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 233px;
+
+    &__content {
+      font-family: Roboto;
+      font-size: 20px;
+      line-height: 1.4;
+      color: #4a4a4a;
+      margin-top: 16px;
+      margin-bottom: 50px;
+      max-width: 380px;
+    }
+  }
+
+  &-right {
+    .whyshare-content {
+      max-width: 450px;
+      box-shadow: 0 2px 14px 0 #e6eaec;
+      background-color: #ffffff;
+      padding: 62px 48px 73px 57px;
+      text-align: left;
+      position: absolute;
+      z-index: 1;
+
+      &__top {
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 1.57;
+        color: #4a4a4a;
+        margin-bottom: 36px;
+      }
+
+      &__down {
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 1.57;
+        color: #4a4a4a;
+      }
+    }
+
+    .whyshare-lefttop {
+      width: 100px;
+      height: 95px;
+      position: relative;
+      left: -66px;
+      top: 13px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+      box-shadow: 0 2px 20px 0 #d5dbdc;
+      background-color: #ffffff;
+      z-index: 2;
+    }
+
+    .whyshare-lefttop1 {
+      width: 54px;
+      height: 56px;
+      border-radius: 8px;
+      background-color: #fdf0e6;
+      position: relative;
+      left: -112px;
+      top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .whyshare-leftdown {
+      width: 117px;
+      height: 113px;
+      border-radius: 8px;
+      background-color: #e3f7fe;
+      position: relative;
+      left: -93px;
+      top: 36px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 0;
+    }
+
+    .whyshare-righttop {
+      width: 128px;
+      height: 133px;
+      border-radius: 8px;
+      box-shadow: 0 2px 20px 0 #d5dbdc;
+      background-color: #e7f0ff;
+      position: relative;
+      left: 510px;
+      top: -280px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 2;
+    }
+
+    .whyshare-rightdown {
+      width: 62px;
+      height: 65px;
+      border-radius: 8px;
+      background-color: #d3f1f1;
+      position: relative;
+      left: 540px;
+      top: -170px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 0;
+    }
+  }
 }
