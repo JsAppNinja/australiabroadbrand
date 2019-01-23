@@ -32,7 +32,7 @@ const Payback = () => (
         can also be split into any combination of the gift cards and vouchers
         above, up to the total value of $50 for each friend you bring on board.
       </div>
-      <div className="payback-faq__learn">Learn more</div>
+      <div className="payback-faq__learn">Learn more --></div>
     </div>
     <div className="payback-right">
       <div className="payback-right__title">Payback</div>
