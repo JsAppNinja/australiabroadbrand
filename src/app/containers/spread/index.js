@@ -1,31 +1,27 @@
 import React from 'react';
 import Page from '../../components/Page';
-import AboutHello from './AboutHello';
-import AboutWhy from './AboutWhy';
-import AboutLock from './AboutLock';
-import Pick from './Pick';
-import NbnHelp from './NbnHelp';
+import Sharelove from './Sharelove';
+import Startshare from './Startshare';
+import Whyshare from './Whyshare';
+import Payback from './Payback';
 import ImpInformation from './ImpInformation';
 import Footer from '../footer';
 import Container from '../../components/Container';
 import './style.scss';
 
 export default () => (
-  <Page id="about" title="About" description="This is about really cool stuff.">
+  <Page id="spread" title="Spread">
     <Container bgColor="#f6f9ff">
-      <AboutHello />
+      <Sharelove />
     </Container>
     <Container>
-      <AboutWhy />
+      <Startshare />
     </Container>
     <Container bgColor="#f6f9ff">
-      <AboutLock />
+      <Whyshare />
     </Container>
     <Container>
-      <Pick />
-    </Container>
-    <Container bgColor="#f6f9ff">
-      <NbnHelp />
+      <Payback />
     </Container>
     <Container bgColor="#e7edfa">
       <ImpInformation />

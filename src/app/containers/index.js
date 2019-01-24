@@ -18,6 +18,12 @@ const NbnExplained = Loadable({
   modules: ['nbn-explained'],
 });
 
+const Spread = Loadable({
+  loader: () => import('./spread'),
+  loading: () => null,
+  modules: ['spread'],
+});
+
 const Login = Loadable({
   loader: () => import('./login'),
   loading: () => null,
@@ -34,6 +40,7 @@ export default () => (
   <Switch>
     <Route exact path="/" component={Home} />
     <Route exact path="/nbn-explained" component={NbnExplained} />
+    <Route exact path="/spread" component={Spread} />
     <Route exact path="/about" component={About} />
     <Route component={NotFound} />
 

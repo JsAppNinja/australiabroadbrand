@@ -9,18 +9,37 @@ import Pick from './Pick';
 import NbnHelp from './NbnHelp';
 import ImpInformation from './ImpInformation';
 import Footer from '../footer';
+import Container from '../../components/Container';
 import './style.scss';
 
 export default () => (
   <Page id="nbn-explained">
-    <NbnConcept />
-    <NbnTypes />
-    <NbnCo />
-    <ReadyInstall />
-    <Install />
-    <Pick />
-    <NbnHelp />
-    <ImpInformation />
-    <Footer />
+    <Container>
+      <NbnConcept />
+    </Container>
+    <Container>
+      <NbnTypes />
+    </Container>
+    <Container>
+      <NbnCo />
+    </Container>
+    <Container>
+      <ReadyInstall />
+    </Container>
+    <Container>
+      <Install />
+    </Container>
+    <Container>
+      <Pick />
+    </Container>
+    <Container>
+      <NbnHelp />
+    </Container>
+    <Container bgColor="#e7edfa">
+      <ImpInformation />
+    </Container>
+    <Container>
+      <Footer />
+    </Container>
   </Page>
 );

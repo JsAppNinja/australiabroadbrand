@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow, mount, render } from '../../../../enzyme.js';
+import { shallow, mount, render } from '../../../enzyme.js';
 
 import Header from './Header.js';
 

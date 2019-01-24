@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow, mount, render } from '../../../../enzyme.js';
+import { shallow, mount, render } from '../../../enzyme.js';
 
 import Footer from './Footer.js';
 
@@ -18,7 +18,7 @@ describe('Footer tests', () => {
     expect(wrapper.find('.footer__help-section__right-content')).toBeDefined();
     expect(
       wrapper.find('.footer__help-section__right-content__content')
-    ).toHaveLength(4);
+    ).toHaveLength(3);
   });
 
   it('renders footer__contact-section', () => {
