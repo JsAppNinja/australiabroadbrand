@@ -70,6 +70,7 @@
 
 .type-description {
   max-width: 615px;
+  z-index: 2;
 
   &__main {
     max-height: 200px;
@@ -119,4 +120,17 @@
 
 .lastsection .type-description__number {
   top: -10em;
+}
+
+.nbncurve1 {
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 120px;
+  z-index: 1;
+}
+
+.nbncurve2 {
+  position: absolute;
+  margin-top: 240px;
+  padding-right: 100px;
 }

@@ -10,6 +10,12 @@ import EXPLAIN_IMG4 from '../../../assets/nbn-types4.png';
 import EXPLAIN_IMG5 from '../../../assets/nbn-types5.png';
 import EXPLAIN_IMG6 from '../../../assets/nbn-types6.png';
 
+import NBN_CURVE1 from '../../../assets/svgs/nbn-curve1.svg';
+import NBN_CURVE2 from '../../../assets/svgs/nbn-curve2.svg';
+import NBN_CURVE3 from '../../../assets/svgs/nbn-curve3.svg';
+import NBN_CURVE4 from '../../../assets/svgs/nbn-curve4.svg';
+import NBN_CURVE5 from '../../../assets/svgs/nbn-curve5.svg';
+
 import './style.scss';
 
 const NbnTypes = () => (
@@ -32,10 +38,16 @@ const NbnTypes = () => (
       <div className="nbnconcepts-section1__img">
         <img src={EXPLAIN_IMG1} alt="NBN Types" />
       </div>
+      <div className="nbncurve1">
+        <img src={NBN_CURVE1} alt="NBN Curve" />
+      </div>
     </div>
     <div className="nbnconcepts-section2">
       <div className="nbnconcepts-section2__img">
         <img src={EXPLAIN_IMG2} alt="NBN Types" />
+      </div>
+      <div className="nbncurve2">
+        <img src={NBN_CURVE2} alt="NBN Curve" />
       </div>
       <Description
         title={Data.contents[1].title}
@@ -54,10 +66,16 @@ const NbnTypes = () => (
       <div className="nbnconcepts-section1__img">
         <img src={EXPLAIN_IMG3} alt="NBN Types" />
       </div>
+      <div className="nbncurve1">
+        <img src={NBN_CURVE3} alt="NBN Curve" />
+      </div>
     </div>
     <div className="nbnconcepts-section2">
       <div className="nbnconcepts-section2__img">
         <img src={EXPLAIN_IMG4} alt="NBN Types" />
+      </div>
+      <div className="nbncurve2">
+        <img src={NBN_CURVE4} alt="NBN Curve" />
       </div>
       <Description
         title={Data.contents[3].title}
@@ -75,6 +93,9 @@ const NbnTypes = () => (
       />
       <div className="nbnconcepts-section1__img">
         <img src={EXPLAIN_IMG5} alt="NBN Types" />
+      </div>
+      <div className="nbncurve1">
+        <img src={NBN_CURVE5} alt="NBN Curve" />
       </div>
     </div>
     <div className="nbnconcepts-section2 lastsection">
