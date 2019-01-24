@@ -1,0 +1,9 @@
+options:
+  docker: true
+
+pipelines:
+  branches:
+    dev:
+      - step:
+          script:
+            - ssh ${DEPLOYER}@${DEV_HOST} "cd ${WEB_PATH} && ${PULL_DEV} && ${YARN_BUILD}"
