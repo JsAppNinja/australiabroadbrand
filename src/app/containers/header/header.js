@@ -26,12 +26,12 @@ class Header extends Component {
     };
   }
 
-  mouseEnter(index) {
+  mouseClicked(index) {
     this.setState({ flipped: true, selectedItem: index });
   }
 
-  mouseLeave() {
-    this.setState({ flipped: false, selectedItem: 0 });
+  mouseLeave(index) {
+    this.setState({ flipped: false });
   }
 
   render() {
@@ -56,8 +56,8 @@ class Header extends Component {
                   >
                     <div
                       className="header-left__menu__item"
-                      onMouseEnter={() => this.mouseEnter(index)}
-                      onMouseLeave={() => this.mouseLeave()}
+                      onMouseDown={() => this.mouseClicked(index)}
+                      onMouseLeave={() => this.mouseLeave(index)}
                     >
                       <Link to={item.to}>{item.text}</Link>
                     </div>

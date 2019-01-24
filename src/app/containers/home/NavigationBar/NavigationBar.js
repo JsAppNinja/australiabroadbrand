@@ -25,7 +25,7 @@ class NavigationBar extends Component {
     const { items, isViewable } = this.props;
     const { isVisible } = this.state;
 
-    if (items.length > 0 && (isVisible || isViewable)) {
+    if (items.length > 0) {
       return (
         <div
           className="navbar"
