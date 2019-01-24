@@ -4,6 +4,7 @@ import DATA from './DATA';
 import LogoImage from '../../assets/logo.png';
 import PhoneSvg from '../../assets/svgs/header-phone.svg';
 import NavigationBar from '../home/NavigationBar';
+import Container from '../../components/Container';
 
 import './style.scss';
 
@@ -40,74 +41,90 @@ class Header extends Component {
 
     return (
       <div className="headerBar">
-        <div className="header">
-          <div className="header-left">
-            <div className="header-left__logo">
-              <Link to="/">
-                <img src={LogoImage} alt="Riseonic" />
-              </Link>
-            </div>
-            <div className="header-left__menu">
-              <ul id="links">
-                {DATA.map((item, index) => (
-                  <li
-                    key={index}
-                    className={isCurrent(item.to, current) ? 'current' : ''}
-                  >
-                    <div
-                      className="header-left__menu__item"
-                      onMouseDown={() => this.mouseClicked(index)}
-                      onMouseLeave={() => this.mouseLeave(index)}
+        <Container borderBottom="0.5px solid #d8d8d8">
+          <div className="header">
+            <div className="header-left">
+              <div className="header-left__logo">
+                <Link to="/">
+                  <img src={LogoImage} alt="Riseonic" />
+                </Link>
+              </div>
+              <div className="header-left__menu">
+                <ul id="links">
+                  {DATA.map((item, index) => (
+                    <li
+                      key={index}
+                      className={isCurrent(item.to, current) ? 'current' : ''}
                     >
-                      <Link to={item.to}>{item.text}</Link>
+                      <div
+                        className="header-left__menu__item"
+                        onMouseDown={() => this.mouseClicked(index)}
+                        onMouseLeave={() => this.mouseLeave(index)}
+                      >
+                        <Link to={item.to}>{item.text}</Link>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+            <div className="header-right">
+              <div className="header-right__terms">
+                <ul className="header-right__items">
+                  <li
+                    className={
+                      isCurrent('/', current)
+                        ? 'current header-right__items__phone'
+                        : 'header-right__items__phone'
+                    }
+                  >
+                    <Link to="/">
+                      <img src={PhoneSvg} alt="phone" />
+                    </Link>
+                  </li>
+                  <li
+                    className={
+                      isCurrent('/login', current)
+                        ? 'current header-right__items__login'
+                        : 'header-right__items__login'
+                    }
+                  >
+                    <div>
+                      <Link to="/login">Login</Link>
                     </div>
                   </li>
-                ))}
-              </ul>
+                  <li
+                    className={
+                      isCurrent('/support', current)
+                        ? 'current header-right__items__support'
+                        : 'header-right__items__support'
+                    }
+                  >
+                    <Link to="/support">Support</Link>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div className="header-right">
-            <div className="header-right__terms">
-              <ul className="header-right__items">
-                <li
-                  className={
-                    isCurrent('/', current)
-                      ? 'current header-right__items__phone'
-                      : 'header-right__items__phone'
-                  }
-                >
-                  <Link to="/">
-                    <img src={PhoneSvg} alt="phone" />
-                  </Link>
-                </li>
-                <li
-                  className={
-                    isCurrent('/login', current)
-                      ? 'current header-right__items__login'
-                      : 'header-right__items__login'
-                  }
-                >
-                  <div>
-                    <Link to="/login">Login</Link>
-                  </div>
-                </li>
-                <li
-                  className={
-                    isCurrent('/support', current)
-                      ? 'current header-right__items__support'
-                      : 'header-right__items__support'
-                  }
-                >
-                  <Link to="/support">Support</Link>
-                </li>
-              </ul>
-            </div>
+        </Container>
+        <div
+          style={{
+            boxShadow: '0 2px 6px 0 rgba(0, 0, 0, 0.08)',
+            borderBottom: '1px solid #d8d8d8',
+          }}
+        >
+          <div
+            style={{
+              width: '1440px',
+              margin: 'auto',
+            }}
+          >
+            <NavigationBar
+              isViewable={flipped}
+              items={DATA[selectedItem] ? DATA[selectedItem].submenu : []}
+            />
           </div>
         </div>
-        <NavigationBar
-          isViewable={flipped}
-          items={DATA[selectedItem] ? DATA[selectedItem].submenu : []}
-        />
       </div>
     );
   }
