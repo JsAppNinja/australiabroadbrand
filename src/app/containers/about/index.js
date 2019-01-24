@@ -7,16 +7,31 @@ import Pick from './Pick';
 import NbnHelp from './NbnHelp';
 import ImpInformation from './ImpInformation';
 import Footer from '../footer';
+import Container from '../../components/Container';
 import './style.scss';
 
 export default () => (
   <Page id="about" title="About" description="This is about really cool stuff.">
-    <AboutHello />
-    <AboutWhy />
-    <AboutLock />
-    <Pick />
-    <NbnHelp />
-    <ImpInformation />
-    <Footer />
+    <Container bgColor="#f6f9ff">
+      <AboutHello />
+    </Container>
+    <Container>
+      <AboutWhy />
+    </Container>
+    <Container bgColor="#f6f9ff">
+      <AboutLock />
+    </Container>
+    <Container>
+      <Pick />
+    </Container>
+    <Container bgColor="#f6f9ff">
+      <NbnHelp />
+    </Container>
+    <Container bgColor="#e7edfa">
+      <ImpInformation />
+    </Container>
+    <Container>
+      <Footer />
+    </Container>
   </Page>
 );
