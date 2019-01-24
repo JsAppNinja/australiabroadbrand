@@ -49,4 +49,15 @@
       }
     }
   }
+  .bar {
+    margin-top: 100px;
+    .bar-blurtitle {
+      color: #f6f9ff;
+    }
+    &__titlebar {
+      &-line {
+        background-color: #81d0d4;
+      }
+    }
+  }
 }

@@ -1,10 +1,14 @@
+.moving-hero-wrapper {
+  background-color: #f6f9ff;
+}
 .moving-hero {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-weight: 500;
   padding: 108px 130px 105px 105px;
-  background-color: #f6f9ff;
+  max-width: 1200px;
+  margin: auto;
 
   .moving-hero-action {
     display: flex;

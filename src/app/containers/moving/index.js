@@ -7,20 +7,27 @@ import Information from '../home/ImpInformation';
 import CheckAddress from '../home/CheckAddress';
 import ReviewSection from '../home/ReviewSection';
 import MovingPlaces from './MovingPlaces';
+import MovingChecklist from './MovingChecklist';
+import CantFindAnswer from './CantFindAnswer';
+import NbnHelp from '../about/NbnHelp';
 import Footer from '../footer';
 import './style.scss';
 
 export default class Moving extends Component {
   state = {
-    type: '',
+    type: null,
   };
   toggleSteps = type => {
-    this.setState({ type });
+    this.setState(prevState => {
+      const newType = prevState.type === type ? null : type;
+      return { type: newType };
+    });
   };
+
   render() {
-    const { type } = this.state.type;
+    const { type } = this.state;
     let connection;
-    if (type !== undefined && type !== '') {
+    if (type !== null) {
       connection = (
         <div className="connection-check__section">
           <div className="connection-top__hidden" />
@@ -35,10 +42,13 @@ export default class Moving extends Component {
     return (
       <Page id="moving">
         <HeroSection />
-        <CustomerTypes toggleSteps={this.toggleSteps} />
+        <CustomerTypes toggleSteps={this.toggleSteps} activeType={type} />
         {connection}
         <ReviewSection />
         <MovingPlaces />
+        <MovingChecklist />
+        <CantFindAnswer />
+        <NbnHelp />
         <Information />
         <Footer />
       </Page>

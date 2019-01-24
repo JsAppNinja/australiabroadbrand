@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import PropTypes from 'prop-types';
-
-// import Arrow from '../../../../assets/svgs/angle-down-solid.svg';
+import { Arrow } from '../../../../components/Arrow';
 import './style.scss';
 
 class Dropdown extends Component {
@@ -20,7 +19,9 @@ class Dropdown extends Component {
       <div className="dropdown">
         <div className="dropdown__button" onClick={this.expandDropdown}>
           <p className="dropdown__button__main-question">{mainQuestion}</p>
-          <div className="dropdown__button__circle" />
+          <div className="dropdown__button__circle">
+            <Arrow rotate={isOpened ? true : false} />
+          </div>
         </div>
         {isOpened ? (
           <section className="dropdown__content">

@@ -5,46 +5,35 @@
   flex-direction: column;
   margin-top: -10px;
   margin-bottom: 120px;
-
-  .movingplaces-blurtitle {
-    position: absolute;
-    font-size: 100px;
-    color: #f6f9ff;
-    z-index: -100;
-  }
-
-  &__titlebar {
-    font-family: Roboto;
-    margin-top: 60px;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 1.54;
-    text-align: center;
-    color: #313541;
-
-    .moving-places__line {
-      width: 200px;
-      height: 4px;
-      background-color: #81d0d4;
-      border-radius: 2px;
-      margin: auto;
-      margin-top: 18px;
-    }
-  }
-
   &__content {
     padding-top: 61px;
-
     #reviews {
       list-style-type: none;
       margin: 0px;
       padding: 0px;
       display: flex;
       justify-content: space-between;
-
       li {
         width: 330px;
         padding: 0px 20px;
+      }
+    }
+    &_header {
+      font-family: Baloo;
+      font-size: 20px;
+      letter-spacing: 1px;
+      text-align: center;
+      color: #4d565a;
+    }
+  }
+  .bar {
+    .bar-blurtitle {
+      color: #f6f9ff;
+      margin-top: 100px;
+    }
+    &__titlebar {
+      &-line {
+        background-color: #81d0d4;
       }
     }
   }

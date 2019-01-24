@@ -5,39 +5,19 @@ import PropTypes from 'prop-types';
 import './style.scss';
 
 class CustomerTypes extends Component {
-  state = {
-    selectedCustomer: {
-      type: '',
-      isActive: false,
-    },
-  };
-  handleClick = (type, isActive) => {
-    const { selectedCustomer } = this.state;
-    this.setState(
-      {
-        selectedCustomer: {
-          isActive: !selectedCustomer.isActive,
-          type: selectedCustomer.type === type ? '' : type,
-        },
-      },
-      () => {
-        this.props.toggleSteps(this.state.selectedCustomer);
-      }
-    );
-  };
-
   render() {
-    const { isActive, type } = this.state.selectedCustomer;
+    const { activeType, toggleSteps } = this.props;
     const { newCustomer, existingCustomer } = Data;
-    const newCustomerMatch = isActive && type === 'new-customer';
-    const existingCustomerFavList = isActive && type === 'existing-customer';
+    const backdownClass = activeType !== null ? 'customers_backdown' : '';
+    const newCustomerMatch = activeType === 'new-customer';
+    const existingCustomerFavList = activeType === 'existing-customer';
     return (
-      <section className={`customers ${!isActive ? 'customers_backdown' : ''}`}>
+      <section className={`customers ${backdownClass}`}>
         <article
           className={`customers__card new-customer ${
             newCustomerMatch ? 'active' : ''
           }`}
-          onClick={() => this.handleClick(newCustomer.type, isActive)}
+          onClick={() => toggleSteps(newCustomer.type)}
         >
           <img src={newCustomer.img} alt="new-customer" />
           <p>{newCustomer.text}</p>
@@ -46,7 +26,7 @@ class CustomerTypes extends Component {
           className={`customers__card existing-customer ${
             existingCustomerFavList ? 'active' : ''
           }`}
-          onClick={() => this.handleClick(existingCustomer.type)}
+          onClick={() => toggleSteps(existingCustomer.type)}
         >
           <img src={existingCustomer.img} alt="existing-customer" />
           <p className="">{existingCustomer.text}</p>
