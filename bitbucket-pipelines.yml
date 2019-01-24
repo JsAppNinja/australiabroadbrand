@@ -6,4 +6,8 @@ pipelines:
     dev:
       - step:
           script:
-            - ssh ${DEPLOYER}@${DEV_HOST} "cd ${WEB_PATH} && ${PULL_DEV} && ${YARN_BUILD}"
+            - ssh ${DEPLOYER}@${HOST_DEV} "cd ${WEB_PATH} && ${PULL_DEV} && ${YARN_BUILD}"
+    master:
+      - step:
+          script:
+            - ssh ${DEPLOYER}@${HOST_PROD} "cd ${WEB_PATH} && ${PULL_MASTER} && ${YARN_BUILD}"
