@@ -7,12 +7,15 @@ import Information from './ImpInformation';
 import ReviewSection from './ReviewSection';
 import Footer from '../footer';
 import EasyConnection from './EasyConnection';
+import Container from '../../components/Container';
 
 import './style.scss';
 
 export default () => (
   <Page id="homepage">
-    <HeroSection />
+    <Container bgColor="#67cebb">
+      <HeroSection />
+    </Container>
     <BenefitSection />
     <div className="connection-check__section">
       <div className="connection-top__hidden" />
