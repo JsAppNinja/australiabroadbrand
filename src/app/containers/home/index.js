@@ -16,15 +16,26 @@ export default () => (
     <Container bgColor="#67cebb">
       <HeroSection />
     </Container>
-    <BenefitSection />
+    <Container>
+      <BenefitSection />
+    </Container>
+
     <div className="connection-check__section">
       <div className="connection-top__hidden" />
-      <EasyConnection />
-      <CheckAddress />
+      <Container>
+        <EasyConnection />
+        <CheckAddress />
+      </Container>
       <div className="connection-down__hidden" />
     </div>
-    <ReviewSection />
-    <Information />
-    <Footer />
+    <Container>
+      <ReviewSection />
+    </Container>
+    <Container bgColor="#e7edfa">
+      <Information />
+    </Container>
+    <Container>
+      <Footer />
+    </Container>
   </Page>
 );
