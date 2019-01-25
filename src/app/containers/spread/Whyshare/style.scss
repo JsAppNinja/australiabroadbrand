@@ -8,7 +8,9 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-right: 233px;
+    width: 620px;
+    margin-left: 100px;
+    margin-right: 150px;
 
     &__content {
       font-family: Roboto;
@@ -22,6 +24,8 @@
   }
 
   &-right {
+    width: 620px;
+
     .whyshare-content {
       max-width: 450px;
       box-shadow: 0 2px 14px 0 #e6eaec;
