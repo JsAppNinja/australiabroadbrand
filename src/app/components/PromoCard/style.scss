@@ -46,10 +46,10 @@
         .card-info__avatar__photo {
           width: 66px;
           height: 66px;
-          padding: 2px;
+          padding: 1px;
           background-repeat: no-repeat;
           background-size: contain;
-          // box-shadow: 0 4px 12px 0 rgba(158, 176, 186, 0.44);
+          box-shadow: 0 4px 12px 0 rgba(158, 176, 186, 0.44);
           border: 4px solid white;
           border-radius: 50%;
         }

@@ -9,6 +9,7 @@
   .reviewconnection-blurtitle {
     position: absolute;
     font-size: 100px;
+    font-weight: bold;
     color: #f6f9ff;
     z-index: -100;
   }
@@ -23,7 +24,7 @@
     color: #313541;
 
     .review-section__line {
-      width: 200px;
+      width: 150px;
       height: 4px;
       background-color: #81d0d4;
       border-radius: 2px;

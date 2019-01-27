@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import DATA from './DATA';
-import LogoImage from '../../assets/logo.png';
+import LogoImage from '../../assets/logo@3x.png';
 import PhoneSvg from '../../assets/svgs/header-phone.svg';
 import NavigationBar from '../home/NavigationBar';
 import Container from '../../components/Container';
@@ -46,7 +46,7 @@ class Header extends Component {
             <div className="header-left">
               <div className="header-left__logo">
                 <Link to="/">
-                  <img src={LogoImage} alt="Riseonic" />
+                  <img src={LogoImage} alt="Riseonic" width="106px" />
                 </Link>
               </div>
               <div className="header-left__menu">

@@ -3,6 +3,12 @@ import ReviewItem from '../../../components/ReviewItem';
 import Data from './Data';
 import './style.scss';
 
+import ReviewImg1 from '../../../assets/rview-trustpilot-brandmark-gr.png';
+import ReviewImg2 from '../../../assets/rview-gather-up.png';
+import ReviewImg3 from '../../../assets/rview-google.png';
+
+const reviewImgList = [ReviewImg1, ReviewImg2, ReviewImg3];
+
 class ReviewSection extends Component {
   render() {
     return (
@@ -19,7 +25,7 @@ class ReviewSection extends Component {
                 <ReviewItem
                   rating={item.rating}
                   userCount={item.userCount}
-                  reviewImg={item.reviewImg}
+                  reviewImg={reviewImgList[index]}
                 />
               </li>
             ))}

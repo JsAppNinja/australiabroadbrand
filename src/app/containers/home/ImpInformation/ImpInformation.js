@@ -4,7 +4,7 @@ import './style.scss';
 
 const ImpInformation = () => (
   <div className="imp-information">
-    Important information
+    IMPORTANT INFORMATION
     <div className="imp-information__img">
       <img src={ArrowDown} alt="lorem" height="30" width="30" />
     </div>

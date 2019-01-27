@@ -25,7 +25,7 @@ class BenefitSection extends Component {
       },
       {
         img: BenefitImg3,
-        title: 'everything you need online',
+        title: 'everything you need',
         desc:
           "Set up, connect and manage your service with ease, all online. We're all about making it easy for you to find what you need and help yourself in your own time.",
         color: '#2c69a9',

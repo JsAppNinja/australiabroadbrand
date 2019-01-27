@@ -19,7 +19,7 @@ export default [
   },
   {
     to: '/small-business',
-    text: 'Small Business',
+    text: 'Small business',
   },
   {
     to: '/spread',
