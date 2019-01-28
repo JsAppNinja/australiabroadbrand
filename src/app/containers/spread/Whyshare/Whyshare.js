@@ -5,7 +5,7 @@ import Whyshare2 from '../../../assets/svgs/spread-share2.svg';
 import Whyshare3 from '../../../assets/svgs/spread-share3.svg';
 import Whyshare4 from '../../../assets/svgs/spread-share4.svg';
 import Whyshare5 from '../../../assets/svgs/spread-share5.svg';
-import Whyshare6 from '../../../assets/svgs/spread-share5.svg';
+import Whyshare6 from '../../../assets/svgs/spread-share6.svg';
 
 import CheckButton from '../../../components/CheckButton';
 import './style.scss';
@@ -64,7 +64,7 @@ const Whyshare = () => (
         <img src={Whyshare3} alt="share" />
       </div>
       <div className="whyshare-rightdown">
-        <img src={Whyshare4} alt="share" />
+        <img src={Whyshare6} alt="share" />
       </div>
     </div>
   </div>
