@@ -57,9 +57,9 @@
         line-height: 1.39;
         text-align: center;
         color: #4dbba6;
-        margin-top: 25px;
+        margin: auto;
         margin-bottom: 25px;
-        display: inline-flex;
+        display: block;
 
         sup {
           font-size: 8px;
@@ -84,7 +84,8 @@
 
       .about__lock-content-pad__title {
         margin-top: 15px;
-        width: 241px;
+        margin-left: 67px;
+        width: 183px;
       }
 
       .about__lock-content-pad__txt {
@@ -100,6 +101,7 @@
 
       .about__lock-content-pad__title {
         margin-top: 21.2px;
+        margin-left: 36px;
         width: 249px;
       }
 
@@ -115,6 +117,7 @@
 
       .about__lock-content-pad__title {
         margin-top: 24px;
+        margin-left: 43px;
         width: 237.1px;
       }
 
