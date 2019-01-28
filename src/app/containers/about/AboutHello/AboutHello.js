@@ -46,8 +46,10 @@ const AboutHello = () => (
     <div className="about__hello-img">
       <div className="explain-img__topleft">
         <div className="explain-img__topleft-line" />
-        Are you sick of providers who lock you into a contract, then don't
-        provide you a service?
+        <div className="explain-img__topleft-text">
+          Are you sick of providers who lock you into a contract, then don't
+          provide you a service?
+        </div>
       </div>
       <div className="explain-img__topright">
         <img
@@ -62,9 +64,10 @@ const AboutHello = () => (
       <div
         className="explain-img__bottomright"
         style={{
-          width: '420px',
-          height: '290px',
+          width: '394px',
+          height: '275px',
           backgroundImage: 'url(' + EXPLAIN_IMG3 + ')',
+          backgroundSize: '100%',
         }}
       >
         <img src={EXPLAIN_LOGO} alt="lprem" />

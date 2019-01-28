@@ -8,7 +8,7 @@
 
   &-img {
     width: 50%;
-    margin-left: 300px;
+    margin-left: 200px;
     max-height: 400px;
 
     .explain-img__topleft {
@@ -25,39 +25,47 @@
       border-radius: 12px;
       box-shadow: 0 2px 14px 0 #9eb0ba;
       z-index: 200;
-      padding-left: 30px;
+      padding-left: 32px;
       padding-right: 20px;
       line-height: 2;
-      padding-top: 61px;
+      padding-top: 38px;
       text-align: left;
 
       &-line {
         width: 80px;
-        height: 4px;
-        margin-bottom: 20px;
+        height: 3px;
+        margin-bottom: 17px;
         background-color: #ffffff;
         border-radius: 2px;
+      }
+
+      &-text {
+        width: 174px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.46;
+        color: #ffffff;
       }
     }
 
     .explain-img__topright {
       position: relative;
       left: 80px;
-      top: -250px;
+      top: -229px;
       width: 209px;
       height: 209px;
       background-color: #ffffff;
       border-radius: 12px;
 
       img {
-        margin-top: 15px;
+        margin-top: 26px;
       }
     }
 
     .explain-img__bottomleft {
       position: relative;
       left: 240px;
-      top: -250px;
+      top: -265px;
       width: 228px;
       height: 228px;
       border-radius: 12px;
@@ -82,12 +90,12 @@
 
       .explain-img-text {
         position: absolute;
-        width: 77px;
-        height: 77px;
+        width: 87px;
+        height: 87px;
         border-radius: 50%;
-        left: 42%;
-        top: 36%;
-        border: 4px lightgray solid;
+        left: 39%;
+        top: 32%;
+        border: 4px solid #9eb0ba55;
 
         .explain-img_button {
           display: flex;
@@ -97,15 +105,15 @@
           width: 59px;
           height: 59px;
           margin: auto;
-          margin-top: 8px;
+          margin-top: 14px;
           border-radius: 50%;
           background-color: #ffffff;
-          border: 1px lightgray solid;
+          box-shadow: 0 2px 14px 0 #c5d2f0;
           color: #f89729;
 
           img {
-            margin-left: 10px;
-            margin-bottom: 5px;
+            margin-left: 17px;
+            margin-bottom: 11px;
           }
         }
       }
@@ -115,7 +123,6 @@
   &-txt {
     width: 50%;
     max-width: 650px;
-    margin-left: 105px;
     text-align: left;
 
     &__title {
@@ -131,7 +138,7 @@
       font-size: 14px;
       line-height: 1.41;
       color: #313541;
-      max-width: 630px;
+      width: 636px;
       margin-bottom: 45px;
     }
   }
