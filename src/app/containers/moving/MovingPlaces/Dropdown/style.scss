@@ -48,6 +48,9 @@
       color: #313541;
       padding: 0 25px 0 25px;
       text-align: left;
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
   .svg-inline--fa {

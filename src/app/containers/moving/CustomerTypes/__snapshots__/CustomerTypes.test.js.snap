@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Customer Types should render customer types section 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CustomerTypes
+    activeType={null}
+    toggleSteps={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <article
+          className="customers__card new-customer "
+          onClick={[Function]}
+        >
+          <img
+            alt="new-customer"
+            src="new-customer.jpg"
+          />
+          <p>
+            I'm a new customer
+          </p>
+        </article>,
+        <article
+          className="customers__card existing-customer "
+          onClick={[Function]}
+        >
+          <img
+            alt="existing-customer"
+            src="existing-customer.jpg"
+          />
+          <p
+            className=""
+          >
+            I'm an existing customer
+          </p>
+        </article>,
+      ],
+      "className": "customers ",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt="new-customer"
+              src="new-customer.jpg"
+            />,
+            <p>
+              I'm a new customer
+            </p>,
+          ],
+          "className": "customers__card new-customer ",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "new-customer",
+              "src": "new-customer.jpg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "I'm a new customer",
+            },
+            "ref": null,
+            "rendered": "I'm a new customer",
+            "type": "p",
+          },
+        ],
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt="existing-customer"
+              src="existing-customer.jpg"
+            />,
+            <p
+              className=""
+            >
+              I'm an existing customer
+            </p>,
+          ],
+          "className": "customers__card existing-customer ",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "existing-customer",
+              "src": "existing-customer.jpg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "I'm an existing customer",
+              "className": "",
+            },
+            "ref": null,
+            "rendered": "I'm an existing customer",
+            "type": "p",
+          },
+        ],
+        "type": "article",
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <article
+            className="customers__card new-customer "
+            onClick={[Function]}
+          >
+            <img
+              alt="new-customer"
+              src="new-customer.jpg"
+            />
+            <p>
+              I'm a new customer
+            </p>
+          </article>,
+          <article
+            className="customers__card existing-customer "
+            onClick={[Function]}
+          >
+            <img
+              alt="existing-customer"
+              src="existing-customer.jpg"
+            />
+            <p
+              className=""
+            >
+              I'm an existing customer
+            </p>
+          </article>,
+        ],
+        "className": "customers ",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt="new-customer"
+                src="new-customer.jpg"
+              />,
+              <p>
+                I'm a new customer
+              </p>,
+            ],
+            "className": "customers__card new-customer ",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "new-customer",
+                "src": "new-customer.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "I'm a new customer",
+              },
+              "ref": null,
+              "rendered": "I'm a new customer",
+              "type": "p",
+            },
+          ],
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt="existing-customer"
+                src="existing-customer.jpg"
+              />,
+              <p
+                className=""
+              >
+                I'm an existing customer
+              </p>,
+            ],
+            "className": "customers__card existing-customer ",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "existing-customer",
+                "src": "existing-customer.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "I'm an existing customer",
+                "className": "",
+              },
+              "ref": null,
+              "rendered": "I'm an existing customer",
+              "type": "p",
+            },
+          ],
+          "type": "article",
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

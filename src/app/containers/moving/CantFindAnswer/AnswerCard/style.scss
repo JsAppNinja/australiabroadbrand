@@ -39,9 +39,12 @@
     position: absolute;
     top: 50px;
     left: 40%;
+    box-sizing: border-box;
+    padding: 35px;
     p {
       font-family: Roboto;
       font-size: 20px;
+      line-height: 30px;
       color: #313541;
     }
   }

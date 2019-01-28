@@ -42,11 +42,15 @@ class CantFindAnswer extends Component {
         <div className="answer-section__right">
           <h2>Can't find the answer you're looking for?</h2>
           <h2> Don't worry we're here to help!</h2>
-          <p>
-            Visit our 24/7 Help &amp; Support Centre. You'll find useful
-            articles, how to guides, answers to FAQs and lots of helpful
-            information.
-          </p>
+          <div className="answer-section__right-text">
+            <p>
+              Visit our 24/7 Help &amp; Support Centre. You'll find useful
+              articles,
+            </p>
+            <p>
+              how to guides, answers to FAQs and lots of helpful information.
+            </p>
+          </div>
           <CheckButton CustomStyle={customStyle} Content={'Support centre'} />
         </div>
       </div>

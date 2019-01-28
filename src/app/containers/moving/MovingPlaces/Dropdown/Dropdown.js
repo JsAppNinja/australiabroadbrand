@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import PropTypes from 'prop-types';
 import { Arrow } from '../../../../components/Arrow';
+import AnimateHeight from 'react-animate-height';
+
 import './style.scss';
 
 class Dropdown extends Component {
@@ -23,7 +25,7 @@ class Dropdown extends Component {
             <Arrow rotate={isOpened ? true : false} />
           </div>
         </div>
-        {isOpened ? (
+        <AnimateHeight duration={500} height={isOpened ? 'auto' : 0}>
           <section className="dropdown__content">
             <p>{mainAnswer}</p>
             {questions
@@ -35,7 +37,7 @@ class Dropdown extends Component {
                 ))
               : null}
           </section>
-        ) : null}
+        </AnimateHeight>
       </div>
     );
   }
