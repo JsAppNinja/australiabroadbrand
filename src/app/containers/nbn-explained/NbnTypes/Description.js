@@ -16,7 +16,12 @@ class Description extends Component {
           }}
         >
           <div className="type-description__main-title">{title}</div>
-          <div className="type-description__main-content">{content}</div>
+          <div
+            className={`type-description__main-content
+            desc_${number}`}
+          >
+            {content}
+          </div>
           <Link
             to={link}
             style={{

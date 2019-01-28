@@ -15,7 +15,7 @@ import FAV_EWAY from '../../assets/footer-eway.png';
 import FAV_GOOGLE_PLAY from '../../assets/footer-gplay.png';
 import FAV_APPSTORE from '../../assets/footer-appstore.png';
 
-import favPhone from '../../assets/svgs/header-phone.svg';
+import favPhone from '../../assets/footer-call.png';
 import favFacebook from '../../assets/svgs/fav-facebook.svg';
 import favTwitter from '../../assets/svgs/fav-twitter.svg';
 import favYoutube from '../../assets/svgs/fav-youtube.svg';
@@ -65,7 +65,7 @@ class Footer extends Component {
             <div className="footer__contact-section">
               <div className="footer__contact-section__left">
                 <div className="footer__contact-section__favicon">
-                  <img src={favPhone} alt="lorem" />
+                  <img src={favPhone} alt="lorem" width="16px" />
                 </div>
                 <div className="footer__contact-section__phonecall">
                   <div>CALL US</div>
@@ -120,22 +120,19 @@ class Footer extends Component {
           <div className="footer__final-section__left">
             Australia Broadband is not available in all areas or to all homes.
             Australia Broadband and the Australia Broadband logo are trademarks
-            of Australia Broadband Pty Ltd (ABN 14 610 870 249). nbn™ is a
+            of Australia Broadband Pvt Ltd (ABN 14 610 870 249). nbn™ is a
             trademark of NBN Co Limited and is used under license.
           </div>
           <div className="footer__final-section__right">
             <div className="footer__final-section__right-iterm">
               <Link to={DATA.siteInfo[0].path}>{DATA.siteInfo[0].title}</Link>
             </div>
-            |
             <div className="footer__final-section__right-iterm">
               <Link to={DATA.siteInfo[1].path}>{DATA.siteInfo[1].title}</Link>
             </div>
-            |
             <div className="footer__final-section__right-iterm">
               <Link to={DATA.siteInfo[2].path}>{DATA.siteInfo[2].title}</Link>
             </div>
-            |
             <div className="footer__final-section__right-iterm">
               <Link to={DATA.siteInfo[3].path}>{DATA.siteInfo[3].title}</Link>
             </div>

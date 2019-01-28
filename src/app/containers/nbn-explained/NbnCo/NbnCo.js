@@ -39,14 +39,14 @@ const NbnCo = () => (
       <div className="co_top3">fast</div>
       <div className="co_bottom1">
         <div className="co_img">
-          <img src={NBN_CO2} alt="lprem" />
+          <img src={NBN_CO3} alt="lprem" />
         </div>
         <div className="co_txt">Phone</div>
         <div className="co_txt2">we're here to help</div>
       </div>
       <div className="co_bottom2">
         <div className="co_img">
-          <img src={NBN_CO3} alt="lprem" />
+          <img src={NBN_CO2} alt="lprem" />
         </div>
         <div className="co_txt">Email</div>
         <div className="co_txt2">until your connected</div>

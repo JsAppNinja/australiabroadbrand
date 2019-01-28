@@ -1,7 +1,7 @@
 export default {
   desc: [
     {
-      title: 'check your address',
+      title: 'check your new address',
       content: `enter your address and see if you can nbn™ at your place. If your address is nbn™ ready, we'll let you know what nbn™ technology and speed you can get at your place.`,
     },
     {

@@ -14,7 +14,7 @@ import './style.scss';
 const NbnHelp = () => (
   <div className="nbn-help">
     <div className="nbn-help__left">
-      <div className="nbn-help__left-title">WE'RE HERE TO HELP</div>
+      <div className="nbn-help__left-title">We're here to help</div>
       <div className="nbn-help__left-content">
         We're open 9am to Midnight, Monday to Friday and 9am to 6pm
         <br />

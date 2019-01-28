@@ -27,7 +27,7 @@
   }
 
   &-titleline {
-    width: 130px;
+    width: 150px;
     height: 4px;
     background-color: #4dbba6;
     border-radius: 2px;
@@ -37,7 +37,7 @@
   &-content {
     margin-top: 60px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 
     &-pad {
@@ -47,7 +47,7 @@
       box-shadow: 0 2px 14px 0 #d5dbdc;
       background-color: #ffffff;
       margin-bottom: 120px;
-      padding: 36px 28px 42px 36px;
+      // padding: 36px 28px 42px 36px;
       text-align: center;
 
       &__title {
@@ -57,10 +57,13 @@
         line-height: 1.39;
         text-align: center;
         color: #4dbba6;
-        margin-top: 25px;
+        margin: auto;
         margin-bottom: 25px;
-        max-width: 220px;
-        display: inline-flex;
+        display: block;
+
+        sup {
+          font-size: 8px;
+        }
       }
 
       &__txt {
@@ -70,6 +73,56 @@
         color: #313541;
         max-width: 290px;
         display: inline-flex;
+      }
+    }
+
+    div:nth-child(1) {
+      margin-right: 35px;
+      img {
+        margin-top: 36px;
+      }
+
+      .about__lock-content-pad__title {
+        margin-top: 15px;
+        margin-left: 67px;
+        width: 183px;
+      }
+
+      .about__lock-content-pad__txt {
+        width: 251px;
+      }
+    }
+
+    div:nth-child(2) {
+      margin-right: 30px;
+      img {
+        margin-top: 32px;
+      }
+
+      .about__lock-content-pad__title {
+        margin-top: 21.2px;
+        margin-left: 36px;
+        width: 249px;
+      }
+
+      .about__lock-content-pad__txt {
+        width: 249px;
+      }
+    }
+
+    div:nth-child(3) {
+      img {
+        margin-top: 30.6px;
+      }
+
+      .about__lock-content-pad__title {
+        margin-top: 24px;
+        margin-left: 43px;
+        width: 237.1px;
+      }
+
+      .about__lock-content-pad__txt {
+        width: 269px;
       }
     }
   }

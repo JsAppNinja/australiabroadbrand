@@ -6,10 +6,13 @@ import FavHome from '../../../assets/svgs/connect-home.svg';
 import FavUser from '../../../assets/svgs/connect-user.svg';
 import FavNbn from '../../../assets/svgs/connect-nbn.png';
 import FavEnjoy from '../../../assets/svgs/connect-enjoy.svg';
-
+// import HOME_LINE1 from '../../../assets/svgs/home-line1.svg';
+// import HOME_LINE2 from '../../../assets/svgs/home-line2.svg';
 import Data from './DATA';
 
 const favIconList = [FavHome, FavUser, FavNbn, FavEnjoy];
+
+// const path_line = [HOME_LINE1, HOME_LINE2];
 
 const EasyConnection = () => {
   return (

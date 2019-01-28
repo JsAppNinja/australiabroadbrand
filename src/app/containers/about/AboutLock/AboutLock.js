@@ -15,7 +15,7 @@ const AboutLock = () => (
       <div className="about__lock-content-pad">
         <img src={ABOUT_LOCK_SVG1} alt="left" />
         <div className="about__lock-content-pad__title">
-          Amazingly simple nbn™ plans
+          Amazingly simple nbn<sup>TM</sup> plans
         </div>
         <div className="about__lock-content-pad__txt">
           No setup fees, no plan change fees, no relocation fees & no hidden

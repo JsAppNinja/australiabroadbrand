@@ -45,11 +45,11 @@
       background-color: #67cebb;
       font-family: Roboto;
       font-size: 14px;
-      font-weight: 600;
+      // font-weight: 600;
       color: #ffffff;
 
       position: relative;
-      left: 0;
+      left: -26px;
       top: 119px;
       z-index: 4;
     }
@@ -146,6 +146,11 @@
 
       .co_img {
         background-color: #f1f3ff;
+
+        img {
+          margin-top: 5px;
+          margin-right: -5px;
+        }
       }
     }
 
@@ -168,7 +173,9 @@
       z-index: 1;
 
       sup {
-        font-size: 8px;
+        font-size: 6px;
+        margin-top: -5px;
+        margin-right: 5px;
       }
     }
   }
