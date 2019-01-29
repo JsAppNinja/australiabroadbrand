@@ -1,0 +1,88 @@
+.checklist-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f6f9ff;
+  padding: 110px 0;
+  &__card {
+    width: 1000px;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 7px;
+    padding: 40px 100px;
+    background: #fff;
+    &:not(:last-child) {
+      margin-bottom: 60px;
+    }
+    &_orange {
+      border: 1px solid #f89729;
+    }
+    &_green {
+      border: 1px solid #4dbba6;
+    }
+    &_preview {
+      font-family: Roboto;
+      font-size: 14px;
+      line-height: 24px;
+      color: #313541;
+    }
+    &__content {
+      .checkpoint {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        &__desc {
+          margin-left: 15px;
+          text-align: left;
+          font-family: Roboto;
+          font-size: 14px;
+          line-height: 1.71;
+          color: #313541;
+        }
+        .svg-inline--fa {
+          color: #4dbba6;
+        }
+      }
+    }
+    &__footer {
+      position: absolute;
+      bottom: -15px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: pointer;
+      span {
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      .circle {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        .svg-inline--fa {
+          color: #fff;
+        }
+        &_orange {
+          background: #f89729;
+        }
+        &_green {
+          background: #67cebb;
+        }
+      }
+    }
+  }
+  &__header {
+    font-family: Baloo;
+    font-size: 20px;
+    letter-spacing: 1px;
+    &_orange {
+      color: #f89729;
+    }
+    &_green {
+      color: #4dbba6;
+    }
+  }
+}

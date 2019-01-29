@@ -1,0 +1,57 @@
+.moving-hero-wrapper {
+  background-color: #f6f9ff;
+}
+.moving-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  padding: 108px 130px 105px 105px;
+  max-width: 1200px;
+  margin: auto;
+
+  .moving-hero-action {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    width: 505px;
+
+    .moving-hero-action__title {
+      font-family: Baloo;
+      font-size: 28px;
+      line-height: 1;
+      color: #4d565a;
+    }
+
+    .moving-hero-action__desc {
+      font-family: Roboto;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0;
+      padding-top: 17px;
+      color: #313541;
+      font-weight: bold;
+    }
+
+    .moving-hero-action__button {
+      padding-top: 42px;
+      cursor: pointer;
+    }
+  }
+  .moving-hero-visual {
+    display: flex;
+    align-items: center;
+    img {
+      &:first-child {
+        height: 165px;
+        width: 340px;
+        margin-right: 20px;
+      }
+      &:nth-child(2) {
+        max-height: 265px;
+        max-width: 255px;
+      }
+    }
+  }
+}

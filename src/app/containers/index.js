@@ -36,11 +36,19 @@ const About = Loadable({
   modules: ['about'],
 });
 
+const Moving = Loadable({
+  loader: () => import('./moving'),
+  loading: () => null,
+  modules: ['moving'],
+});
+
 export default () => (
   <Switch>
     <Route exact path="/" component={Home} />
     <Route exact path="/nbn-explained" component={NbnExplained} />
     <Route exact path="/spread" component={Spread} />
+    <Route exact path="/moving-nbn" component={Moving} />
+
     <Route exact path="/about" component={About} />
     <Route component={NotFound} />
 

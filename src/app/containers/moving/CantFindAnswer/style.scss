@@ -1,0 +1,49 @@
+.answer-section {
+  padding: 120px 160px;
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  &__left,
+  &__right {
+    position: relative;
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+  &__left {
+    .circle {
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: -30px;
+      margin: auto;
+      border-radius: 50%;
+      box-shadow: 0 2px 8px 0 #9eb0ba;
+      background-color: #67cebb;
+    }
+  }
+  &__right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    &-text {
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+    p {
+      text-align: left;
+      margin: 0;
+    }
+    h2 {
+      margin-bottom: 0;
+      font-family: Baloo;
+      font-weight: normal;
+      &:nth-child(2) {
+        margin-top: 5px;
+      }
+    }
+  }
+}

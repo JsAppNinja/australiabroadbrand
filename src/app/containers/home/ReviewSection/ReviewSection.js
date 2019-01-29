@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import ReviewItem from '../../../components/ReviewItem';
+import BlurTitleBar from '../../../components/BlurTitleBar';
+
 import Data from './Data';
 import './style.scss';
 
@@ -13,11 +15,7 @@ class ReviewSection extends Component {
   render() {
     return (
       <div className="review-section">
-        <div className="reviewconnection-blurtitle">OUR REVIEWS</div>
-        <div className="review-section__titlebar">
-          <div className="review-section__title">{Data.title}</div>
-          <div className="review-section__line" />
-        </div>
+        <BlurTitleBar data={{ blurtitle: 'OUR REVIEWS', title: Data.title }} />
         <div className="review-section__content">
           <ul id="reviews">
             {Data.reviews.map((item, index) => (

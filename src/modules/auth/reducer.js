@@ -11,7 +11,6 @@ const initialState = {
 };
 
 function auth(state = initialState, action) {
-  console.log(action);
   switch (action.type) {
     case AUTHENTICATE:
       return {

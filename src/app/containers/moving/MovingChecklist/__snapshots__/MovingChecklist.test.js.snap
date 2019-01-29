@@ -1,0 +1,759 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovingChecklist tests should render moving checklist section 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MovingChecklist />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <article
+          className="checklist-section__card checklist-section__card_orange"
+        >
+          <img
+            alt=""
+            src="moving-checklist-house.png"
+          />
+          <h2
+            className="checklist-section__header checklist-section__header_orange"
+          >
+            Moving from your old home
+          </h2>
+          <p
+            className="checklist-section__card_preview"
+          >
+            Most people agree - moving house is a real headache! To make things easier, we've put together a mover's checklist so you can tick your moving jobs off as you go.
+          </p>
+          <div
+            className="checklist-section__card__footer"
+            onClick={[Function]}
+          >
+            <span>
+              Show more
+            </span>
+            <div
+              className="circle circle_orange"
+            >
+              <Arrow
+                rotate={false}
+              />
+            </div>
+          </div>
+        </article>,
+        <article
+          className="checklist-section__card checklist-section__card_green"
+        >
+          <img
+            alt=""
+            src="moving-checklist.png"
+          />
+          <h2
+            className="checklist-section__header checklist-section__header_green"
+          >
+            At your new home
+          </h2>
+          <p
+            className="checklist-section__card_preview"
+          >
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, explicabo!
+          </p>
+          <div
+            className="checklist-section__card__footer"
+            onClick={[Function]}
+          >
+            <span>
+              Show more
+            </span>
+            <div
+              className="circle circle_green"
+            >
+              <Arrow
+                rotate={false}
+              />
+            </div>
+          </div>
+        </article>,
+      ],
+      "className": "checklist-section",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt=""
+              src="moving-checklist-house.png"
+            />,
+            <h2
+              className="checklist-section__header checklist-section__header_orange"
+            >
+              Moving from your old home
+            </h2>,
+            <p
+              className="checklist-section__card_preview"
+            >
+              Most people agree - moving house is a real headache! To make things easier, we've put together a mover's checklist so you can tick your moving jobs off as you go.
+            </p>,
+            null,
+            <div
+              className="checklist-section__card__footer"
+              onClick={[Function]}
+            >
+              <span>
+                Show more
+              </span>
+              <div
+                className="circle circle_orange"
+              >
+                <Arrow
+                  rotate={false}
+                />
+              </div>
+            </div>,
+          ],
+          "className": "checklist-section__card checklist-section__card_orange",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "",
+              "src": "moving-checklist-house.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Moving from your old home",
+              "className": "checklist-section__header checklist-section__header_orange",
+            },
+            "ref": null,
+            "rendered": "Moving from your old home",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Most people agree - moving house is a real headache! To make things easier, we've put together a mover's checklist so you can tick your moving jobs off as you go.",
+              "className": "checklist-section__card_preview",
+            },
+            "ref": null,
+            "rendered": "Most people agree - moving house is a real headache! To make things easier, we've put together a mover's checklist so you can tick your moving jobs off as you go.",
+            "type": "p",
+          },
+          null,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span>
+                  Show more
+                </span>,
+                <div
+                  className="circle circle_orange"
+                >
+                  <Arrow
+                    rotate={false}
+                  />
+                </div>,
+              ],
+              "className": "checklist-section__card__footer",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Show more",
+                },
+                "ref": null,
+                "rendered": "Show more",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Arrow
+                    rotate={false}
+                  />,
+                  "className": "circle circle_orange",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "rotate": false,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "article",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt=""
+              src="moving-checklist.png"
+            />,
+            <h2
+              className="checklist-section__header checklist-section__header_green"
+            >
+              At your new home
+            </h2>,
+            <p
+              className="checklist-section__card_preview"
+            >
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, explicabo!
+            </p>,
+            null,
+            <div
+              className="checklist-section__card__footer"
+              onClick={[Function]}
+            >
+              <span>
+                Show more
+              </span>
+              <div
+                className="circle circle_green"
+              >
+                <Arrow
+                  rotate={false}
+                />
+              </div>
+            </div>,
+          ],
+          "className": "checklist-section__card checklist-section__card_green",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "",
+              "src": "moving-checklist.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "At your new home",
+              "className": "checklist-section__header checklist-section__header_green",
+            },
+            "ref": null,
+            "rendered": "At your new home",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, explicabo!",
+              "className": "checklist-section__card_preview",
+            },
+            "ref": null,
+            "rendered": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, explicabo!",
+            "type": "p",
+          },
+          null,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span>
+                  Show more
+                </span>,
+                <div
+                  className="circle circle_green"
+                >
+                  <Arrow
+                    rotate={false}
+                  />
+                </div>,
+              ],
+              "className": "checklist-section__card__footer",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Show more",
+                },
+                "ref": null,
+                "rendered": "Show more",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Arrow
+                    rotate={false}
+                  />,
+                  "className": "circle circle_green",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "rotate": false,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "article",
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <article
+            className="checklist-section__card checklist-section__card_orange"
+          >
+            <img
+              alt=""
+              src="moving-checklist-house.png"
+            />
+            <h2
+              className="checklist-section__header checklist-section__header_orange"
+            >
+              Moving from your old home
+            </h2>
+            <p
+              className="checklist-section__card_preview"
+            >
+              Most people agree - moving house is a real headache! To make things easier, we've put together a mover's checklist so you can tick your moving jobs off as you go.
+            </p>
+            <div
+              className="checklist-section__card__footer"
+              onClick={[Function]}
+            >
+              <span>
+                Show more
+              </span>
+              <div
+                className="circle circle_orange"
+              >
+                <Arrow
+                  rotate={false}
+                />
+              </div>
+            </div>
+          </article>,
+          <article
+            className="checklist-section__card checklist-section__card_green"
+          >
+            <img
+              alt=""
+              src="moving-checklist.png"
+            />
+            <h2
+              className="checklist-section__header checklist-section__header_green"
+            >
+              At your new home
+            </h2>
+            <p
+              className="checklist-section__card_preview"
+            >
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, explicabo!
+            </p>
+            <div
+              className="checklist-section__card__footer"
+              onClick={[Function]}
+            >
+              <span>
+                Show more
+              </span>
+              <div
+                className="circle circle_green"
+              >
+                <Arrow
+                  rotate={false}
+                />
+              </div>
+            </div>
+          </article>,
+        ],
+        "className": "checklist-section",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt=""
+                src="moving-checklist-house.png"
+              />,
+              <h2
+                className="checklist-section__header checklist-section__header_orange"
+              >
+                Moving from your old home
+              </h2>,
+              <p
+                className="checklist-section__card_preview"
+              >
+                Most people agree - moving house is a real headache! To make things easier, we've put together a mover's checklist so you can tick your moving jobs off as you go.
+              </p>,
+              null,
+              <div
+                className="checklist-section__card__footer"
+                onClick={[Function]}
+              >
+                <span>
+                  Show more
+                </span>
+                <div
+                  className="circle circle_orange"
+                >
+                  <Arrow
+                    rotate={false}
+                  />
+                </div>
+              </div>,
+            ],
+            "className": "checklist-section__card checklist-section__card_orange",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "",
+                "src": "moving-checklist-house.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Moving from your old home",
+                "className": "checklist-section__header checklist-section__header_orange",
+              },
+              "ref": null,
+              "rendered": "Moving from your old home",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Most people agree - moving house is a real headache! To make things easier, we've put together a mover's checklist so you can tick your moving jobs off as you go.",
+                "className": "checklist-section__card_preview",
+              },
+              "ref": null,
+              "rendered": "Most people agree - moving house is a real headache! To make things easier, we've put together a mover's checklist so you can tick your moving jobs off as you go.",
+              "type": "p",
+            },
+            null,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span>
+                    Show more
+                  </span>,
+                  <div
+                    className="circle circle_orange"
+                  >
+                    <Arrow
+                      rotate={false}
+                    />
+                  </div>,
+                ],
+                "className": "checklist-section__card__footer",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Show more",
+                  },
+                  "ref": null,
+                  "rendered": "Show more",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Arrow
+                      rotate={false}
+                    />,
+                    "className": "circle circle_orange",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "rotate": false,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "article",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <img
+                alt=""
+                src="moving-checklist.png"
+              />,
+              <h2
+                className="checklist-section__header checklist-section__header_green"
+              >
+                At your new home
+              </h2>,
+              <p
+                className="checklist-section__card_preview"
+              >
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, explicabo!
+              </p>,
+              null,
+              <div
+                className="checklist-section__card__footer"
+                onClick={[Function]}
+              >
+                <span>
+                  Show more
+                </span>
+                <div
+                  className="circle circle_green"
+                >
+                  <Arrow
+                    rotate={false}
+                  />
+                </div>
+              </div>,
+            ],
+            "className": "checklist-section__card checklist-section__card_green",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "",
+                "src": "moving-checklist.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "At your new home",
+                "className": "checklist-section__header checklist-section__header_green",
+              },
+              "ref": null,
+              "rendered": "At your new home",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, explicabo!",
+                "className": "checklist-section__card_preview",
+              },
+              "ref": null,
+              "rendered": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, explicabo!",
+              "type": "p",
+            },
+            null,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span>
+                    Show more
+                  </span>,
+                  <div
+                    className="circle circle_green"
+                  >
+                    <Arrow
+                      rotate={false}
+                    />
+                  </div>,
+                ],
+                "className": "checklist-section__card__footer",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Show more",
+                  },
+                  "ref": null,
+                  "rendered": "Show more",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Arrow
+                      rotate={false}
+                    />,
+                    "className": "circle circle_green",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "rotate": false,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "article",
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

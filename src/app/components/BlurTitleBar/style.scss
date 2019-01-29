@@ -1,0 +1,32 @@
+.bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  &__blurtitle {
+    position: absolute;
+    font-size: 100px;
+    color: #f6f9ff;
+    z-index: -100;
+  }
+  &__titlebar {
+    text-align: center;
+    margin-top: 50px;
+
+    &-title {
+      font-size: 28px;
+      line-height: 1.36;
+      color: #4d565a;
+      padding: 10px;
+      font-weight: 500;
+    }
+
+    &-line {
+      width: 150px;
+      height: 4px;
+      background-color: #f89729;
+      border-radius: 2px;
+      margin: auto;
+    }
+  }
+}
