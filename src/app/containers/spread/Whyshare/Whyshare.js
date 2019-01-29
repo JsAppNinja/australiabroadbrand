@@ -20,7 +20,7 @@ const customStyle = {
   fontWeight: 'bold',
 };
 
-const btnTitle = 'Start sharing';
+const btnTitle = 'Start earning';
 
 const Whyshare = () => (
   <div className="whyshare">
