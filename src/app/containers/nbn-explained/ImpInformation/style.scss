@@ -36,22 +36,32 @@
   &__content {
     margin-top: 40px;
     margin-bottom: 60px;
+    font-size: 14px;
+    font-family: Roboto;
+    letter-spacing: 0;
+    width: 780px;
 
     p {
       font-family: Roboto;
       font-size: 14px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
-      width: 780px;
+      width: 779px;
       line-height: 1.71;
-      letter-spacing: normal;
       color: #313541;
       background: #ffffff;
-      padding: 0 25px 0 25px;
       text-align: left;
       &:last-child {
         margin-bottom: 0;
+      }
+      &.imp-section__title {
+        font-weight: bold;
+        padding-top: 16px;
+      }
+      &:first-child {
+        padding-top: 0px;
+      }
+      span {
+        color: #67cebb;
+        font-weight: bold;
       }
     }
   }

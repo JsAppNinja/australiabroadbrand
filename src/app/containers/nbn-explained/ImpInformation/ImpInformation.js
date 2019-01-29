@@ -63,8 +63,10 @@ class ImpInformation extends Component {
                 You or an authorised person over 18 years of age will be
                 required to be at the premises on the day of the appointment.
               </p>
-              <p>Learn more about NBN Co Service Installations at:</p>
-              <span>NBN Explained</span>
+              <p>
+                Learn more about NBN Co Service Installations at:&nbsp;
+                <span>NBN Explained</span>
+              </p>
             </Fragment>
             <Fragment>
               <p className="imp-section__title">IP Address</p>
@@ -72,9 +74,9 @@ class ImpInformation extends Component {
                 All NBN plans comes with Dynamic IP address. Static IP addresses
                 are available for $10 extra per month. You can request a Static
                 IP address after your internet service is connected by
-                contacting{' '}
+                contacting&nbsp;
+                <span>Support.</span>
               </p>
-              <span>Support.</span>
             </Fragment>
             <Fragment>
               <p className="imp-section__title">
@@ -103,8 +105,8 @@ class ImpInformation extends Component {
                 Policy. Prohibited Use includes using this service in a business
                 or for any purpose or activity that is illegal, fraudulent or
                 any other nature contrary to our Fair Go policy. Learn more
-                about our Fair Use Policy at: What is your Fair
-                <span>Go Policy?</span>
+                about our Fair Use Policy at:&nbsp;
+                <span>What is your Fair Go Policy?</span>
               </p>
             </Fragment>
             <Fragment>
