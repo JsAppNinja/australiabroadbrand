@@ -6,26 +6,22 @@ import AnimateHeight from 'react-animate-height';
 import './style.scss';
 
 class Dropdown extends Component {
-  state = {
-    isOpened: false,
-  };
-  expandDropdown = item => {
-    this.setState({
-      isOpened: !this.state.isOpened,
-    });
-  };
   render() {
-    const { isOpened } = this.state;
-    const { mainQuestion, mainAnswer, questions } = this.props.data;
+    const { mainQuestion, mainAnswer, questions } = this.props.data.item;
+    const { itemIdx, openedDropdownIdx } = this.props.data;
+    const isCurrentOpened = openedDropdownIdx === itemIdx;
     return (
       <div className="dropdown">
-        <div className="dropdown__button" onClick={this.expandDropdown}>
+        <div
+          className="dropdown__button"
+          onClick={() => this.props.expandDropdown(itemIdx)}
+        >
           <p className="dropdown__button__main-question">{mainQuestion}</p>
           <div className="dropdown__button__circle">
-            <Arrow rotate={isOpened ? true : false} />
+            <Arrow rotate={isCurrentOpened ? true : false} />
           </div>
         </div>
-        <AnimateHeight duration={500} height={isOpened ? 'auto' : 0}>
+        <AnimateHeight duration={500} height={isCurrentOpened ? 'auto' : 0}>
           <section className="dropdown__content">
             <p>{mainAnswer}</p>
             {questions
@@ -45,6 +41,7 @@ class Dropdown extends Component {
 
 Dropdown.propTypes = {
   data: PropTypes.object.isRequired,
+  expandDropdown: PropTypes.func.isRequired,
 };
 
 export default Dropdown;

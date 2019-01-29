@@ -6,6 +6,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <MovingChecklist />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -35,6 +36,35 @@ ShallowWrapper {
           >
             Most people agree - moving house is a real headache! To make things easier, we've put together a mover's checklist so you can tick your moving jobs off as you go.
           </p>
+          <AnimateHeight
+            animateOpacity={false}
+            animationStateClasses={
+              Object {
+                "animating": "rah-animating",
+                "animatingDown": "rah-animating--down",
+                "animatingToHeightAuto": "rah-animating--to-height-auto",
+                "animatingToHeightSpecific": "rah-animating--to-height-specific",
+                "animatingToHeightZero": "rah-animating--to-height-zero",
+                "animatingUp": "rah-animating--up",
+                "static": "rah-static",
+                "staticHeightAuto": "rah-static--height-auto",
+                "staticHeightSpecific": "rah-static--height-specific",
+                "staticHeightZero": "rah-static--height-zero",
+              }
+            }
+            applyInlineTransitions={true}
+            delay={0}
+            duration={500}
+            easing="ease"
+            height={0}
+            style={Object {}}
+          >
+            <div
+              className="checklist-section__card__content"
+            >
+              data
+            </div>
+          </AnimateHeight>
           <div
             className="checklist-section__card__footer"
             onClick={[Function]}
@@ -66,8 +96,72 @@ ShallowWrapper {
           <p
             className="checklist-section__card_preview"
           >
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, explicabo!
+            Check these points off you list at your new place
           </p>
+          <AnimateHeight
+            animateOpacity={false}
+            animationStateClasses={
+              Object {
+                "animating": "rah-animating",
+                "animatingDown": "rah-animating--down",
+                "animatingToHeightAuto": "rah-animating--to-height-auto",
+                "animatingToHeightSpecific": "rah-animating--to-height-specific",
+                "animatingToHeightZero": "rah-animating--to-height-zero",
+                "animatingUp": "rah-animating--up",
+                "static": "rah-static",
+                "staticHeightAuto": "rah-static--height-auto",
+                "staticHeightSpecific": "rah-static--height-specific",
+                "staticHeightZero": "rah-static--height-zero",
+              }
+            }
+            applyInlineTransitions={true}
+            delay={0}
+            duration={500}
+            easing="ease"
+            height={0}
+            style={Object {}}
+          >
+            <div
+              className="checklist-section__card__content"
+            >
+              <div
+                className="checkpoint"
+              >
+                <Arrow
+                  rotate={false}
+                />
+                <p
+                  className="checkpoint__desc"
+                >
+                  if you're renting,complete the property's condition report-it's a good idea to take photos and email then to your landloard or property manger
+                </p>
+              </div>
+              <div
+                className="checkpoint"
+              >
+                <Arrow
+                  rotate={false}
+                />
+                <p
+                  className="checkpoint__desc"
+                >
+                  make sure all your utilities are connected(including your belong broadband) and the hot water service is on
+                </p>
+              </div>
+              <div
+                className="checkpoint"
+              >
+                <Arrow
+                  rotate={false}
+                />
+                <p
+                  className="checkpoint__desc"
+                >
+                  if you're moving some of your possessions out of storage interstate or overseas,check your inventory-contact the moving company innediately if anything is missing
+                </p>
+              </div>
+            </div>
+          </AnimateHeight>
           <div
             className="checklist-section__card__footer"
             onClick={[Function]}
@@ -109,7 +203,35 @@ ShallowWrapper {
             >
               Most people agree - moving house is a real headache! To make things easier, we've put together a mover's checklist so you can tick your moving jobs off as you go.
             </p>,
-            null,
+            <AnimateHeight
+              animateOpacity={false}
+              animationStateClasses={
+                Object {
+                  "animating": "rah-animating",
+                  "animatingDown": "rah-animating--down",
+                  "animatingToHeightAuto": "rah-animating--to-height-auto",
+                  "animatingToHeightSpecific": "rah-animating--to-height-specific",
+                  "animatingToHeightZero": "rah-animating--to-height-zero",
+                  "animatingUp": "rah-animating--up",
+                  "static": "rah-static",
+                  "staticHeightAuto": "rah-static--height-auto",
+                  "staticHeightSpecific": "rah-static--height-specific",
+                  "staticHeightZero": "rah-static--height-zero",
+                }
+              }
+              applyInlineTransitions={true}
+              delay={0}
+              duration={500}
+              easing="ease"
+              height={0}
+              style={Object {}}
+            >
+              <div
+                className="checklist-section__card__content"
+              >
+                data
+              </div>
+            </AnimateHeight>,
             <div
               className="checklist-section__card__footer"
               onClick={[Function]}
@@ -166,7 +288,51 @@ ShallowWrapper {
             "rendered": "Most people agree - moving house is a real headache! To make things easier, we've put together a mover's checklist so you can tick your moving jobs off as you go.",
             "type": "p",
           },
-          null,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "animateOpacity": false,
+              "animationStateClasses": Object {
+                "animating": "rah-animating",
+                "animatingDown": "rah-animating--down",
+                "animatingToHeightAuto": "rah-animating--to-height-auto",
+                "animatingToHeightSpecific": "rah-animating--to-height-specific",
+                "animatingToHeightZero": "rah-animating--to-height-zero",
+                "animatingUp": "rah-animating--up",
+                "static": "rah-static",
+                "staticHeightAuto": "rah-static--height-auto",
+                "staticHeightSpecific": "rah-static--height-specific",
+                "staticHeightZero": "rah-static--height-zero",
+              },
+              "applyInlineTransitions": true,
+              "children": <div
+                className="checklist-section__card__content"
+              >
+                data
+              </div>,
+              "delay": 0,
+              "duration": 500,
+              "easing": "ease",
+              "height": 0,
+              "style": Object {},
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "data",
+                "className": "checklist-section__card__content",
+              },
+              "ref": null,
+              "rendered": "data",
+              "type": "div",
+            },
+            "type": [Function],
+          },
           Object {
             "instance": null,
             "key": undefined,
@@ -248,9 +414,72 @@ ShallowWrapper {
             <p
               className="checklist-section__card_preview"
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, explicabo!
+              Check these points off you list at your new place
             </p>,
-            null,
+            <AnimateHeight
+              animateOpacity={false}
+              animationStateClasses={
+                Object {
+                  "animating": "rah-animating",
+                  "animatingDown": "rah-animating--down",
+                  "animatingToHeightAuto": "rah-animating--to-height-auto",
+                  "animatingToHeightSpecific": "rah-animating--to-height-specific",
+                  "animatingToHeightZero": "rah-animating--to-height-zero",
+                  "animatingUp": "rah-animating--up",
+                  "static": "rah-static",
+                  "staticHeightAuto": "rah-static--height-auto",
+                  "staticHeightSpecific": "rah-static--height-specific",
+                  "staticHeightZero": "rah-static--height-zero",
+                }
+              }
+              applyInlineTransitions={true}
+              delay={0}
+              duration={500}
+              easing="ease"
+              height={0}
+              style={Object {}}
+            >
+              <div
+                className="checklist-section__card__content"
+              >
+                <div
+                  className="checkpoint"
+                >
+                  <Arrow
+                    rotate={false}
+                  />
+                  <p
+                    className="checkpoint__desc"
+                  >
+                    if you're renting,complete the property's condition report-it's a good idea to take photos and email then to your landloard or property manger
+                  </p>
+                </div>
+                <div
+                  className="checkpoint"
+                >
+                  <Arrow
+                    rotate={false}
+                  />
+                  <p
+                    className="checkpoint__desc"
+                  >
+                    make sure all your utilities are connected(including your belong broadband) and the hot water service is on
+                  </p>
+                </div>
+                <div
+                  className="checkpoint"
+                >
+                  <Arrow
+                    rotate={false}
+                  />
+                  <p
+                    className="checkpoint__desc"
+                  >
+                    if you're moving some of your possessions out of storage interstate or overseas,check your inventory-contact the moving company innediately if anything is missing
+                  </p>
+                </div>
+              </div>
+            </AnimateHeight>,
             <div
               className="checklist-section__card__footer"
               onClick={[Function]}
@@ -300,14 +529,266 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, explicabo!",
+              "children": "Check these points off you list at your new place",
               "className": "checklist-section__card_preview",
             },
             "ref": null,
-            "rendered": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, explicabo!",
+            "rendered": "Check these points off you list at your new place",
             "type": "p",
           },
-          null,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "animateOpacity": false,
+              "animationStateClasses": Object {
+                "animating": "rah-animating",
+                "animatingDown": "rah-animating--down",
+                "animatingToHeightAuto": "rah-animating--to-height-auto",
+                "animatingToHeightSpecific": "rah-animating--to-height-specific",
+                "animatingToHeightZero": "rah-animating--to-height-zero",
+                "animatingUp": "rah-animating--up",
+                "static": "rah-static",
+                "staticHeightAuto": "rah-static--height-auto",
+                "staticHeightSpecific": "rah-static--height-specific",
+                "staticHeightZero": "rah-static--height-zero",
+              },
+              "applyInlineTransitions": true,
+              "children": <div
+                className="checklist-section__card__content"
+              >
+                <div
+                  className="checkpoint"
+                >
+                  <Arrow
+                    rotate={false}
+                  />
+                  <p
+                    className="checkpoint__desc"
+                  >
+                    if you're renting,complete the property's condition report-it's a good idea to take photos and email then to your landloard or property manger
+                  </p>
+                </div>
+                <div
+                  className="checkpoint"
+                >
+                  <Arrow
+                    rotate={false}
+                  />
+                  <p
+                    className="checkpoint__desc"
+                  >
+                    make sure all your utilities are connected(including your belong broadband) and the hot water service is on
+                  </p>
+                </div>
+                <div
+                  className="checkpoint"
+                >
+                  <Arrow
+                    rotate={false}
+                  />
+                  <p
+                    className="checkpoint__desc"
+                  >
+                    if you're moving some of your possessions out of storage interstate or overseas,check your inventory-contact the moving company innediately if anything is missing
+                  </p>
+                </div>
+              </div>,
+              "delay": 0,
+              "duration": 500,
+              "easing": "ease",
+              "height": 0,
+              "style": Object {},
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="checkpoint"
+                  >
+                    <Arrow
+                      rotate={false}
+                    />
+                    <p
+                      className="checkpoint__desc"
+                    >
+                      if you're renting,complete the property's condition report-it's a good idea to take photos and email then to your landloard or property manger
+                    </p>
+                  </div>,
+                  <div
+                    className="checkpoint"
+                  >
+                    <Arrow
+                      rotate={false}
+                    />
+                    <p
+                      className="checkpoint__desc"
+                    >
+                      make sure all your utilities are connected(including your belong broadband) and the hot water service is on
+                    </p>
+                  </div>,
+                  <div
+                    className="checkpoint"
+                  >
+                    <Arrow
+                      rotate={false}
+                    />
+                    <p
+                      className="checkpoint__desc"
+                    >
+                      if you're moving some of your possessions out of storage interstate or overseas,check your inventory-contact the moving company innediately if anything is missing
+                    </p>
+                  </div>,
+                ],
+                "className": "checklist-section__card__content",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <Arrow
+                        rotate={false}
+                      />,
+                      <p
+                        className="checkpoint__desc"
+                      >
+                        if you're renting,complete the property's condition report-it's a good idea to take photos and email then to your landloard or property manger
+                      </p>,
+                    ],
+                    "className": "checkpoint",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "rotate": false,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "if you're renting,complete the property's condition report-it's a good idea to take photos and email then to your landloard or property manger",
+                        "className": "checkpoint__desc",
+                      },
+                      "ref": null,
+                      "rendered": "if you're renting,complete the property's condition report-it's a good idea to take photos and email then to your landloard or property manger",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <Arrow
+                        rotate={false}
+                      />,
+                      <p
+                        className="checkpoint__desc"
+                      >
+                        make sure all your utilities are connected(including your belong broadband) and the hot water service is on
+                      </p>,
+                    ],
+                    "className": "checkpoint",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "rotate": false,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "make sure all your utilities are connected(including your belong broadband) and the hot water service is on",
+                        "className": "checkpoint__desc",
+                      },
+                      "ref": null,
+                      "rendered": "make sure all your utilities are connected(including your belong broadband) and the hot water service is on",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <Arrow
+                        rotate={false}
+                      />,
+                      <p
+                        className="checkpoint__desc"
+                      >
+                        if you're moving some of your possessions out of storage interstate or overseas,check your inventory-contact the moving company innediately if anything is missing
+                      </p>,
+                    ],
+                    "className": "checkpoint",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "rotate": false,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "if you're moving some of your possessions out of storage interstate or overseas,check your inventory-contact the moving company innediately if anything is missing",
+                        "className": "checkpoint__desc",
+                      },
+                      "ref": null,
+                      "rendered": "if you're moving some of your possessions out of storage interstate or overseas,check your inventory-contact the moving company innediately if anything is missing",
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            "type": [Function],
+          },
           Object {
             "instance": null,
             "key": undefined,
@@ -398,6 +879,35 @@ ShallowWrapper {
             >
               Most people agree - moving house is a real headache! To make things easier, we've put together a mover's checklist so you can tick your moving jobs off as you go.
             </p>
+            <AnimateHeight
+              animateOpacity={false}
+              animationStateClasses={
+                Object {
+                  "animating": "rah-animating",
+                  "animatingDown": "rah-animating--down",
+                  "animatingToHeightAuto": "rah-animating--to-height-auto",
+                  "animatingToHeightSpecific": "rah-animating--to-height-specific",
+                  "animatingToHeightZero": "rah-animating--to-height-zero",
+                  "animatingUp": "rah-animating--up",
+                  "static": "rah-static",
+                  "staticHeightAuto": "rah-static--height-auto",
+                  "staticHeightSpecific": "rah-static--height-specific",
+                  "staticHeightZero": "rah-static--height-zero",
+                }
+              }
+              applyInlineTransitions={true}
+              delay={0}
+              duration={500}
+              easing="ease"
+              height={0}
+              style={Object {}}
+            >
+              <div
+                className="checklist-section__card__content"
+              >
+                data
+              </div>
+            </AnimateHeight>
             <div
               className="checklist-section__card__footer"
               onClick={[Function]}
@@ -429,8 +939,72 @@ ShallowWrapper {
             <p
               className="checklist-section__card_preview"
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, explicabo!
+              Check these points off you list at your new place
             </p>
+            <AnimateHeight
+              animateOpacity={false}
+              animationStateClasses={
+                Object {
+                  "animating": "rah-animating",
+                  "animatingDown": "rah-animating--down",
+                  "animatingToHeightAuto": "rah-animating--to-height-auto",
+                  "animatingToHeightSpecific": "rah-animating--to-height-specific",
+                  "animatingToHeightZero": "rah-animating--to-height-zero",
+                  "animatingUp": "rah-animating--up",
+                  "static": "rah-static",
+                  "staticHeightAuto": "rah-static--height-auto",
+                  "staticHeightSpecific": "rah-static--height-specific",
+                  "staticHeightZero": "rah-static--height-zero",
+                }
+              }
+              applyInlineTransitions={true}
+              delay={0}
+              duration={500}
+              easing="ease"
+              height={0}
+              style={Object {}}
+            >
+              <div
+                className="checklist-section__card__content"
+              >
+                <div
+                  className="checkpoint"
+                >
+                  <Arrow
+                    rotate={false}
+                  />
+                  <p
+                    className="checkpoint__desc"
+                  >
+                    if you're renting,complete the property's condition report-it's a good idea to take photos and email then to your landloard or property manger
+                  </p>
+                </div>
+                <div
+                  className="checkpoint"
+                >
+                  <Arrow
+                    rotate={false}
+                  />
+                  <p
+                    className="checkpoint__desc"
+                  >
+                    make sure all your utilities are connected(including your belong broadband) and the hot water service is on
+                  </p>
+                </div>
+                <div
+                  className="checkpoint"
+                >
+                  <Arrow
+                    rotate={false}
+                  />
+                  <p
+                    className="checkpoint__desc"
+                  >
+                    if you're moving some of your possessions out of storage interstate or overseas,check your inventory-contact the moving company innediately if anything is missing
+                  </p>
+                </div>
+              </div>
+            </AnimateHeight>
             <div
               className="checklist-section__card__footer"
               onClick={[Function]}
@@ -472,7 +1046,35 @@ ShallowWrapper {
               >
                 Most people agree - moving house is a real headache! To make things easier, we've put together a mover's checklist so you can tick your moving jobs off as you go.
               </p>,
-              null,
+              <AnimateHeight
+                animateOpacity={false}
+                animationStateClasses={
+                  Object {
+                    "animating": "rah-animating",
+                    "animatingDown": "rah-animating--down",
+                    "animatingToHeightAuto": "rah-animating--to-height-auto",
+                    "animatingToHeightSpecific": "rah-animating--to-height-specific",
+                    "animatingToHeightZero": "rah-animating--to-height-zero",
+                    "animatingUp": "rah-animating--up",
+                    "static": "rah-static",
+                    "staticHeightAuto": "rah-static--height-auto",
+                    "staticHeightSpecific": "rah-static--height-specific",
+                    "staticHeightZero": "rah-static--height-zero",
+                  }
+                }
+                applyInlineTransitions={true}
+                delay={0}
+                duration={500}
+                easing="ease"
+                height={0}
+                style={Object {}}
+              >
+                <div
+                  className="checklist-section__card__content"
+                >
+                  data
+                </div>
+              </AnimateHeight>,
               <div
                 className="checklist-section__card__footer"
                 onClick={[Function]}
@@ -529,7 +1131,51 @@ ShallowWrapper {
               "rendered": "Most people agree - moving house is a real headache! To make things easier, we've put together a mover's checklist so you can tick your moving jobs off as you go.",
               "type": "p",
             },
-            null,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "animateOpacity": false,
+                "animationStateClasses": Object {
+                  "animating": "rah-animating",
+                  "animatingDown": "rah-animating--down",
+                  "animatingToHeightAuto": "rah-animating--to-height-auto",
+                  "animatingToHeightSpecific": "rah-animating--to-height-specific",
+                  "animatingToHeightZero": "rah-animating--to-height-zero",
+                  "animatingUp": "rah-animating--up",
+                  "static": "rah-static",
+                  "staticHeightAuto": "rah-static--height-auto",
+                  "staticHeightSpecific": "rah-static--height-specific",
+                  "staticHeightZero": "rah-static--height-zero",
+                },
+                "applyInlineTransitions": true,
+                "children": <div
+                  className="checklist-section__card__content"
+                >
+                  data
+                </div>,
+                "delay": 0,
+                "duration": 500,
+                "easing": "ease",
+                "height": 0,
+                "style": Object {},
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "data",
+                  "className": "checklist-section__card__content",
+                },
+                "ref": null,
+                "rendered": "data",
+                "type": "div",
+              },
+              "type": [Function],
+            },
             Object {
               "instance": null,
               "key": undefined,
@@ -611,9 +1257,72 @@ ShallowWrapper {
               <p
                 className="checklist-section__card_preview"
               >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, explicabo!
+                Check these points off you list at your new place
               </p>,
-              null,
+              <AnimateHeight
+                animateOpacity={false}
+                animationStateClasses={
+                  Object {
+                    "animating": "rah-animating",
+                    "animatingDown": "rah-animating--down",
+                    "animatingToHeightAuto": "rah-animating--to-height-auto",
+                    "animatingToHeightSpecific": "rah-animating--to-height-specific",
+                    "animatingToHeightZero": "rah-animating--to-height-zero",
+                    "animatingUp": "rah-animating--up",
+                    "static": "rah-static",
+                    "staticHeightAuto": "rah-static--height-auto",
+                    "staticHeightSpecific": "rah-static--height-specific",
+                    "staticHeightZero": "rah-static--height-zero",
+                  }
+                }
+                applyInlineTransitions={true}
+                delay={0}
+                duration={500}
+                easing="ease"
+                height={0}
+                style={Object {}}
+              >
+                <div
+                  className="checklist-section__card__content"
+                >
+                  <div
+                    className="checkpoint"
+                  >
+                    <Arrow
+                      rotate={false}
+                    />
+                    <p
+                      className="checkpoint__desc"
+                    >
+                      if you're renting,complete the property's condition report-it's a good idea to take photos and email then to your landloard or property manger
+                    </p>
+                  </div>
+                  <div
+                    className="checkpoint"
+                  >
+                    <Arrow
+                      rotate={false}
+                    />
+                    <p
+                      className="checkpoint__desc"
+                    >
+                      make sure all your utilities are connected(including your belong broadband) and the hot water service is on
+                    </p>
+                  </div>
+                  <div
+                    className="checkpoint"
+                  >
+                    <Arrow
+                      rotate={false}
+                    />
+                    <p
+                      className="checkpoint__desc"
+                    >
+                      if you're moving some of your possessions out of storage interstate or overseas,check your inventory-contact the moving company innediately if anything is missing
+                    </p>
+                  </div>
+                </div>
+              </AnimateHeight>,
               <div
                 className="checklist-section__card__footer"
                 onClick={[Function]}
@@ -663,14 +1372,266 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, explicabo!",
+                "children": "Check these points off you list at your new place",
                 "className": "checklist-section__card_preview",
               },
               "ref": null,
-              "rendered": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, explicabo!",
+              "rendered": "Check these points off you list at your new place",
               "type": "p",
             },
-            null,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "animateOpacity": false,
+                "animationStateClasses": Object {
+                  "animating": "rah-animating",
+                  "animatingDown": "rah-animating--down",
+                  "animatingToHeightAuto": "rah-animating--to-height-auto",
+                  "animatingToHeightSpecific": "rah-animating--to-height-specific",
+                  "animatingToHeightZero": "rah-animating--to-height-zero",
+                  "animatingUp": "rah-animating--up",
+                  "static": "rah-static",
+                  "staticHeightAuto": "rah-static--height-auto",
+                  "staticHeightSpecific": "rah-static--height-specific",
+                  "staticHeightZero": "rah-static--height-zero",
+                },
+                "applyInlineTransitions": true,
+                "children": <div
+                  className="checklist-section__card__content"
+                >
+                  <div
+                    className="checkpoint"
+                  >
+                    <Arrow
+                      rotate={false}
+                    />
+                    <p
+                      className="checkpoint__desc"
+                    >
+                      if you're renting,complete the property's condition report-it's a good idea to take photos and email then to your landloard or property manger
+                    </p>
+                  </div>
+                  <div
+                    className="checkpoint"
+                  >
+                    <Arrow
+                      rotate={false}
+                    />
+                    <p
+                      className="checkpoint__desc"
+                    >
+                      make sure all your utilities are connected(including your belong broadband) and the hot water service is on
+                    </p>
+                  </div>
+                  <div
+                    className="checkpoint"
+                  >
+                    <Arrow
+                      rotate={false}
+                    />
+                    <p
+                      className="checkpoint__desc"
+                    >
+                      if you're moving some of your possessions out of storage interstate or overseas,check your inventory-contact the moving company innediately if anything is missing
+                    </p>
+                  </div>
+                </div>,
+                "delay": 0,
+                "duration": 500,
+                "easing": "ease",
+                "height": 0,
+                "style": Object {},
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="checkpoint"
+                    >
+                      <Arrow
+                        rotate={false}
+                      />
+                      <p
+                        className="checkpoint__desc"
+                      >
+                        if you're renting,complete the property's condition report-it's a good idea to take photos and email then to your landloard or property manger
+                      </p>
+                    </div>,
+                    <div
+                      className="checkpoint"
+                    >
+                      <Arrow
+                        rotate={false}
+                      />
+                      <p
+                        className="checkpoint__desc"
+                      >
+                        make sure all your utilities are connected(including your belong broadband) and the hot water service is on
+                      </p>
+                    </div>,
+                    <div
+                      className="checkpoint"
+                    >
+                      <Arrow
+                        rotate={false}
+                      />
+                      <p
+                        className="checkpoint__desc"
+                      >
+                        if you're moving some of your possessions out of storage interstate or overseas,check your inventory-contact the moving company innediately if anything is missing
+                      </p>
+                    </div>,
+                  ],
+                  "className": "checklist-section__card__content",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <Arrow
+                          rotate={false}
+                        />,
+                        <p
+                          className="checkpoint__desc"
+                        >
+                          if you're renting,complete the property's condition report-it's a good idea to take photos and email then to your landloard or property manger
+                        </p>,
+                      ],
+                      "className": "checkpoint",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "rotate": false,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "if you're renting,complete the property's condition report-it's a good idea to take photos and email then to your landloard or property manger",
+                          "className": "checkpoint__desc",
+                        },
+                        "ref": null,
+                        "rendered": "if you're renting,complete the property's condition report-it's a good idea to take photos and email then to your landloard or property manger",
+                        "type": "p",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <Arrow
+                          rotate={false}
+                        />,
+                        <p
+                          className="checkpoint__desc"
+                        >
+                          make sure all your utilities are connected(including your belong broadband) and the hot water service is on
+                        </p>,
+                      ],
+                      "className": "checkpoint",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "rotate": false,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "make sure all your utilities are connected(including your belong broadband) and the hot water service is on",
+                          "className": "checkpoint__desc",
+                        },
+                        "ref": null,
+                        "rendered": "make sure all your utilities are connected(including your belong broadband) and the hot water service is on",
+                        "type": "p",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "2",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <Arrow
+                          rotate={false}
+                        />,
+                        <p
+                          className="checkpoint__desc"
+                        >
+                          if you're moving some of your possessions out of storage interstate or overseas,check your inventory-contact the moving company innediately if anything is missing
+                        </p>,
+                      ],
+                      "className": "checkpoint",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "rotate": false,
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "if you're moving some of your possessions out of storage interstate or overseas,check your inventory-contact the moving company innediately if anything is missing",
+                          "className": "checkpoint__desc",
+                        },
+                        "ref": null,
+                        "rendered": "if you're moving some of your possessions out of storage interstate or overseas,check your inventory-contact the moving company innediately if anything is missing",
+                        "type": "p",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": [Function],
+            },
             Object {
               "instance": null,
               "key": undefined,
@@ -742,9 +1703,13 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
           },
           "getDerivedStateFromProps": true,
           "getSnapshotBeforeUpdate": true,

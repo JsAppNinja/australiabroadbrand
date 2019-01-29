@@ -6,23 +6,28 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Dropdown
     data={
       Object {
-        "mainAnswer": "You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.",
-        "mainQuestion": "How do I move my Australia Broadband service with me?",
-        "questions": Array [
-          Object {
-            "answer": "That’s great! Simply follow the steps above",
-            "question": "My new address is nbn™ ready. What do I do?",
-          },
-          Object {
-            "answer": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.",
-            "question": "What if my new address is not nbn™ ready?",
-          },
-        ],
+        "item": Object {
+          "mainAnswer": "You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.",
+          "mainQuestion": "How do I move my Australia Broadband service with me?",
+          "questions": Array [
+            Object {
+              "answer": "That’s great! Simply follow the steps above",
+              "question": "My new address is nbn™ ready. What do I do?",
+            },
+            Object {
+              "answer": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.",
+              "question": "What if my new address is not nbn™ ready?",
+            },
+          ],
+        },
       }
     }
+    expandDropdown={[MockFunction]}
+    openedDropdownIdx={null}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -48,7 +53,7 @@ ShallowWrapper {
             className="dropdown__button__circle"
           >
             <Arrow
-              rotate={false}
+              rotate={true}
             />
           </div>
         </div>,
@@ -72,7 +77,7 @@ ShallowWrapper {
           delay={0}
           duration={500}
           easing="ease"
-          height={0}
+          height="auto"
           style={Object {}}
         >
           <section
@@ -119,7 +124,7 @@ ShallowWrapper {
               className="dropdown__button__circle"
             >
               <Arrow
-                rotate={false}
+                rotate={true}
               />
             </div>,
           ],
@@ -146,7 +151,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": <Arrow
-                rotate={false}
+                rotate={true}
               />,
               "className": "dropdown__button__circle",
             },
@@ -156,7 +161,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "rotate": false,
+                "rotate": true,
               },
               "ref": null,
               "rendered": null,
@@ -212,7 +217,7 @@ ShallowWrapper {
           "delay": 0,
           "duration": 500,
           "easing": "ease",
-          "height": 0,
+          "height": "auto",
           "style": Object {},
         },
         "ref": null,
@@ -369,7 +374,7 @@ ShallowWrapper {
               className="dropdown__button__circle"
             >
               <Arrow
-                rotate={false}
+                rotate={true}
               />
             </div>
           </div>,
@@ -393,7 +398,7 @@ ShallowWrapper {
             delay={0}
             duration={500}
             easing="ease"
-            height={0}
+            height="auto"
             style={Object {}}
           >
             <section
@@ -440,7 +445,7 @@ ShallowWrapper {
                 className="dropdown__button__circle"
               >
                 <Arrow
-                  rotate={false}
+                  rotate={true}
                 />
               </div>,
             ],
@@ -467,7 +472,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": <Arrow
-                  rotate={false}
+                  rotate={true}
                 />,
                 "className": "dropdown__button__circle",
               },
@@ -477,7 +482,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "rotate": false,
+                  "rotate": true,
                 },
                 "ref": null,
                 "rendered": null,
@@ -533,7 +538,7 @@ ShallowWrapper {
             "delay": 0,
             "duration": 500,
             "easing": "ease",
-            "height": 0,
+            "height": "auto",
             "style": Object {},
           },
           "ref": null,
@@ -675,9 +680,13 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
           },
           "getDerivedStateFromProps": true,
           "getSnapshotBeforeUpdate": true,
