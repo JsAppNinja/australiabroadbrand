@@ -1,31 +1,28 @@
 .dropdown {
-  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border-bottom: 3px solid #e7edfa;
+
   &:not(:last-child) {
     margin-bottom: 15px;
   }
   &__button {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    border-radius: 7px;
-    border: 1px solid #67cebb;
-    border-left: 3px solid #67cebb;
     position: relative;
     cursor: pointer;
-    padding: 25px;
-    font-weight: bold;
-    text-align: left;
-    &:after {
-      content: '';
-      background: #67cebb;
-      height: 80%;
-      width: 6px;
-      border-radius: 15px;
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translate(-50%, -50%);
-    }
+    width: 100%;
+    height: 66px;
+    font-family: Baloo;
+    font-size: 18px;
+    line-height: 2.39;
+    color: #4d565a;
+    background-color: #e7edfa;
+
     &__main-question {
       margin: 0;
     }
@@ -37,15 +34,20 @@
     }
   }
   &__content {
+    margin-top: 40px;
+    margin-bottom: 60px;
+
     p {
       font-family: Roboto;
       font-size: 14px;
       font-weight: normal;
       font-style: normal;
       font-stretch: normal;
+      width: 780px;
       line-height: 1.71;
       letter-spacing: normal;
       color: #313541;
+      background: #ffffff;
       padding: 0 25px 0 25px;
       text-align: left;
       &:last-child {
@@ -54,7 +56,6 @@
     }
   }
   .svg-inline--fa {
-    color: #67cebb;
     width: 25px;
     height: 25px;
     display: flex;

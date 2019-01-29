@@ -35,7 +35,7 @@ export default () => (
     <Container>
       <NbnHelp />
     </Container>
-    <Container bgColor="#e7edfa">{/* <ImpInformation /> */}</Container>
+    {/* <ImpInformation /> */}
     <Container>
       <Footer />
     </Container>
