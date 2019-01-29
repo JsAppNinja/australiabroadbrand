@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { Arrow } from '../../../components/Arrow';
+import { Arrow } from '../Arrow';
 import AnimateHeight from 'react-animate-height';
 
 import './style.scss';
