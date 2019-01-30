@@ -13,8 +13,14 @@ class AboutWhy extends Component {
   }
 
   updateCanvas() {
-    const ctx = this.refs.canvas.getContext('2d');
-    ctx.fillRect(0, 0, 100, 100);
+    const ctx = this.refs.outer.getContext('2d');
+    ctx.beginPath();
+    ctx.setLineDash([4, 8]);
+    ctx.arc(197, 197, 197, 0, 2 * Math.PI, false);
+    ctx.globalAlpha = 0.85;
+    ctx.lineWidth = 1;
+    ctx.strokeStyle = '#9eb0ba';
+    ctx.stroke();
   }
 
   render() {

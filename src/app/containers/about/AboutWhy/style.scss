@@ -69,11 +69,14 @@
       width: 394px;
       height: 394px;
       border-radius: 50%;
-      border: 1px #9eb0ba dashed;
+      // border: 1px #9eb0ba dashed;
       display: flex;
       align-items: center;
       justify-content: center;
 
+      canvas {
+        position: absolute;
+      }
       .center-circle {
         display: flex;
         justify-content: center;
