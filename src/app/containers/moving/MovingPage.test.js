@@ -1,15 +1,12 @@
 var request = require('supertest');
-var app = require('../../app');
+var app = require('../../../../server/server');
 var assert = require('assert');
 
-describe('GET /api/customers', function() {
-  it('responds with customers', function(done) {
+describe('GET get moving page', function() {
+  it('responds with moving page', function(done) {
     request(app)
-      .get('/api/moving-nbn')
-      .expect('Content-Type', /json/)
-      .expect(function(res) {
-        assert.equal(res.body[0].name, 'visionmedia');
-      })
-      .end(done);
+      .get('/moving-nbn')
+      .expect('Content-Type', /html/)
+      .expect(200, done);
   });
 });
