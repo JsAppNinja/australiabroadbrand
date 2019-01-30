@@ -18,7 +18,7 @@ class BenefitSection extends Component {
       },
       {
         img: BenefitImg2,
-        title: 'simple plans, no surprises',
+        title: 'simple & no suprises',
         desc:
           "We're all about keeping it simple: no hidden charges or surpises on your bill. What you see is what you get.",
         color: '#4dbba6',

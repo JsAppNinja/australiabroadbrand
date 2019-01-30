@@ -1,7 +1,7 @@
 import React from 'react';
 import Page from '../../components/Page';
 import AboutHello from './AboutHello';
-import AboutWhy from './AboutWhy';
+// import AboutWhy from './AboutWhy';
 import AboutLock from './AboutLock';
 import Pick from './Pick';
 import NbnHelp from './NbnHelp';
@@ -15,9 +15,9 @@ export default () => (
     <Container bgColor="#f6f9ff">
       <AboutHello />
     </Container>
-    <Container>
+    {/* <Container>
       <AboutWhy />
-    </Container>
+    </Container> */}
     <Container bgColor="#f6f9ff">
       <AboutLock />
     </Container>
