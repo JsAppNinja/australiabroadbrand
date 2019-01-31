@@ -5,20 +5,7 @@ import BlurTitleBar from '../../../components/BlurTitleBar';
 import DataFAQ from './Data';
 import './style.scss';
 class MovingPlaces extends Component {
-  state = {
-    openedDropdownIdx: null,
-  };
-  expandDropdown = openedDropdownIdx => {
-    this.setState(prevState => {
-      const newOpenedDropdownIdx =
-        prevState.openedDropdownIdx === openedDropdownIdx
-          ? null
-          : openedDropdownIdx;
-      return { openedDropdownIdx: newOpenedDropdownIdx };
-    });
-  };
   render() {
-    const { openedDropdownIdx } = this.state;
     return (
       <div className="moving-places">
         <BlurTitleBar
@@ -32,11 +19,7 @@ class MovingPlaces extends Component {
             Here are some frequently asked questions to assist you:
           </h2>
           {DataFAQ.map((item, itemIdx) => (
-            <Dropdown
-              data={{ item, openedDropdownIdx, itemIdx }}
-              key={itemIdx}
-              expandDropdown={this.expandDropdown}
-            />
+            <Dropdown data={{ item }} key={itemIdx} />
           ))}
         </div>
       </div>

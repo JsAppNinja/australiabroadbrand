@@ -15,7 +15,7 @@ const defaultProps = {
 
 describe('Dropdown tests', () => {
   const tree = shallow(<Dropdown {...defaultProps} />);
-  const spyOnExpandDropdown = jest.spyOn(defaultProps, 'expandDropdown');
+  const spyOnExpandDropdown = jest.spyOn(tree.instance(), 'expandDropdown');
   it('should render dropdown section', () => {
     expect(tree).toMatchSnapshot();
   });
@@ -29,6 +29,8 @@ describe('Dropdown tests', () => {
   it('should handle click on dropdown title', () => {
     const btn = tree.find('.dropdown__button');
     btn.simulate('click');
-    expect(spyOnExpandDropdown).toHaveBeenCalled();
+    expect(tree.state().isOpened).toEqual(true);
+    btn.simulate('click');
+    expect(tree.state().isOpened).toEqual(false);
   });
 });

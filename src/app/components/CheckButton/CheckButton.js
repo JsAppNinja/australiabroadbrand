@@ -4,11 +4,11 @@ import './style.scss';
 
 class CheckButton extends Component {
   render() {
-    const { CustomStyle, Content } = this.props;
+    const { CustomStyle, Content, Link } = this.props;
     return (
-      <div className="custome-button" style={CustomStyle}>
+      <a className="custome-button" style={CustomStyle} href={Link}>
         {Content}
-      </div>
+      </a>
     );
   }
 }
@@ -16,6 +16,7 @@ class CheckButton extends Component {
 CheckButton.propTypes = {
   CustomStyle: PropTypes.object,
   Content: PropTypes.string,
+  Link: PropTypes.string,
 };
 
 CheckButton.defaultProps = {

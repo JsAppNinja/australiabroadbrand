@@ -15,7 +15,7 @@ ShallowWrapper {
               "question": "My new address is nbn™ ready. What do I do?",
             },
             Object {
-              "answer": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.",
+              "answer": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. <p class=\\"separated-paragraph\\">If you are an existing customer, all you need to do is email us at <a href=\\"customercare@australiabroadband.net.au\\">customercare@australiabroadband.net.au</a> and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address.</p> <p class=\\"separated-paragraph\\"> With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.</p>",
               "question": "What if my new address is not nbn™ ready?",
             },
           ],
@@ -53,7 +53,7 @@ ShallowWrapper {
             className="dropdown__button__circle"
           >
             <Arrow
-              rotate={true}
+              rotate={false}
             />
           </div>
         </div>,
@@ -77,7 +77,7 @@ ShallowWrapper {
           delay={0}
           duration={500}
           easing="ease"
-          height="auto"
+          height={0}
           style={Object {}}
         >
           <section
@@ -87,20 +87,34 @@ ShallowWrapper {
               You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.
             </p>
             <React.Fragment>
-              <p>
+              <p
+                className="question"
+              >
                 My new address is nbn™ ready. What do I do?
               </p>
-              <p>
-                That’s great! Simply follow the steps above
-              </p>
+              <p
+                className="answer"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "That’s great! Simply follow the steps above",
+                  }
+                }
+              />
             </React.Fragment>
             <React.Fragment>
-              <p>
+              <p
+                className="question"
+              >
                 What if my new address is not nbn™ ready?
               </p>
-              <p>
-                If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.
-              </p>
+              <p
+                className="answer"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. <p class=\\"separated-paragraph\\">If you are an existing customer, all you need to do is email us at <a href=\\"customercare@australiabroadband.net.au\\">customercare@australiabroadband.net.au</a> and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address.</p> <p class=\\"separated-paragraph\\"> With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.</p>",
+                  }
+                }
+              />
             </React.Fragment>
           </section>
         </AnimateHeight>,
@@ -124,7 +138,7 @@ ShallowWrapper {
               className="dropdown__button__circle"
             >
               <Arrow
-                rotate={true}
+                rotate={false}
               />
             </div>,
           ],
@@ -151,7 +165,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": <Arrow
-                rotate={true}
+                rotate={false}
               />,
               "className": "dropdown__button__circle",
             },
@@ -161,7 +175,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "rotate": true,
+                "rotate": false,
               },
               "ref": null,
               "rendered": null,
@@ -198,26 +212,40 @@ ShallowWrapper {
               You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.
             </p>
             <React.Fragment>
-              <p>
+              <p
+                className="question"
+              >
                 My new address is nbn™ ready. What do I do?
               </p>
-              <p>
-                That’s great! Simply follow the steps above
-              </p>
+              <p
+                className="answer"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "That’s great! Simply follow the steps above",
+                  }
+                }
+              />
             </React.Fragment>
             <React.Fragment>
-              <p>
+              <p
+                className="question"
+              >
                 What if my new address is not nbn™ ready?
               </p>
-              <p>
-                If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.
-              </p>
+              <p
+                className="answer"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. <p class=\\"separated-paragraph\\">If you are an existing customer, all you need to do is email us at <a href=\\"customercare@australiabroadband.net.au\\">customercare@australiabroadband.net.au</a> and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address.</p> <p class=\\"separated-paragraph\\"> With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.</p>",
+                  }
+                }
+              />
             </React.Fragment>
           </section>,
           "delay": 0,
           "duration": 500,
           "easing": "ease",
-          "height": "auto",
+          "height": 0,
           "style": Object {},
         },
         "ref": null,
@@ -232,20 +260,34 @@ ShallowWrapper {
               </p>,
               Array [
                 <React.Fragment>
-                  <p>
+                  <p
+                    className="question"
+                  >
                     My new address is nbn™ ready. What do I do?
                   </p>
-                  <p>
-                    That’s great! Simply follow the steps above
-                  </p>
+                  <p
+                    className="answer"
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "That’s great! Simply follow the steps above",
+                      }
+                    }
+                  />
                 </React.Fragment>,
                 <React.Fragment>
-                  <p>
+                  <p
+                    className="question"
+                  >
                     What if my new address is not nbn™ ready?
                   </p>
-                  <p>
-                    If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.
-                  </p>
+                  <p
+                    className="answer"
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. <p class=\\"separated-paragraph\\">If you are an existing customer, all you need to do is email us at <a href=\\"customercare@australiabroadband.net.au\\">customercare@australiabroadband.net.au</a> and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address.</p> <p class=\\"separated-paragraph\\"> With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.</p>",
+                      }
+                    }
+                  />
                 </React.Fragment>,
               ],
             ],
@@ -270,12 +312,19 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "children": Array [
-                  <p>
+                  <p
+                    className="question"
+                  >
                     My new address is nbn™ ready. What do I do?
                   </p>,
-                  <p>
-                    That’s great! Simply follow the steps above
-                  </p>,
+                  <p
+                    className="answer"
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "That’s great! Simply follow the steps above",
+                      }
+                    }
+                  />,
                 ],
               },
               "ref": null,
@@ -286,6 +335,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "My new address is nbn™ ready. What do I do?",
+                    "className": "question",
                   },
                   "ref": null,
                   "rendered": "My new address is nbn™ ready. What do I do?",
@@ -296,10 +346,13 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "That’s great! Simply follow the steps above",
+                    "className": "answer",
+                    "dangerouslySetInnerHTML": Object {
+                      "__html": "That’s great! Simply follow the steps above",
+                    },
                   },
                   "ref": null,
-                  "rendered": "That’s great! Simply follow the steps above",
+                  "rendered": null,
                   "type": "p",
                 },
               ],
@@ -311,12 +364,19 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "children": Array [
-                  <p>
+                  <p
+                    className="question"
+                  >
                     What if my new address is not nbn™ ready?
                   </p>,
-                  <p>
-                    If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.
-                  </p>,
+                  <p
+                    className="answer"
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. <p class=\\"separated-paragraph\\">If you are an existing customer, all you need to do is email us at <a href=\\"customercare@australiabroadband.net.au\\">customercare@australiabroadband.net.au</a> and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address.</p> <p class=\\"separated-paragraph\\"> With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.</p>",
+                      }
+                    }
+                  />,
                 ],
               },
               "ref": null,
@@ -327,6 +387,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "What if my new address is not nbn™ ready?",
+                    "className": "question",
                   },
                   "ref": null,
                   "rendered": "What if my new address is not nbn™ ready?",
@@ -337,10 +398,13 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.",
+                    "className": "answer",
+                    "dangerouslySetInnerHTML": Object {
+                      "__html": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. <p class=\\"separated-paragraph\\">If you are an existing customer, all you need to do is email us at <a href=\\"customercare@australiabroadband.net.au\\">customercare@australiabroadband.net.au</a> and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address.</p> <p class=\\"separated-paragraph\\"> With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.</p>",
+                    },
                   },
                   "ref": null,
-                  "rendered": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.",
+                  "rendered": null,
                   "type": "p",
                 },
               ],
@@ -374,7 +438,7 @@ ShallowWrapper {
               className="dropdown__button__circle"
             >
               <Arrow
-                rotate={true}
+                rotate={false}
               />
             </div>
           </div>,
@@ -398,7 +462,7 @@ ShallowWrapper {
             delay={0}
             duration={500}
             easing="ease"
-            height="auto"
+            height={0}
             style={Object {}}
           >
             <section
@@ -408,20 +472,34 @@ ShallowWrapper {
                 You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.
               </p>
               <React.Fragment>
-                <p>
+                <p
+                  className="question"
+                >
                   My new address is nbn™ ready. What do I do?
                 </p>
-                <p>
-                  That’s great! Simply follow the steps above
-                </p>
+                <p
+                  className="answer"
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "That’s great! Simply follow the steps above",
+                    }
+                  }
+                />
               </React.Fragment>
               <React.Fragment>
-                <p>
+                <p
+                  className="question"
+                >
                   What if my new address is not nbn™ ready?
                 </p>
-                <p>
-                  If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.
-                </p>
+                <p
+                  className="answer"
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. <p class=\\"separated-paragraph\\">If you are an existing customer, all you need to do is email us at <a href=\\"customercare@australiabroadband.net.au\\">customercare@australiabroadband.net.au</a> and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address.</p> <p class=\\"separated-paragraph\\"> With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.</p>",
+                    }
+                  }
+                />
               </React.Fragment>
             </section>
           </AnimateHeight>,
@@ -445,7 +523,7 @@ ShallowWrapper {
                 className="dropdown__button__circle"
               >
                 <Arrow
-                  rotate={true}
+                  rotate={false}
                 />
               </div>,
             ],
@@ -472,7 +550,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": <Arrow
-                  rotate={true}
+                  rotate={false}
                 />,
                 "className": "dropdown__button__circle",
               },
@@ -482,7 +560,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "rotate": true,
+                  "rotate": false,
                 },
                 "ref": null,
                 "rendered": null,
@@ -519,26 +597,40 @@ ShallowWrapper {
                 You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.
               </p>
               <React.Fragment>
-                <p>
+                <p
+                  className="question"
+                >
                   My new address is nbn™ ready. What do I do?
                 </p>
-                <p>
-                  That’s great! Simply follow the steps above
-                </p>
+                <p
+                  className="answer"
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "That’s great! Simply follow the steps above",
+                    }
+                  }
+                />
               </React.Fragment>
               <React.Fragment>
-                <p>
+                <p
+                  className="question"
+                >
                   What if my new address is not nbn™ ready?
                 </p>
-                <p>
-                  If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.
-                </p>
+                <p
+                  className="answer"
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. <p class=\\"separated-paragraph\\">If you are an existing customer, all you need to do is email us at <a href=\\"customercare@australiabroadband.net.au\\">customercare@australiabroadband.net.au</a> and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address.</p> <p class=\\"separated-paragraph\\"> With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.</p>",
+                    }
+                  }
+                />
               </React.Fragment>
             </section>,
             "delay": 0,
             "duration": 500,
             "easing": "ease",
-            "height": "auto",
+            "height": 0,
             "style": Object {},
           },
           "ref": null,
@@ -553,20 +645,34 @@ ShallowWrapper {
                 </p>,
                 Array [
                   <React.Fragment>
-                    <p>
+                    <p
+                      className="question"
+                    >
                       My new address is nbn™ ready. What do I do?
                     </p>
-                    <p>
-                      That’s great! Simply follow the steps above
-                    </p>
+                    <p
+                      className="answer"
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "That’s great! Simply follow the steps above",
+                        }
+                      }
+                    />
                   </React.Fragment>,
                   <React.Fragment>
-                    <p>
+                    <p
+                      className="question"
+                    >
                       What if my new address is not nbn™ ready?
                     </p>
-                    <p>
-                      If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.
-                    </p>
+                    <p
+                      className="answer"
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. <p class=\\"separated-paragraph\\">If you are an existing customer, all you need to do is email us at <a href=\\"customercare@australiabroadband.net.au\\">customercare@australiabroadband.net.au</a> and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address.</p> <p class=\\"separated-paragraph\\"> With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.</p>",
+                        }
+                      }
+                    />
                   </React.Fragment>,
                 ],
               ],
@@ -591,12 +697,19 @@ ShallowWrapper {
                 "nodeType": "function",
                 "props": Object {
                   "children": Array [
-                    <p>
+                    <p
+                      className="question"
+                    >
                       My new address is nbn™ ready. What do I do?
                     </p>,
-                    <p>
-                      That’s great! Simply follow the steps above
-                    </p>,
+                    <p
+                      className="answer"
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "That’s great! Simply follow the steps above",
+                        }
+                      }
+                    />,
                   ],
                 },
                 "ref": null,
@@ -607,6 +720,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "My new address is nbn™ ready. What do I do?",
+                      "className": "question",
                     },
                     "ref": null,
                     "rendered": "My new address is nbn™ ready. What do I do?",
@@ -617,10 +731,13 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "children": "That’s great! Simply follow the steps above",
+                      "className": "answer",
+                      "dangerouslySetInnerHTML": Object {
+                        "__html": "That’s great! Simply follow the steps above",
+                      },
                     },
                     "ref": null,
-                    "rendered": "That’s great! Simply follow the steps above",
+                    "rendered": null,
                     "type": "p",
                   },
                 ],
@@ -632,12 +749,19 @@ ShallowWrapper {
                 "nodeType": "function",
                 "props": Object {
                   "children": Array [
-                    <p>
+                    <p
+                      className="question"
+                    >
                       What if my new address is not nbn™ ready?
                     </p>,
-                    <p>
-                      If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.
-                    </p>,
+                    <p
+                      className="answer"
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. <p class=\\"separated-paragraph\\">If you are an existing customer, all you need to do is email us at <a href=\\"customercare@australiabroadband.net.au\\">customercare@australiabroadband.net.au</a> and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address.</p> <p class=\\"separated-paragraph\\"> With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.</p>",
+                        }
+                      }
+                    />,
                   ],
                 },
                 "ref": null,
@@ -648,6 +772,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "children": "What if my new address is not nbn™ ready?",
+                      "className": "question",
                     },
                     "ref": null,
                     "rendered": "What if my new address is not nbn™ ready?",
@@ -658,10 +783,13 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "children": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.",
+                      "className": "answer",
+                      "dangerouslySetInnerHTML": Object {
+                        "__html": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. <p class=\\"separated-paragraph\\">If you are an existing customer, all you need to do is email us at <a href=\\"customercare@australiabroadband.net.au\\">customercare@australiabroadband.net.au</a> and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address.</p> <p class=\\"separated-paragraph\\"> With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.</p>",
+                      },
                     },
                     "ref": null,
-                    "rendered": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.",
+                    "rendered": null,
                     "type": "p",
                   },
                 ],
