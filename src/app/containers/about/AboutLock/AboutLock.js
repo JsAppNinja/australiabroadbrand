@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ABOUT_LOCK_SVG1 from '../../../assets/svgs/about-lock1.svg';
-import ABOUT_LOCK_SVG2 from '../../../assets/svgs/about-lock3.svg';
+import ABOUT_LOCK_SVG2 from '../../../assets/svgs/about-lock2.svg';
 import ABOUT_LOCK_SVG3 from '../../../assets/svgs/about-lock3.svg';
 
 import './style.scss';

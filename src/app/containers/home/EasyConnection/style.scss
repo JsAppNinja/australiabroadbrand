@@ -104,16 +104,22 @@
 
   .easy-connection__right-section {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
-    height: 600px;
+    margin-top: 171px;
 
     &-top,
     &-center,
     &-down {
       display: inline-flex;
       font-family: Roboto;
+      align-items: flex-start;
+
+      .description-curveline {
+        width: fit-content;
+        margin-left: 36.7px;
+      }
 
       .section-description {
         text-align: left;
@@ -133,24 +139,35 @@
           width: 304px;
         }
       }
-
-      .description-curveline {
-        min-width: 200px;
-        margin-top: -76px;
-      }
     }
 
     &-top {
-      margin-top: 200px;
+      margin-bottom: 295px;
+      .description-curveline {
+        margin-top: 10px;
+      }
+
       .section-description {
-        margin-top: -15px;
+        position: initial;
+        margin-left: -6px;
+        margin-top: 70px;
+        &__content {
+          width: 326px;
+        }
       }
     }
 
     &-down {
-      margin-bottom: -100px;
+      .description-curveline {
+        margin-top: -35px;
+        margin-left: 20px;
+      }
+
       .section-description {
-        margin-top: 24px;
+        margin-left: -10px;
+        &__title {
+          margin-top: 24px;
+        }
       }
     }
   }
