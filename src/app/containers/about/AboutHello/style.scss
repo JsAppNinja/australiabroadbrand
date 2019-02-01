@@ -8,7 +8,7 @@
 
   &-img {
     width: 50%;
-    margin-left: 200px;
+    margin-left: 95px;
     max-height: 400px;
 
     .explain-img__topleft {
@@ -76,7 +76,7 @@
 
     .explain-img__bottomright {
       position: absolute;
-      top: 303px;
+      top: 256px;
       width: 400px;
       height: 275px;
       object-fit: contain;
@@ -124,6 +124,7 @@
     width: 50%;
     max-width: 650px;
     text-align: left;
+    margin-left: 105px;
 
     &__title {
       font-family: Baloo;

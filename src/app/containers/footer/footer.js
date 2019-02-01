@@ -15,7 +15,7 @@ import FAV_EWAY from '../../assets/footer-eway.png';
 import FAV_GOOGLE_PLAY from '../../assets/footer-gplay.png';
 import FAV_APPSTORE from '../../assets/footer-appstore.png';
 
-import favPhone from '../../assets/footer-call.png';
+import favPhone from '../../assets/svgs/fav-call.svg';
 import favFacebook from '../../assets/svgs/fav-facebook.svg';
 import favTwitter from '../../assets/svgs/fav-twitter.svg';
 import favYoutube from '../../assets/svgs/fav-youtube.svg';
