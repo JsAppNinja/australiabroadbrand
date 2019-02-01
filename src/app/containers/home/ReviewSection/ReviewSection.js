@@ -17,7 +17,7 @@ class ReviewSection extends Component {
       <div className="review-section">
         <BlurTitleBar data={{ blurtitle: 'OUR REVIEWS', title: Data.title }} />
         <div className="review-section__content">
-          <ul id="reviews" className="reivews">
+          <ul id="reviews" className="reviews">
             {Data.reviews.map((item, index) => (
               <li key={index} className="review-cards__item">
                 <ReviewItem
