@@ -14,12 +14,8 @@ import './style.scss';
 
 export default () => (
   <Page id="nbn-explained">
-    <Container>
-      <NbnConcept />
-    </Container>
-    <Container>
-      <NbnTypes />
-    </Container>
+    <NbnConcept />
+    <NbnTypes />
     <Container>
       <NbnCo />
     </Container>
