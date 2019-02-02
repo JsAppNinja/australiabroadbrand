@@ -5,6 +5,7 @@ import MovingPlaces from './MovingPlaces.js';
 
 describe('MovingPlaces tests', () => {
   const tree = shallow(<MovingPlaces />);
+
   it('should render moving places section', () => {
     expect(tree).toMatchSnapshot();
   });

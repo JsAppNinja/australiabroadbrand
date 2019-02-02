@@ -15,7 +15,7 @@ import './style.scss';
 
 export default class Moving extends Component {
   state = {
-    type: 'new-customer',
+    type: null,
   };
   toggleSteps = type => {
     this.setState(prevState => {

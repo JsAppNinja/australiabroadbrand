@@ -51,11 +51,7 @@ class CantFindAnswer extends Component {
               how to guides, answers to FAQs and lots of helpful information.
             </p>
           </div>
-          <CheckButton
-            CustomStyle={customStyle}
-            Content={'Support Centre'}
-            Link={'https://www.australiabroadband.net.au/help/'}
-          />
+          <CheckButton CustomStyle={customStyle} Content={'Support centre'} />
         </div>
       </div>
     );

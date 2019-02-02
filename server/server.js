@@ -72,5 +72,3 @@ app.on('error', error => {
       throw error;
   }
 });
-
-module.exports = app;
