@@ -1,18 +1,24 @@
 import React from 'react';
 import CircleLink from '../../../components/CircleLink';
 
-import './style.scss';
 import FavHome from '../../../assets/svgs/connect-home.svg';
 import FavUser from '../../../assets/svgs/connect-user.svg';
 import FavNbn from '../../../assets/svgs/connect-nbn.png';
 import FavEnjoy from '../../../assets/svgs/connect-enjoy.svg';
-// import HOME_LINE1 from '../../../assets/svgs/home-line1.svg';
-// import HOME_LINE2 from '../../../assets/svgs/home-line2.svg';
+
+import Curve1 from '../../../assets/svgs/connect-curve1.svg';
+import Curve2 from '../../../assets/svgs/connect-curve2.svg';
+import Curve3 from '../../../assets/svgs/connect-curve3.svg';
+import Curve4 from '../../../assets/svgs/connect-curve4.svg';
+
+import Line1 from '../../../assets/svgs/connect-line1.svg';
+import Line2 from '../../../assets/svgs/connect-line2.svg';
+import Line3 from '../../../assets/svgs/connect-line3.svg';
+import Line4 from '../../../assets/svgs/connect-line4.svg';
+
 import Data from './DATA';
-
+import './style.scss';
 const favIconList = [FavHome, FavUser, FavNbn, FavEnjoy];
-
-// const path_line = [HOME_LINE1, HOME_LINE2];
 
 const EasyConnection = () => {
   return (
@@ -27,6 +33,9 @@ const EasyConnection = () => {
       <div className="easy-connection">
         <div className="easy-connection__left-section">
           <div className="easy-connection__left-section-top">
+            <div className="description-curveline">
+              <img src={Curve1} alt="curve" />
+            </div>
             <div className="section-description">
               <div className="section-description__title">
                 {Data.desc[0].title}
@@ -35,27 +44,11 @@ const EasyConnection = () => {
                 {Data.desc[0].content}
               </div>
             </div>
-            <div className="description-curveline">
-              <svg
-                viewBox="0 0 160 110"
-                style={{ maxHeight: 110, maxWidth: 210 }}
-              >
-                <path
-                  d={`
-                    M 0,100
-                    S 45,35,150,70
-                  `}
-                  fill="none"
-                  stroke="#fff"
-                  strokeDasharray="4,4"
-                  strokeWidth={1}
-                />
-                <circle cx="0" cy="100" r="4" />
-                <circle cx="150" cy="70" r="4" />
-              </svg>
-            </div>
           </div>
           <div className="easy-connection__left-section-down">
+            <div className="description-curveline">
+              <img src={Curve3} alt="curve" />
+            </div>
             <div className="section-description">
               <div className="section-description__title">
                 {Data.desc[1].title}
@@ -64,48 +57,13 @@ const EasyConnection = () => {
                 {Data.desc[1].content}
               </div>
             </div>
-            <div className="description-curveline">
-              <svg
-                viewBox="0 0 160 110"
-                style={{ maxHeight: 110, maxWidth: 210 }}
-              >
-                <path
-                  d={`
-                    M 0,100
-                    S 45,35,150,70
-                  `}
-                  fill="none"
-                  stroke="#fff"
-                  strokeDasharray="4,4"
-                  strokeWidth={1}
-                />
-                <circle cx="0" cy="100" r="4" />
-                <circle cx="150" cy="70" r="4" />
-              </svg>
-            </div>
           </div>
         </div>
         <CircleLink ImgPaths={favIconList} />
         <div className="easy-connection__right-section">
           <div className="easy-connection__right-section-top">
             <div className="description-curveline">
-              <svg
-                viewBox="0 0 160 110"
-                style={{ maxHeight: 110, maxWidth: 210 }}
-              >
-                <path
-                  d={`
-                    M 0,70
-                    S 95,35,150,100
-                  `}
-                  fill="none"
-                  stroke="#fff"
-                  strokeDasharray="4,4"
-                  strokeWidth={1}
-                />
-                <circle cx="0" cy="70" r="4" />
-                <circle cx="150" cy="100" r="4" />
-              </svg>
+              <img src={Curve2} alt="curve" />
             </div>
             <div className="section-description">
               <div className="section-description__title">
@@ -118,23 +76,7 @@ const EasyConnection = () => {
           </div>
           <div className="easy-connection__right-section-down">
             <div className="description-curveline">
-              <svg
-                viewBox="0 0 160 110"
-                style={{ maxHeight: 110, maxWidth: 210 }}
-              >
-                <path
-                  d={`
-                  M 0,70
-                  S 95,35,150,100
-                  `}
-                  fill="none"
-                  stroke="#fff"
-                  strokeDasharray="4,4"
-                  strokeWidth={1}
-                />
-                <circle cx="0" cy="70" r="4" />
-                <circle cx="150" cy="100" r="4" />
-              </svg>
+              <img src={Curve4} alt="curve" />
             </div>
             <div className="section-description">
               <div className="section-description__title">

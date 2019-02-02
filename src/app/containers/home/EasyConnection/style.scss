@@ -45,13 +45,21 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    height: 600px;
+    margin-top: -86px;
 
     &-top,
     &-center,
     &-down {
-      display: inline-flex;
+      display: flex;
+      flex-direction: column;
       font-family: Roboto;
+      align-items: flex-end;
+      margin-bottom: 200px;
+
+      .description-curveline {
+        width: fit-content;
+        margin-right: 30px;
+      }
 
       .section-description {
         text-align: right;
@@ -61,6 +69,7 @@
           font-weight: bold;
           font-stretch: normal;
           line-height: 2.39;
+          margin-top: 8px;
         }
 
         &__content {
@@ -68,33 +77,49 @@
           font-weight: 500;
           font-stretch: normal;
           line-height: 1.57;
-          width: 326px;
+          width: 306px;
         }
       }
+    }
 
-      .description-curveline {
-        min-width: 200px;
-        margin-top: -100px;
+    &-top {
+      .section-description {
+        margin-right: 167px;
+        &__content {
+          width: 326px;
+        }
       }
     }
 
     &-down {
       margin-bottom: 100px;
+      .section-description {
+        margin-right: 211px;
+        &__title {
+          margin-top: 34px;
+        }
+      }
     }
   }
 
   .easy-connection__right-section {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
-    height: 600px;
+    margin-top: 171px;
 
     &-top,
     &-center,
     &-down {
       display: inline-flex;
       font-family: Roboto;
+      align-items: flex-start;
+
+      .description-curveline {
+        width: fit-content;
+        margin-left: 36.7px;
+      }
 
       .section-description {
         text-align: left;
@@ -114,19 +139,36 @@
           width: 304px;
         }
       }
-
-      .description-curveline {
-        min-width: 200px;
-        margin-top: -100px;
-      }
     }
 
     &-top {
-      margin-top: 200px;
+      margin-bottom: 295px;
+      .description-curveline {
+        margin-top: 10px;
+      }
+
+      .section-description {
+        position: initial;
+        margin-left: -6px;
+        margin-top: 70px;
+        &__content {
+          width: 326px;
+        }
+      }
     }
 
     &-down {
-      margin-bottom: -100px;
+      .description-curveline {
+        margin-top: -35px;
+        margin-left: 20px;
+      }
+
+      .section-description {
+        margin-left: -10px;
+        &__title {
+          margin-top: 24px;
+        }
+      }
     }
   }
 

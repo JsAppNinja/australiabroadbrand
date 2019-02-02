@@ -8,15 +8,15 @@
 
   &-img {
     width: 50%;
-    margin-left: 200px;
+    margin-left: 95px;
     max-height: 400px;
 
     .explain-img__topleft {
       position: relative;
-      left: 270px;
-      top: -5px;
-      width: 185px;
-      height: 185px;
+      left: 247px;
+      top: -10px;
+      width: 193px;
+      height: 190px;
       font-family: Roboto;
       font-size: 16px;
       font-weight: bold;
@@ -33,17 +33,17 @@
 
       &-line {
         width: 80px;
-        height: 3px;
+        height: 4px;
         margin-bottom: 17px;
         background-color: #ffffff;
         border-radius: 2px;
       }
 
       &-text {
-        width: 174px;
-        font-size: 18px;
+        width: 192px;
+        font-size: 14px;
         font-weight: 500;
-        line-height: 1.46;
+        line-height: 2;
         color: #ffffff;
       }
     }
@@ -51,7 +51,7 @@
     .explain-img__topright {
       position: relative;
       left: 80px;
-      top: -229px;
+      top: -237px;
       width: 209px;
       height: 209px;
       background-color: #ffffff;
@@ -64,7 +64,7 @@
 
     .explain-img__bottomleft {
       position: relative;
-      left: 240px;
+      left: 195px;
       top: -265px;
       width: 228px;
       height: 228px;
@@ -76,7 +76,7 @@
 
     .explain-img__bottomright {
       position: absolute;
-      top: 303px;
+      top: 256px;
       width: 400px;
       height: 275px;
       object-fit: contain;
@@ -124,6 +124,7 @@
     width: 50%;
     max-width: 650px;
     text-align: left;
+    margin-left: 105px;
 
     &__title {
       font-family: Baloo;

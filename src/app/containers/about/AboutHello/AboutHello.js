@@ -47,8 +47,8 @@ const AboutHello = () => (
       <div className="explain-img__topleft">
         <div className="explain-img__topleft-line" />
         <div className="explain-img__topleft-text">
-          Are you sick of providers who lock you into a contract, then don't
-          provide you a service?
+          Rolling out Australia’s broadband access network requires a unique mix
+          of technologies. This is called the Multi Technology Mix (MTM).
         </div>
       </div>
       <div className="explain-img__topright">
