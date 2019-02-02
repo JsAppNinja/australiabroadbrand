@@ -5,20 +5,32 @@ import Dropdown from './Dropdown.js';
 
 import Data from '../Data';
 
-describe('Dropdown tests', () => {
-  const tree = shallow(<Dropdown data={Data[0]} />);
+const defaultProps = {
+  openedDropdownIdx: null,
+  expandDropdown: jest.fn(),
+  data: {
+    item: Data[0],
+  },
+};
 
+describe('Dropdown tests', () => {
+  const tree = shallow(<Dropdown {...defaultProps} />);
+  const spyOnExpandDropdown = jest.spyOn(tree.instance(), 'expandDropdown');
   it('should render dropdown section', () => {
     expect(tree).toMatchSnapshot();
   });
 
   it('should mount in a full DOM', () => {
-    expect(mount(<Dropdown data={Data[0]} />).find('.dropdown').length).toBe(1);
+    expect(mount(<Dropdown {...defaultProps} />).find('.dropdown').length).toBe(
+      1
+    );
   });
 
   it('should handle click on dropdown title', () => {
     const btn = tree.find('.dropdown__button');
     btn.simulate('click');
     expect(tree.state().isOpened).toEqual(true);
+    btn.simulate('click');
+    expect(tree.state().isOpened).toEqual(false);
   });
 });

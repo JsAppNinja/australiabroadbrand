@@ -18,8 +18,8 @@ class MovingPlaces extends Component {
           <h2 className="moving-places__content_header">
             Here are some frequently asked questions to assist you:
           </h2>
-          {DataFAQ.map((item, index) => (
-            <Dropdown data={item} key={index} />
+          {DataFAQ.map((item, itemIdx) => (
+            <Dropdown data={{ item }} key={itemIdx} />
           ))}
         </div>
       </div>
