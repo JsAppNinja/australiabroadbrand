@@ -16,15 +16,18 @@ class ImpInformation extends Component {
   render() {
     const { isOpened } = this.state;
     return (
-      <div className="dropdown">
-        <div className="dropdown__button" onClick={this.expandDropdown}>
+      <div className="ImpInformation__dropdown">
+        <div
+          className="ImpInformation__dropdown__button"
+          onClick={this.expandDropdown}
+        >
           Important information&nbsp;&nbsp;
-          <div className="dropdown__button__img">
+          <div className="ImpInformation__dropdown__button__img">
             <Arrow rotate={isOpened ? true : false} />
           </div>
         </div>
         <AnimateHeight duration={500} height={isOpened ? 'auto' : 0}>
-          <section className="dropdown__content">
+          <section className="ImpInformation__dropdown__content">
             <Fragment>
               <p className="imp-section__title">No Lock-in Contract</p>
               <p>
