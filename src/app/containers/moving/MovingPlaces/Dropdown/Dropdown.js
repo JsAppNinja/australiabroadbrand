@@ -9,14 +9,17 @@ class Dropdown extends Component {
   state = {
     isOpened: false,
   };
-  expandDropdown = item => {
-    this.setState({
-      isOpened: !this.state.isOpened,
-    });
+  expandDropdown = () => {
+    this.setState(prevState => ({
+      isOpened: !prevState.isOpened,
+    }));
   };
+  createMarkup(index) {
+    return { __html: this.props.data.item.questions[index].answer };
+  }
   render() {
+    const { mainQuestion, mainAnswer, questions } = this.props.data.item;
     const { isOpened } = this.state;
-    const { mainQuestion, mainAnswer, questions } = this.props.data;
     return (
       <div className="dropdown">
         <div className="dropdown__button" onClick={this.expandDropdown}>
@@ -27,12 +30,17 @@ class Dropdown extends Component {
         </div>
         <AnimateHeight duration={500} height={isOpened ? 'auto' : 0}>
           <section className="dropdown__content">
-            <p>{mainAnswer}</p>
+            <p>{mainAnswer ? mainAnswer : null}</p>
             {questions
               ? questions.map((item, index) => (
                   <Fragment key={index}>
-                    <p>{item.question}</p>
-                    <p>{item.answer}</p>
+                    <p className="question">
+                      {item.question ? item.question : null}
+                    </p>
+                    <p
+                      className="answer"
+                      dangerouslySetInnerHTML={this.createMarkup(index)}
+                    />
                   </Fragment>
                 ))
               : null}

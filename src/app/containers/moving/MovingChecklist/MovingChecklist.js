@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Arrow } from '../../../components/Arrow';
+import AnimateHeight from 'react-animate-height';
 
 import HouseImg from '../../../assets/moving-checklist-house.png';
 import ChecklistImg from '../../../assets/moving-checklist.png';
@@ -32,9 +33,9 @@ class MovingChecklist extends Component {
             easier, we've put together a mover's checklist so you can tick your
             moving jobs off as you go.
           </p>
-          {isOrangeExpanded ? (
+          <AnimateHeight duration={500} height={isOrangeExpanded ? 'auto' : 0}>
             <div className="checklist-section__card__content">data</div>
-          ) : null}
+          </AnimateHeight>
           <div
             className="checklist-section__card__footer"
             onClick={() => this.expandCard('Orange')}
@@ -51,10 +52,9 @@ class MovingChecklist extends Component {
             At your new home
           </h2>
           <p className="checklist-section__card_preview">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Temporibus, explicabo!
+            Check these points off you list at your new place
           </p>
-          {isGreenExpanded ? (
+          <AnimateHeight duration={500} height={isGreenExpanded ? 'auto' : 0}>
             <div className="checklist-section__card__content">
               {Data.checkpoints.map((item, index) => (
                 <div className="checkpoint" key={index}>
@@ -63,7 +63,7 @@ class MovingChecklist extends Component {
                 </div>
               ))}
             </div>
-          ) : null}
+          </AnimateHeight>
           <div
             className="checklist-section__card__footer"
             onClick={() => this.expandCard('Green')}
