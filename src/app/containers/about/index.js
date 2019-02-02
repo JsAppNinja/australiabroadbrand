@@ -5,7 +5,7 @@ import AboutWhy from './AboutWhy';
 import AboutLock from './AboutLock';
 import Pick from './Pick';
 import NbnHelp from './NbnHelp';
-import ImpInformation from './ImpInformation';
+import ImpInformation from '../../components/ImpInformation';
 import Footer from '../footer';
 import Container from '../../components/Container';
 import './style.scss';
@@ -27,9 +27,7 @@ export default () => (
     <Container bgColor="#f6f9ff">
       <NbnHelp />
     </Container>
-    <Container bgColor="#e7edfa">
-      <ImpInformation />
-    </Container>
+    <ImpInformation />
     <Container>
       <Footer />
     </Container>

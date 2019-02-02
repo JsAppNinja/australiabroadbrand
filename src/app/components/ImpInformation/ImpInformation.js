@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import ArrowDown from '../../../assets/svgs/angle-down-solid.svg';
-import { Arrow } from '../../../../components/Arrow';
+import { Arrow } from '../Arrow';
 import AnimateHeight from 'react-animate-height';
 
 import './style.scss';
@@ -19,7 +18,7 @@ class ImpInformation extends Component {
     return (
       <div className="dropdown">
         <div className="dropdown__button" onClick={this.expandDropdown}>
-          Important Information
+          Important information&nbsp;&nbsp;
           <div className="dropdown__button__img">
             <Arrow rotate={isOpened ? true : false} />
           </div>
@@ -27,14 +26,14 @@ class ImpInformation extends Component {
         <AnimateHeight duration={500} height={isOpened ? 'auto' : 0}>
           <section className="dropdown__content">
             <Fragment>
-              <p>No Lock-in Contract</p>
+              <p className="imp-section__title">No Lock-in Contract</p>
               <p>
                 All Australia Bro adband NBN Plans are No Lock-in Contract and
                 you are you cancel at any time.
               </p>
             </Fragment>
             <Fragment>
-              <p>No Connection or Hidden Fees</p>
+              <p className="imp-section__title">No Connection or Hidden Fees</p>
               <p>
                 Australia Broadband does not charge any activation or setup fees
                 and standard NBN Co installations are completed at no cost to
@@ -44,7 +43,7 @@ class ImpInformation extends Component {
               </p>
             </Fragment>
             <Fragment>
-              <p>Simple Billing</p>
+              <p className="imp-section__title">Simple Billing</p>
               <p>
                 You’ll be billed/direct debited on or around the 1st day of each
                 month for that month’s subscription. Our payment options are
@@ -52,7 +51,7 @@ class ImpInformation extends Component {
               </p>
             </Fragment>
             <Fragment>
-              <p>Order Cancellation Policy</p>
+              <p className="imp-section__title">Order Cancellation Policy</p>
               <p>
                 If you place an order with Australia Broadband and cancel the
                 order due to change of mind, no refund will be provided if your
@@ -64,21 +63,25 @@ class ImpInformation extends Component {
                 You or an authorised person over 18 years of age will be
                 required to be at the premises on the day of the appointment.
               </p>
-              <p>Learn more about NBN Co Service Installations at:</p>
-              <span>NBN Explained</span>
+              <p>
+                Learn more about NBN Co Service Installations at:&nbsp;
+                <span>NBN Explained</span>
+              </p>
             </Fragment>
             <Fragment>
-              <p>IP Address</p>
+              <p className="imp-section__title">IP Address</p>
               <p>
                 All NBN plans comes with Dynamic IP address. Static IP addresses
                 are available for $10 extra per month. You can request a Static
                 IP address after your internet service is connected by
-                contacting{' '}
+                contacting&nbsp;
+                <span>Support.</span>
               </p>
-              <span>Support.</span>
             </Fragment>
             <Fragment>
-              <p>NBN Co charges may apply to some customers</p>
+              <p className="imp-section__title">
+                NBN Co charges may apply to some customers
+              </p>
               <p>
                 Some homes may be subject to an NBN Co{' '}
                 <span>Non-Standard Installation</span> or a NBN Co{' '}
@@ -96,18 +99,20 @@ class ImpInformation extends Component {
               </p>
             </Fragment>
             <Fragment>
-              <p>Fair Use Policy</p>
+              <p className="imp-section__title">Fair Use Policy</p>
               <p>
                 All Australia Broadband services are subject to our Fair Go
                 Policy. Prohibited Use includes using this service in a business
                 or for any purpose or activity that is illegal, fraudulent or
                 any other nature contrary to our Fair Go policy. Learn more
-                about our Fair Use Policy at: What is your Fair
-                <span>Go Policy?</span>
+                about our Fair Use Policy at:&nbsp;
+                <span>What is your Fair Go Policy?</span>
               </p>
             </Fragment>
             <Fragment>
-              <p>Subscription Cancellation Policy</p>
+              <p className="imp-section__title">
+                Subscription Cancellation Policy
+              </p>
               <p>
                 If you cancel your Australia Broadband subscription, we won’t
                 refund any fees that you’ve already paid to us. After your order

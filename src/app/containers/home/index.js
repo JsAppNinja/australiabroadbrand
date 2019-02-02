@@ -3,7 +3,7 @@ import Page from '../../components/Page';
 import HeroSection from './HeroSection';
 import BenefitSection from './BenefitSection';
 import CheckAddress from './CheckAddress';
-import Information from './ImpInformation';
+import Information from '../../components/ImpInformation';
 import ReviewSection from './ReviewSection';
 import Footer from '../footer';
 import EasyConnection from './EasyConnection';
@@ -31,9 +31,7 @@ export default () => (
     <Container>
       <ReviewSection />
     </Container>
-    <Container bgColor="#e7edfa">
-      <Information />
-    </Container>
+    <Information />
     <Container>
       <Footer />
     </Container>
