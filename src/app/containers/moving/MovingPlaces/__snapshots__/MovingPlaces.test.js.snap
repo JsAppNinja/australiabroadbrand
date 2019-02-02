@@ -1,681 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`MovingPlaces tests should render Hero section 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <MovingPlaces />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": Array [
-        <BlurTitleBar
-          data={
-            Object {
-              "blurtitle": "MOVING PLACES",
-              "title": "Start moving with our hassle free nbn moving service",
-            }
-          }
-        />,
-        <div
-          className="moving-places__content"
-        >
-          <h2
-            className="moving-places__content_header"
-          >
-            Here are some frequently asked questions to assist you:
-          </h2>
-          <Dropdown
-            data={
-              Object {
-                "mainAnswer": "You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.",
-                "mainQuestion": "How do I move my Australia Broadband service with me?",
-                "questions": Array [
-                  Object {
-                    "answer": "That’s great! Simply follow the steps above",
-                    "question": "My new address is nbn™ ready. What do I do?",
-                  },
-                  Object {
-                    "answer": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.",
-                    "question": "What if my new address is not nbn™ ready?",
-                  },
-                ],
-              }
-            }
-          />
-          <Dropdown
-            data={
-              Object {
-                "mainAnswer": "We don’t charge you anything to move your Australia Broadband service to a new address.",
-                "mainQuestion": "What does it cost to move my Australia Broadband service to a new address?",
-                "questions": Array [
-                  Object {
-                    "answer": "We don’t charge anything to move your Australia Broadband service to your new address. If a standard NBN Co installation is needed at your new address, it will also be completed at no cost to you.",
-                    "question": "Does Australia Broadband charge any relocation fees to connect nbn™ at my new address?",
-                  },
-                  Object {
-                    "answer": "A small number of homes may be subject to an NBN Co Non-Standard Installation or a NBN Co New Development Charge of $300. If your new address is subject to any of these NBN Co charges, we’ll let you know before the installation and get your permission before you’re charged.",
-                    "question": "Does the NBN Co charge any connection or installation fees to connect my new address?",
-                  },
-                ],
-              }
-            }
-          />
-          <Dropdown
-            data={
-              Object {
-                "mainAnswer": "The connection time frame will depends whether or not your new address has been connected to the nbn™ previously.",
-                "mainQuestion": "If I sign up now, will my nbn™ service be activated by the time I move in?",
-                "questions": Array [
-                  Object {
-                    "answer": "If your new home has been previously connected to the nbn™, we’ll normally activate your Australia Broadband nbn™ service typically within 2-5 days. This may take longer if the former tenant or owner did not disconnect their nbn™ service before you moved in.",
-                    "question": "My new home has previously been connected to the nbn™",
-                  },
-                  Object {
-                    "answer": "If it is the first time your new home is connecting to the nbn network, we’ll arrange the first available appointment with NBN Co for an NBN Co technician to connect your nbn™ service. Typically, new nbn™ connections are completed by the NBN Co within 5-20 business days. This varies depending on your nbn™ connection type as well as the availability of the NBN Co technicians in your area. We will let you know if you need an appointment after we have submited your order to the NBN Co. ",
-                    "question": "It is the first time my new home is connecting to the to the nbn™",
-                  },
-                ],
-              }
-            }
-          />
-          <Dropdown
-            data={
-              Object {
-                "mainAnswer": "When you move home you can take your Australia Broadband VoIP number with you, if you are moving within the same state. If you relocate to another state you will need a new number.",
-                "mainQuestion": "What happens to my Australia Broadband VoIP number when I move?",
-              }
-            }
-          />
-          <Dropdown
-            data={
-              Object {
-                "mainAnswer": "If the previous occupants have not disconnected their service, we’ll need to get some paperwork from you, before the existing service can be legally disconnected. Once the paperwork’s received and verified, you should be connected within 10 business days depending the type of nbn™ connection.",
-                "mainQuestion": "There is already a service connected at my new address but it’s not in my name, what can I do?",
-              }
-            }
-          />
-        </div>,
-      ],
-      "className": "moving-places",
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "data": Object {
-            "blurtitle": "MOVING PLACES",
-            "title": "Start moving with our hassle free nbn moving service",
-          },
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <h2
-              className="moving-places__content_header"
-            >
-              Here are some frequently asked questions to assist you:
-            </h2>,
-            Array [
-              <Dropdown
-                data={
-                  Object {
-                    "mainAnswer": "You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.",
-                    "mainQuestion": "How do I move my Australia Broadband service with me?",
-                    "questions": Array [
-                      Object {
-                        "answer": "That’s great! Simply follow the steps above",
-                        "question": "My new address is nbn™ ready. What do I do?",
-                      },
-                      Object {
-                        "answer": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.",
-                        "question": "What if my new address is not nbn™ ready?",
-                      },
-                    ],
-                  }
-                }
-              />,
-              <Dropdown
-                data={
-                  Object {
-                    "mainAnswer": "We don’t charge you anything to move your Australia Broadband service to a new address.",
-                    "mainQuestion": "What does it cost to move my Australia Broadband service to a new address?",
-                    "questions": Array [
-                      Object {
-                        "answer": "We don’t charge anything to move your Australia Broadband service to your new address. If a standard NBN Co installation is needed at your new address, it will also be completed at no cost to you.",
-                        "question": "Does Australia Broadband charge any relocation fees to connect nbn™ at my new address?",
-                      },
-                      Object {
-                        "answer": "A small number of homes may be subject to an NBN Co Non-Standard Installation or a NBN Co New Development Charge of $300. If your new address is subject to any of these NBN Co charges, we’ll let you know before the installation and get your permission before you’re charged.",
-                        "question": "Does the NBN Co charge any connection or installation fees to connect my new address?",
-                      },
-                    ],
-                  }
-                }
-              />,
-              <Dropdown
-                data={
-                  Object {
-                    "mainAnswer": "The connection time frame will depends whether or not your new address has been connected to the nbn™ previously.",
-                    "mainQuestion": "If I sign up now, will my nbn™ service be activated by the time I move in?",
-                    "questions": Array [
-                      Object {
-                        "answer": "If your new home has been previously connected to the nbn™, we’ll normally activate your Australia Broadband nbn™ service typically within 2-5 days. This may take longer if the former tenant or owner did not disconnect their nbn™ service before you moved in.",
-                        "question": "My new home has previously been connected to the nbn™",
-                      },
-                      Object {
-                        "answer": "If it is the first time your new home is connecting to the nbn network, we’ll arrange the first available appointment with NBN Co for an NBN Co technician to connect your nbn™ service. Typically, new nbn™ connections are completed by the NBN Co within 5-20 business days. This varies depending on your nbn™ connection type as well as the availability of the NBN Co technicians in your area. We will let you know if you need an appointment after we have submited your order to the NBN Co. ",
-                        "question": "It is the first time my new home is connecting to the to the nbn™",
-                      },
-                    ],
-                  }
-                }
-              />,
-              <Dropdown
-                data={
-                  Object {
-                    "mainAnswer": "When you move home you can take your Australia Broadband VoIP number with you, if you are moving within the same state. If you relocate to another state you will need a new number.",
-                    "mainQuestion": "What happens to my Australia Broadband VoIP number when I move?",
-                  }
-                }
-              />,
-              <Dropdown
-                data={
-                  Object {
-                    "mainAnswer": "If the previous occupants have not disconnected their service, we’ll need to get some paperwork from you, before the existing service can be legally disconnected. Once the paperwork’s received and verified, you should be connected within 10 business days depending the type of nbn™ connection.",
-                    "mainQuestion": "There is already a service connected at my new address but it’s not in my name, what can I do?",
-                  }
-                }
-              />,
-            ],
-          ],
-          "className": "moving-places__content",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Here are some frequently asked questions to assist you:",
-              "className": "moving-places__content_header",
-            },
-            "ref": null,
-            "rendered": "Here are some frequently asked questions to assist you:",
-            "type": "h2",
-          },
-          Object {
-            "instance": null,
-            "key": "0",
-            "nodeType": "class",
-            "props": Object {
-              "data": Object {
-                "mainAnswer": "You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.",
-                "mainQuestion": "How do I move my Australia Broadband service with me?",
-                "questions": Array [
-                  Object {
-                    "answer": "That’s great! Simply follow the steps above",
-                    "question": "My new address is nbn™ ready. What do I do?",
-                  },
-                  Object {
-                    "answer": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.",
-                    "question": "What if my new address is not nbn™ ready?",
-                  },
-                ],
-              },
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": "1",
-            "nodeType": "class",
-            "props": Object {
-              "data": Object {
-                "mainAnswer": "We don’t charge you anything to move your Australia Broadband service to a new address.",
-                "mainQuestion": "What does it cost to move my Australia Broadband service to a new address?",
-                "questions": Array [
-                  Object {
-                    "answer": "We don’t charge anything to move your Australia Broadband service to your new address. If a standard NBN Co installation is needed at your new address, it will also be completed at no cost to you.",
-                    "question": "Does Australia Broadband charge any relocation fees to connect nbn™ at my new address?",
-                  },
-                  Object {
-                    "answer": "A small number of homes may be subject to an NBN Co Non-Standard Installation or a NBN Co New Development Charge of $300. If your new address is subject to any of these NBN Co charges, we’ll let you know before the installation and get your permission before you’re charged.",
-                    "question": "Does the NBN Co charge any connection or installation fees to connect my new address?",
-                  },
-                ],
-              },
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": "2",
-            "nodeType": "class",
-            "props": Object {
-              "data": Object {
-                "mainAnswer": "The connection time frame will depends whether or not your new address has been connected to the nbn™ previously.",
-                "mainQuestion": "If I sign up now, will my nbn™ service be activated by the time I move in?",
-                "questions": Array [
-                  Object {
-                    "answer": "If your new home has been previously connected to the nbn™, we’ll normally activate your Australia Broadband nbn™ service typically within 2-5 days. This may take longer if the former tenant or owner did not disconnect their nbn™ service before you moved in.",
-                    "question": "My new home has previously been connected to the nbn™",
-                  },
-                  Object {
-                    "answer": "If it is the first time your new home is connecting to the nbn network, we’ll arrange the first available appointment with NBN Co for an NBN Co technician to connect your nbn™ service. Typically, new nbn™ connections are completed by the NBN Co within 5-20 business days. This varies depending on your nbn™ connection type as well as the availability of the NBN Co technicians in your area. We will let you know if you need an appointment after we have submited your order to the NBN Co. ",
-                    "question": "It is the first time my new home is connecting to the to the nbn™",
-                  },
-                ],
-              },
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": "3",
-            "nodeType": "class",
-            "props": Object {
-              "data": Object {
-                "mainAnswer": "When you move home you can take your Australia Broadband VoIP number with you, if you are moving within the same state. If you relocate to another state you will need a new number.",
-                "mainQuestion": "What happens to my Australia Broadband VoIP number when I move?",
-              },
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": "4",
-            "nodeType": "class",
-            "props": Object {
-              "data": Object {
-                "mainAnswer": "If the previous occupants have not disconnected their service, we’ll need to get some paperwork from you, before the existing service can be legally disconnected. Once the paperwork’s received and verified, you should be connected within 10 business days depending the type of nbn™ connection.",
-                "mainQuestion": "There is already a service connected at my new address but it’s not in my name, what can I do?",
-              },
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-        ],
-        "type": "div",
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <BlurTitleBar
-            data={
-              Object {
-                "blurtitle": "MOVING PLACES",
-                "title": "Start moving with our hassle free nbn moving service",
-              }
-            }
-          />,
-          <div
-            className="moving-places__content"
-          >
-            <h2
-              className="moving-places__content_header"
-            >
-              Here are some frequently asked questions to assist you:
-            </h2>
-            <Dropdown
-              data={
-                Object {
-                  "mainAnswer": "You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.",
-                  "mainQuestion": "How do I move my Australia Broadband service with me?",
-                  "questions": Array [
-                    Object {
-                      "answer": "That’s great! Simply follow the steps above",
-                      "question": "My new address is nbn™ ready. What do I do?",
-                    },
-                    Object {
-                      "answer": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.",
-                      "question": "What if my new address is not nbn™ ready?",
-                    },
-                  ],
-                }
-              }
-            />
-            <Dropdown
-              data={
-                Object {
-                  "mainAnswer": "We don’t charge you anything to move your Australia Broadband service to a new address.",
-                  "mainQuestion": "What does it cost to move my Australia Broadband service to a new address?",
-                  "questions": Array [
-                    Object {
-                      "answer": "We don’t charge anything to move your Australia Broadband service to your new address. If a standard NBN Co installation is needed at your new address, it will also be completed at no cost to you.",
-                      "question": "Does Australia Broadband charge any relocation fees to connect nbn™ at my new address?",
-                    },
-                    Object {
-                      "answer": "A small number of homes may be subject to an NBN Co Non-Standard Installation or a NBN Co New Development Charge of $300. If your new address is subject to any of these NBN Co charges, we’ll let you know before the installation and get your permission before you’re charged.",
-                      "question": "Does the NBN Co charge any connection or installation fees to connect my new address?",
-                    },
-                  ],
-                }
-              }
-            />
-            <Dropdown
-              data={
-                Object {
-                  "mainAnswer": "The connection time frame will depends whether or not your new address has been connected to the nbn™ previously.",
-                  "mainQuestion": "If I sign up now, will my nbn™ service be activated by the time I move in?",
-                  "questions": Array [
-                    Object {
-                      "answer": "If your new home has been previously connected to the nbn™, we’ll normally activate your Australia Broadband nbn™ service typically within 2-5 days. This may take longer if the former tenant or owner did not disconnect their nbn™ service before you moved in.",
-                      "question": "My new home has previously been connected to the nbn™",
-                    },
-                    Object {
-                      "answer": "If it is the first time your new home is connecting to the nbn network, we’ll arrange the first available appointment with NBN Co for an NBN Co technician to connect your nbn™ service. Typically, new nbn™ connections are completed by the NBN Co within 5-20 business days. This varies depending on your nbn™ connection type as well as the availability of the NBN Co technicians in your area. We will let you know if you need an appointment after we have submited your order to the NBN Co. ",
-                      "question": "It is the first time my new home is connecting to the to the nbn™",
-                    },
-                  ],
-                }
-              }
-            />
-            <Dropdown
-              data={
-                Object {
-                  "mainAnswer": "When you move home you can take your Australia Broadband VoIP number with you, if you are moving within the same state. If you relocate to another state you will need a new number.",
-                  "mainQuestion": "What happens to my Australia Broadband VoIP number when I move?",
-                }
-              }
-            />
-            <Dropdown
-              data={
-                Object {
-                  "mainAnswer": "If the previous occupants have not disconnected their service, we’ll need to get some paperwork from you, before the existing service can be legally disconnected. Once the paperwork’s received and verified, you should be connected within 10 business days depending the type of nbn™ connection.",
-                  "mainQuestion": "There is already a service connected at my new address but it’s not in my name, what can I do?",
-                }
-              }
-            />
-          </div>,
-        ],
-        "className": "moving-places",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "data": Object {
-              "blurtitle": "MOVING PLACES",
-              "title": "Start moving with our hassle free nbn moving service",
-            },
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <h2
-                className="moving-places__content_header"
-              >
-                Here are some frequently asked questions to assist you:
-              </h2>,
-              Array [
-                <Dropdown
-                  data={
-                    Object {
-                      "mainAnswer": "You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.",
-                      "mainQuestion": "How do I move my Australia Broadband service with me?",
-                      "questions": Array [
-                        Object {
-                          "answer": "That’s great! Simply follow the steps above",
-                          "question": "My new address is nbn™ ready. What do I do?",
-                        },
-                        Object {
-                          "answer": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.",
-                          "question": "What if my new address is not nbn™ ready?",
-                        },
-                      ],
-                    }
-                  }
-                />,
-                <Dropdown
-                  data={
-                    Object {
-                      "mainAnswer": "We don’t charge you anything to move your Australia Broadband service to a new address.",
-                      "mainQuestion": "What does it cost to move my Australia Broadband service to a new address?",
-                      "questions": Array [
-                        Object {
-                          "answer": "We don’t charge anything to move your Australia Broadband service to your new address. If a standard NBN Co installation is needed at your new address, it will also be completed at no cost to you.",
-                          "question": "Does Australia Broadband charge any relocation fees to connect nbn™ at my new address?",
-                        },
-                        Object {
-                          "answer": "A small number of homes may be subject to an NBN Co Non-Standard Installation or a NBN Co New Development Charge of $300. If your new address is subject to any of these NBN Co charges, we’ll let you know before the installation and get your permission before you’re charged.",
-                          "question": "Does the NBN Co charge any connection or installation fees to connect my new address?",
-                        },
-                      ],
-                    }
-                  }
-                />,
-                <Dropdown
-                  data={
-                    Object {
-                      "mainAnswer": "The connection time frame will depends whether or not your new address has been connected to the nbn™ previously.",
-                      "mainQuestion": "If I sign up now, will my nbn™ service be activated by the time I move in?",
-                      "questions": Array [
-                        Object {
-                          "answer": "If your new home has been previously connected to the nbn™, we’ll normally activate your Australia Broadband nbn™ service typically within 2-5 days. This may take longer if the former tenant or owner did not disconnect their nbn™ service before you moved in.",
-                          "question": "My new home has previously been connected to the nbn™",
-                        },
-                        Object {
-                          "answer": "If it is the first time your new home is connecting to the nbn network, we’ll arrange the first available appointment with NBN Co for an NBN Co technician to connect your nbn™ service. Typically, new nbn™ connections are completed by the NBN Co within 5-20 business days. This varies depending on your nbn™ connection type as well as the availability of the NBN Co technicians in your area. We will let you know if you need an appointment after we have submited your order to the NBN Co. ",
-                          "question": "It is the first time my new home is connecting to the to the nbn™",
-                        },
-                      ],
-                    }
-                  }
-                />,
-                <Dropdown
-                  data={
-                    Object {
-                      "mainAnswer": "When you move home you can take your Australia Broadband VoIP number with you, if you are moving within the same state. If you relocate to another state you will need a new number.",
-                      "mainQuestion": "What happens to my Australia Broadband VoIP number when I move?",
-                    }
-                  }
-                />,
-                <Dropdown
-                  data={
-                    Object {
-                      "mainAnswer": "If the previous occupants have not disconnected their service, we’ll need to get some paperwork from you, before the existing service can be legally disconnected. Once the paperwork’s received and verified, you should be connected within 10 business days depending the type of nbn™ connection.",
-                      "mainQuestion": "There is already a service connected at my new address but it’s not in my name, what can I do?",
-                    }
-                  }
-                />,
-              ],
-            ],
-            "className": "moving-places__content",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Here are some frequently asked questions to assist you:",
-                "className": "moving-places__content_header",
-              },
-              "ref": null,
-              "rendered": "Here are some frequently asked questions to assist you:",
-              "type": "h2",
-            },
-            Object {
-              "instance": null,
-              "key": "0",
-              "nodeType": "class",
-              "props": Object {
-                "data": Object {
-                  "mainAnswer": "You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.",
-                  "mainQuestion": "How do I move my Australia Broadband service with me?",
-                  "questions": Array [
-                    Object {
-                      "answer": "That’s great! Simply follow the steps above",
-                      "question": "My new address is nbn™ ready. What do I do?",
-                    },
-                    Object {
-                      "answer": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.",
-                      "question": "What if my new address is not nbn™ ready?",
-                    },
-                  ],
-                },
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": "1",
-              "nodeType": "class",
-              "props": Object {
-                "data": Object {
-                  "mainAnswer": "We don’t charge you anything to move your Australia Broadband service to a new address.",
-                  "mainQuestion": "What does it cost to move my Australia Broadband service to a new address?",
-                  "questions": Array [
-                    Object {
-                      "answer": "We don’t charge anything to move your Australia Broadband service to your new address. If a standard NBN Co installation is needed at your new address, it will also be completed at no cost to you.",
-                      "question": "Does Australia Broadband charge any relocation fees to connect nbn™ at my new address?",
-                    },
-                    Object {
-                      "answer": "A small number of homes may be subject to an NBN Co Non-Standard Installation or a NBN Co New Development Charge of $300. If your new address is subject to any of these NBN Co charges, we’ll let you know before the installation and get your permission before you’re charged.",
-                      "question": "Does the NBN Co charge any connection or installation fees to connect my new address?",
-                    },
-                  ],
-                },
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": "2",
-              "nodeType": "class",
-              "props": Object {
-                "data": Object {
-                  "mainAnswer": "The connection time frame will depends whether or not your new address has been connected to the nbn™ previously.",
-                  "mainQuestion": "If I sign up now, will my nbn™ service be activated by the time I move in?",
-                  "questions": Array [
-                    Object {
-                      "answer": "If your new home has been previously connected to the nbn™, we’ll normally activate your Australia Broadband nbn™ service typically within 2-5 days. This may take longer if the former tenant or owner did not disconnect their nbn™ service before you moved in.",
-                      "question": "My new home has previously been connected to the nbn™",
-                    },
-                    Object {
-                      "answer": "If it is the first time your new home is connecting to the nbn network, we’ll arrange the first available appointment with NBN Co for an NBN Co technician to connect your nbn™ service. Typically, new nbn™ connections are completed by the NBN Co within 5-20 business days. This varies depending on your nbn™ connection type as well as the availability of the NBN Co technicians in your area. We will let you know if you need an appointment after we have submited your order to the NBN Co. ",
-                      "question": "It is the first time my new home is connecting to the to the nbn™",
-                    },
-                  ],
-                },
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": "3",
-              "nodeType": "class",
-              "props": Object {
-                "data": Object {
-                  "mainAnswer": "When you move home you can take your Australia Broadband VoIP number with you, if you are moving within the same state. If you relocate to another state you will need a new number.",
-                  "mainQuestion": "What happens to my Australia Broadband VoIP number when I move?",
-                },
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": "4",
-              "nodeType": "class",
-              "props": Object {
-                "data": Object {
-                  "mainAnswer": "If the previous occupants have not disconnected their service, we’ll need to get some paperwork from you, before the existing service can be legally disconnected. Once the paperwork’s received and verified, you should be connected within 10 business days depending the type of nbn™ connection.",
-                  "mainQuestion": "There is already a service connected at my new address but it’s not in my name, what can I do?",
-                },
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-          ],
-          "type": "div",
-        },
-      ],
-      "type": "div",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getDerivedStateFromProps": true,
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
-`;
-
 exports[`MovingPlaces tests should render moving places section 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <MovingPlaces />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
     "getNode": [Function],
     "render": [Function],
     "simulateError": [Function],
@@ -707,70 +38,104 @@ ShallowWrapper {
           <Dropdown
             data={
               Object {
-                "mainAnswer": "You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.",
-                "mainQuestion": "How do I move my Australia Broadband service with me?",
-                "questions": Array [
-                  Object {
-                    "answer": "That’s great! Simply follow the steps above",
-                    "question": "My new address is nbn™ ready. What do I do?",
-                  },
-                  Object {
-                    "answer": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.",
-                    "question": "What if my new address is not nbn™ ready?",
-                  },
-                ],
+                "item": Object {
+                  "mainAnswer": "You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.",
+                  "mainQuestion": "How do I move my Australia Broadband service with me?",
+                  "questions": Array [
+                    Object {
+                      "answer": "That’s great! Simply follow the steps above",
+                      "question": "My new address is nbn™ ready. What do I do?",
+                    },
+                    Object {
+                      "answer": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. <p class=\\"separated-paragraph\\">If you are an existing customer, all you need to do is email us at <a href=\\"customercare@australiabroadband.net.au\\">customercare@australiabroadband.net.au</a> and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address.</p> <p class=\\"separated-paragraph\\"> With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.</p>",
+                      "question": "What if my new address is not nbn™ ready?",
+                    },
+                  ],
+                },
               }
             }
           />
           <Dropdown
             data={
               Object {
-                "mainAnswer": "We don’t charge you anything to move your Australia Broadband service to a new address.",
-                "mainQuestion": "What does it cost to move my Australia Broadband service to a new address?",
-                "questions": Array [
-                  Object {
-                    "answer": "We don’t charge anything to move your Australia Broadband service to your new address. If a standard NBN Co installation is needed at your new address, it will also be completed at no cost to you.",
-                    "question": "Does Australia Broadband charge any relocation fees to connect nbn™ at my new address?",
-                  },
-                  Object {
-                    "answer": "A small number of homes may be subject to an NBN Co Non-Standard Installation or a NBN Co New Development Charge of $300. If your new address is subject to any of these NBN Co charges, we’ll let you know before the installation and get your permission before you’re charged.",
-                    "question": "Does the NBN Co charge any connection or installation fees to connect my new address?",
-                  },
-                ],
+                "item": Object {
+                  "mainAnswer": "We don’t charge you anything to move your Australia Broadband service to a new address.",
+                  "mainQuestion": "What does it cost to move my Australia Broadband service to a new address?",
+                  "questions": Array [
+                    Object {
+                      "answer": "We don’t charge anything to move your Australia Broadband service to your new address. If a standard NBN Co installation is needed at your new address, it will also be completed at no cost to you.",
+                      "question": "Does Australia Broadband charge any relocation fees to connect nbn™ at my new address?",
+                    },
+                    Object {
+                      "answer": "A small number of homes may be subject to an NBN Co <a href=\\"https://www.australiabroadband.net.au/help/kb/what-is-an-nbn-co-non-standard-installation/\\">Non-Standard Installation</a> or a NBN Co <a href=\\"https://www.australiabroadband.net.au/help/kb/what-is-the-nbn-co-new-development-charge/\\">New Development Charge</a> of $300. If your new address is subject to any of these NBN Co charges, we’ll let you know before the installation and get your permission before you’re charged.",
+                      "question": "Does the NBN Co charge any connection or installation fees to connect my new address?",
+                    },
+                  ],
+                },
               }
             }
           />
           <Dropdown
             data={
               Object {
-                "mainAnswer": "The connection time frame will depends whether or not your new address has been connected to the nbn™ previously.",
-                "mainQuestion": "If I sign up now, will my nbn™ service be activated by the time I move in?",
-                "questions": Array [
-                  Object {
-                    "answer": "If your new home has been previously connected to the nbn™, we’ll normally activate your Australia Broadband nbn™ service typically within 2-5 days. This may take longer if the former tenant or owner did not disconnect their nbn™ service before you moved in.",
-                    "question": "My new home has previously been connected to the nbn™",
-                  },
-                  Object {
-                    "answer": "If it is the first time your new home is connecting to the nbn network, we’ll arrange the first available appointment with NBN Co for an NBN Co technician to connect your nbn™ service. Typically, new nbn™ connections are completed by the NBN Co within 5-20 business days. This varies depending on your nbn™ connection type as well as the availability of the NBN Co technicians in your area. We will let you know if you need an appointment after we have submited your order to the NBN Co. ",
-                    "question": "It is the first time my new home is connecting to the to the nbn™",
-                  },
-                ],
+                "item": Object {
+                  "mainAnswer": "The connection time frame will depends whether or not your new address has been connected to the nbn™ previously.",
+                  "mainQuestion": "If I sign up now, will my nbn™ service be activated by the time I move in?",
+                  "questions": Array [
+                    Object {
+                      "answer": "If your new home has been previously connected to the nbn™, we’ll normally activate your Australia Broadband nbn™ service typically within 2-5 days. This may take longer if the former tenant or owner did not disconnect their nbn™ service before you moved in.",
+                      "question": "My new home has previously been connected to the nbn™",
+                    },
+                    Object {
+                      "answer": "If it is the first time your new home is connecting to the nbn network, we’ll arrange the first available appointment with NBN Co for an NBN Co technician to connect your nbn™ service. Typically, new nbn™ connections are completed by the NBN Co within 5-20 business days. This varies depending on your nbn™ connection type as well as the availability of the NBN Co technicians in your area. <br> <p class=\\"separated-paragraph\\">We will let you know if you need an appointment after we have submited your order to the NBN Co.</p> ",
+                      "question": "It is the first time my new home is connecting to the to the nbn™",
+                    },
+                    Object {
+                      "answer": "",
+                      "question": "Everything else",
+                    },
+                    Object {
+                      "answer": "<strong>Tell us early:</strong> If you’re able to give us a few weeks’ notice, we should be able to connect you on, or very close to, your move in date.",
+                    },
+                    Object {
+                      "answer": "<strong>Your Australia Broadband modem:</strong> You should be able to use your existing modem at your new address but how you connect it might change.",
+                    },
+                    Object {
+                      "answer": "<strong>NBN Co Technicians:</strong> Sometimes when an NBN Co technician attempts to connect your service they might discover that the job will require more work than expected and they may not be able to complete all the work on the day. Sometimes NBN Co technicians can’t make it to your premises on the agreed day due to weather conditions or other unforeseen events. If this happens, we’ll keep you updated as we work with the NBN Co to complete your connection.",
+                    },
+                    Object {
+                      "answer": "<strong>NBN Co Timeframes:</strong> Please note that these are usual connection timeframes only. We may be able to get you online sooner or your order may take a little longer than anticipated. While Australia Broadband will always do its best to get you connected as soon as possible, it is the NBN Co (or its third party contractor) that performs all nbn™ connections and installations across Australia, therefore connection timeframes are determined solely by the NBN Co Ltd.",
+                    },
+                  ],
+                },
               }
             }
           />
           <Dropdown
             data={
               Object {
-                "mainAnswer": "When you move home you can take your Australia Broadband VoIP number with you, if you are moving within the same state. If you relocate to another state you will need a new number.",
-                "mainQuestion": "What happens to my Australia Broadband VoIP number when I move?",
+                "item": Object {
+                  "mainQuestion": "What happens to my Australia Broadband VoIP number when I move?",
+                  "questions": Array [
+                    Object {
+                      "answer": "When you move home you can take your <a href=\\"https://www.australiabroadband.net.au/nbn-plans/#call-rate-info\\">Australia Broadband VoIP</a> number with you, if you are moving within the same state. If you relocate to another state you will need a new number.",
+                    },
+                  ],
+                },
               }
             }
           />
           <Dropdown
             data={
               Object {
-                "mainAnswer": "If the previous occupants have not disconnected their service, we’ll need to get some paperwork from you, before the existing service can be legally disconnected. Once the paperwork’s received and verified, you should be connected within 10 business days depending the type of nbn™ connection.",
-                "mainQuestion": "There is already a service connected at my new address but it’s not in my name, what can I do?",
+                "item": Object {
+                  "mainQuestion": "There is already a service connected at my new address but it’s not in my name, what can I do?",
+                  "questions": Array [
+                    Object {
+                      "answer": "If the previous occupants have not disconnected their service, we’ll need to get <a href=\\"https://www.australiabroadband.net.au/help/kb/i-need-to-provide-proof-of-occupancy-what-do-i-do/\\">some paperwork</a> from you, before the existing service can be legally disconnected. Once the paperwork’s received and verified, you should be connected within 10 business days depending the type of nbn™ connection.",
+                    },
+                  ],
+                },
               }
             }
           />
@@ -809,70 +174,104 @@ ShallowWrapper {
               <Dropdown
                 data={
                   Object {
-                    "mainAnswer": "You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.",
-                    "mainQuestion": "How do I move my Australia Broadband service with me?",
-                    "questions": Array [
-                      Object {
-                        "answer": "That’s great! Simply follow the steps above",
-                        "question": "My new address is nbn™ ready. What do I do?",
-                      },
-                      Object {
-                        "answer": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.",
-                        "question": "What if my new address is not nbn™ ready?",
-                      },
-                    ],
+                    "item": Object {
+                      "mainAnswer": "You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.",
+                      "mainQuestion": "How do I move my Australia Broadband service with me?",
+                      "questions": Array [
+                        Object {
+                          "answer": "That’s great! Simply follow the steps above",
+                          "question": "My new address is nbn™ ready. What do I do?",
+                        },
+                        Object {
+                          "answer": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. <p class=\\"separated-paragraph\\">If you are an existing customer, all you need to do is email us at <a href=\\"customercare@australiabroadband.net.au\\">customercare@australiabroadband.net.au</a> and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address.</p> <p class=\\"separated-paragraph\\"> With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.</p>",
+                          "question": "What if my new address is not nbn™ ready?",
+                        },
+                      ],
+                    },
                   }
                 }
               />,
               <Dropdown
                 data={
                   Object {
-                    "mainAnswer": "We don’t charge you anything to move your Australia Broadband service to a new address.",
-                    "mainQuestion": "What does it cost to move my Australia Broadband service to a new address?",
-                    "questions": Array [
-                      Object {
-                        "answer": "We don’t charge anything to move your Australia Broadband service to your new address. If a standard NBN Co installation is needed at your new address, it will also be completed at no cost to you.",
-                        "question": "Does Australia Broadband charge any relocation fees to connect nbn™ at my new address?",
-                      },
-                      Object {
-                        "answer": "A small number of homes may be subject to an NBN Co Non-Standard Installation or a NBN Co New Development Charge of $300. If your new address is subject to any of these NBN Co charges, we’ll let you know before the installation and get your permission before you’re charged.",
-                        "question": "Does the NBN Co charge any connection or installation fees to connect my new address?",
-                      },
-                    ],
+                    "item": Object {
+                      "mainAnswer": "We don’t charge you anything to move your Australia Broadband service to a new address.",
+                      "mainQuestion": "What does it cost to move my Australia Broadband service to a new address?",
+                      "questions": Array [
+                        Object {
+                          "answer": "We don’t charge anything to move your Australia Broadband service to your new address. If a standard NBN Co installation is needed at your new address, it will also be completed at no cost to you.",
+                          "question": "Does Australia Broadband charge any relocation fees to connect nbn™ at my new address?",
+                        },
+                        Object {
+                          "answer": "A small number of homes may be subject to an NBN Co <a href=\\"https://www.australiabroadband.net.au/help/kb/what-is-an-nbn-co-non-standard-installation/\\">Non-Standard Installation</a> or a NBN Co <a href=\\"https://www.australiabroadband.net.au/help/kb/what-is-the-nbn-co-new-development-charge/\\">New Development Charge</a> of $300. If your new address is subject to any of these NBN Co charges, we’ll let you know before the installation and get your permission before you’re charged.",
+                          "question": "Does the NBN Co charge any connection or installation fees to connect my new address?",
+                        },
+                      ],
+                    },
                   }
                 }
               />,
               <Dropdown
                 data={
                   Object {
-                    "mainAnswer": "The connection time frame will depends whether or not your new address has been connected to the nbn™ previously.",
-                    "mainQuestion": "If I sign up now, will my nbn™ service be activated by the time I move in?",
-                    "questions": Array [
-                      Object {
-                        "answer": "If your new home has been previously connected to the nbn™, we’ll normally activate your Australia Broadband nbn™ service typically within 2-5 days. This may take longer if the former tenant or owner did not disconnect their nbn™ service before you moved in.",
-                        "question": "My new home has previously been connected to the nbn™",
-                      },
-                      Object {
-                        "answer": "If it is the first time your new home is connecting to the nbn network, we’ll arrange the first available appointment with NBN Co for an NBN Co technician to connect your nbn™ service. Typically, new nbn™ connections are completed by the NBN Co within 5-20 business days. This varies depending on your nbn™ connection type as well as the availability of the NBN Co technicians in your area. We will let you know if you need an appointment after we have submited your order to the NBN Co. ",
-                        "question": "It is the first time my new home is connecting to the to the nbn™",
-                      },
-                    ],
+                    "item": Object {
+                      "mainAnswer": "The connection time frame will depends whether or not your new address has been connected to the nbn™ previously.",
+                      "mainQuestion": "If I sign up now, will my nbn™ service be activated by the time I move in?",
+                      "questions": Array [
+                        Object {
+                          "answer": "If your new home has been previously connected to the nbn™, we’ll normally activate your Australia Broadband nbn™ service typically within 2-5 days. This may take longer if the former tenant or owner did not disconnect their nbn™ service before you moved in.",
+                          "question": "My new home has previously been connected to the nbn™",
+                        },
+                        Object {
+                          "answer": "If it is the first time your new home is connecting to the nbn network, we’ll arrange the first available appointment with NBN Co for an NBN Co technician to connect your nbn™ service. Typically, new nbn™ connections are completed by the NBN Co within 5-20 business days. This varies depending on your nbn™ connection type as well as the availability of the NBN Co technicians in your area. <br> <p class=\\"separated-paragraph\\">We will let you know if you need an appointment after we have submited your order to the NBN Co.</p> ",
+                          "question": "It is the first time my new home is connecting to the to the nbn™",
+                        },
+                        Object {
+                          "answer": "",
+                          "question": "Everything else",
+                        },
+                        Object {
+                          "answer": "<strong>Tell us early:</strong> If you’re able to give us a few weeks’ notice, we should be able to connect you on, or very close to, your move in date.",
+                        },
+                        Object {
+                          "answer": "<strong>Your Australia Broadband modem:</strong> You should be able to use your existing modem at your new address but how you connect it might change.",
+                        },
+                        Object {
+                          "answer": "<strong>NBN Co Technicians:</strong> Sometimes when an NBN Co technician attempts to connect your service they might discover that the job will require more work than expected and they may not be able to complete all the work on the day. Sometimes NBN Co technicians can’t make it to your premises on the agreed day due to weather conditions or other unforeseen events. If this happens, we’ll keep you updated as we work with the NBN Co to complete your connection.",
+                        },
+                        Object {
+                          "answer": "<strong>NBN Co Timeframes:</strong> Please note that these are usual connection timeframes only. We may be able to get you online sooner or your order may take a little longer than anticipated. While Australia Broadband will always do its best to get you connected as soon as possible, it is the NBN Co (or its third party contractor) that performs all nbn™ connections and installations across Australia, therefore connection timeframes are determined solely by the NBN Co Ltd.",
+                        },
+                      ],
+                    },
                   }
                 }
               />,
               <Dropdown
                 data={
                   Object {
-                    "mainAnswer": "When you move home you can take your Australia Broadband VoIP number with you, if you are moving within the same state. If you relocate to another state you will need a new number.",
-                    "mainQuestion": "What happens to my Australia Broadband VoIP number when I move?",
+                    "item": Object {
+                      "mainQuestion": "What happens to my Australia Broadband VoIP number when I move?",
+                      "questions": Array [
+                        Object {
+                          "answer": "When you move home you can take your <a href=\\"https://www.australiabroadband.net.au/nbn-plans/#call-rate-info\\">Australia Broadband VoIP</a> number with you, if you are moving within the same state. If you relocate to another state you will need a new number.",
+                        },
+                      ],
+                    },
                   }
                 }
               />,
               <Dropdown
                 data={
                   Object {
-                    "mainAnswer": "If the previous occupants have not disconnected their service, we’ll need to get some paperwork from you, before the existing service can be legally disconnected. Once the paperwork’s received and verified, you should be connected within 10 business days depending the type of nbn™ connection.",
-                    "mainQuestion": "There is already a service connected at my new address but it’s not in my name, what can I do?",
+                    "item": Object {
+                      "mainQuestion": "There is already a service connected at my new address but it’s not in my name, what can I do?",
+                      "questions": Array [
+                        Object {
+                          "answer": "If the previous occupants have not disconnected their service, we’ll need to get <a href=\\"https://www.australiabroadband.net.au/help/kb/i-need-to-provide-proof-of-occupancy-what-do-i-do/\\">some paperwork</a> from you, before the existing service can be legally disconnected. Once the paperwork’s received and verified, you should be connected within 10 business days depending the type of nbn™ connection.",
+                        },
+                      ],
+                    },
                   }
                 }
               />,
@@ -900,18 +299,20 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "data": Object {
-                "mainAnswer": "You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.",
-                "mainQuestion": "How do I move my Australia Broadband service with me?",
-                "questions": Array [
-                  Object {
-                    "answer": "That’s great! Simply follow the steps above",
-                    "question": "My new address is nbn™ ready. What do I do?",
-                  },
-                  Object {
-                    "answer": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.",
-                    "question": "What if my new address is not nbn™ ready?",
-                  },
-                ],
+                "item": Object {
+                  "mainAnswer": "You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.",
+                  "mainQuestion": "How do I move my Australia Broadband service with me?",
+                  "questions": Array [
+                    Object {
+                      "answer": "That’s great! Simply follow the steps above",
+                      "question": "My new address is nbn™ ready. What do I do?",
+                    },
+                    Object {
+                      "answer": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. <p class=\\"separated-paragraph\\">If you are an existing customer, all you need to do is email us at <a href=\\"customercare@australiabroadband.net.au\\">customercare@australiabroadband.net.au</a> and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address.</p> <p class=\\"separated-paragraph\\"> With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.</p>",
+                      "question": "What if my new address is not nbn™ ready?",
+                    },
+                  ],
+                },
               },
             },
             "ref": null,
@@ -924,18 +325,20 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "data": Object {
-                "mainAnswer": "We don’t charge you anything to move your Australia Broadband service to a new address.",
-                "mainQuestion": "What does it cost to move my Australia Broadband service to a new address?",
-                "questions": Array [
-                  Object {
-                    "answer": "We don’t charge anything to move your Australia Broadband service to your new address. If a standard NBN Co installation is needed at your new address, it will also be completed at no cost to you.",
-                    "question": "Does Australia Broadband charge any relocation fees to connect nbn™ at my new address?",
-                  },
-                  Object {
-                    "answer": "A small number of homes may be subject to an NBN Co Non-Standard Installation or a NBN Co New Development Charge of $300. If your new address is subject to any of these NBN Co charges, we’ll let you know before the installation and get your permission before you’re charged.",
-                    "question": "Does the NBN Co charge any connection or installation fees to connect my new address?",
-                  },
-                ],
+                "item": Object {
+                  "mainAnswer": "We don’t charge you anything to move your Australia Broadband service to a new address.",
+                  "mainQuestion": "What does it cost to move my Australia Broadband service to a new address?",
+                  "questions": Array [
+                    Object {
+                      "answer": "We don’t charge anything to move your Australia Broadband service to your new address. If a standard NBN Co installation is needed at your new address, it will also be completed at no cost to you.",
+                      "question": "Does Australia Broadband charge any relocation fees to connect nbn™ at my new address?",
+                    },
+                    Object {
+                      "answer": "A small number of homes may be subject to an NBN Co <a href=\\"https://www.australiabroadband.net.au/help/kb/what-is-an-nbn-co-non-standard-installation/\\">Non-Standard Installation</a> or a NBN Co <a href=\\"https://www.australiabroadband.net.au/help/kb/what-is-the-nbn-co-new-development-charge/\\">New Development Charge</a> of $300. If your new address is subject to any of these NBN Co charges, we’ll let you know before the installation and get your permission before you’re charged.",
+                      "question": "Does the NBN Co charge any connection or installation fees to connect my new address?",
+                    },
+                  ],
+                },
               },
             },
             "ref": null,
@@ -948,18 +351,36 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "data": Object {
-                "mainAnswer": "The connection time frame will depends whether or not your new address has been connected to the nbn™ previously.",
-                "mainQuestion": "If I sign up now, will my nbn™ service be activated by the time I move in?",
-                "questions": Array [
-                  Object {
-                    "answer": "If your new home has been previously connected to the nbn™, we’ll normally activate your Australia Broadband nbn™ service typically within 2-5 days. This may take longer if the former tenant or owner did not disconnect their nbn™ service before you moved in.",
-                    "question": "My new home has previously been connected to the nbn™",
-                  },
-                  Object {
-                    "answer": "If it is the first time your new home is connecting to the nbn network, we’ll arrange the first available appointment with NBN Co for an NBN Co technician to connect your nbn™ service. Typically, new nbn™ connections are completed by the NBN Co within 5-20 business days. This varies depending on your nbn™ connection type as well as the availability of the NBN Co technicians in your area. We will let you know if you need an appointment after we have submited your order to the NBN Co. ",
-                    "question": "It is the first time my new home is connecting to the to the nbn™",
-                  },
-                ],
+                "item": Object {
+                  "mainAnswer": "The connection time frame will depends whether or not your new address has been connected to the nbn™ previously.",
+                  "mainQuestion": "If I sign up now, will my nbn™ service be activated by the time I move in?",
+                  "questions": Array [
+                    Object {
+                      "answer": "If your new home has been previously connected to the nbn™, we’ll normally activate your Australia Broadband nbn™ service typically within 2-5 days. This may take longer if the former tenant or owner did not disconnect their nbn™ service before you moved in.",
+                      "question": "My new home has previously been connected to the nbn™",
+                    },
+                    Object {
+                      "answer": "If it is the first time your new home is connecting to the nbn network, we’ll arrange the first available appointment with NBN Co for an NBN Co technician to connect your nbn™ service. Typically, new nbn™ connections are completed by the NBN Co within 5-20 business days. This varies depending on your nbn™ connection type as well as the availability of the NBN Co technicians in your area. <br> <p class=\\"separated-paragraph\\">We will let you know if you need an appointment after we have submited your order to the NBN Co.</p> ",
+                      "question": "It is the first time my new home is connecting to the to the nbn™",
+                    },
+                    Object {
+                      "answer": "",
+                      "question": "Everything else",
+                    },
+                    Object {
+                      "answer": "<strong>Tell us early:</strong> If you’re able to give us a few weeks’ notice, we should be able to connect you on, or very close to, your move in date.",
+                    },
+                    Object {
+                      "answer": "<strong>Your Australia Broadband modem:</strong> You should be able to use your existing modem at your new address but how you connect it might change.",
+                    },
+                    Object {
+                      "answer": "<strong>NBN Co Technicians:</strong> Sometimes when an NBN Co technician attempts to connect your service they might discover that the job will require more work than expected and they may not be able to complete all the work on the day. Sometimes NBN Co technicians can’t make it to your premises on the agreed day due to weather conditions or other unforeseen events. If this happens, we’ll keep you updated as we work with the NBN Co to complete your connection.",
+                    },
+                    Object {
+                      "answer": "<strong>NBN Co Timeframes:</strong> Please note that these are usual connection timeframes only. We may be able to get you online sooner or your order may take a little longer than anticipated. While Australia Broadband will always do its best to get you connected as soon as possible, it is the NBN Co (or its third party contractor) that performs all nbn™ connections and installations across Australia, therefore connection timeframes are determined solely by the NBN Co Ltd.",
+                    },
+                  ],
+                },
               },
             },
             "ref": null,
@@ -972,8 +393,14 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "data": Object {
-                "mainAnswer": "When you move home you can take your Australia Broadband VoIP number with you, if you are moving within the same state. If you relocate to another state you will need a new number.",
-                "mainQuestion": "What happens to my Australia Broadband VoIP number when I move?",
+                "item": Object {
+                  "mainQuestion": "What happens to my Australia Broadband VoIP number when I move?",
+                  "questions": Array [
+                    Object {
+                      "answer": "When you move home you can take your <a href=\\"https://www.australiabroadband.net.au/nbn-plans/#call-rate-info\\">Australia Broadband VoIP</a> number with you, if you are moving within the same state. If you relocate to another state you will need a new number.",
+                    },
+                  ],
+                },
               },
             },
             "ref": null,
@@ -986,8 +413,14 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "data": Object {
-                "mainAnswer": "If the previous occupants have not disconnected their service, we’ll need to get some paperwork from you, before the existing service can be legally disconnected. Once the paperwork’s received and verified, you should be connected within 10 business days depending the type of nbn™ connection.",
-                "mainQuestion": "There is already a service connected at my new address but it’s not in my name, what can I do?",
+                "item": Object {
+                  "mainQuestion": "There is already a service connected at my new address but it’s not in my name, what can I do?",
+                  "questions": Array [
+                    Object {
+                      "answer": "If the previous occupants have not disconnected their service, we’ll need to get <a href=\\"https://www.australiabroadband.net.au/help/kb/i-need-to-provide-proof-of-occupancy-what-do-i-do/\\">some paperwork</a> from you, before the existing service can be legally disconnected. Once the paperwork’s received and verified, you should be connected within 10 business days depending the type of nbn™ connection.",
+                    },
+                  ],
+                },
               },
             },
             "ref": null,
@@ -1026,70 +459,104 @@ ShallowWrapper {
             <Dropdown
               data={
                 Object {
-                  "mainAnswer": "You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.",
-                  "mainQuestion": "How do I move my Australia Broadband service with me?",
-                  "questions": Array [
-                    Object {
-                      "answer": "That’s great! Simply follow the steps above",
-                      "question": "My new address is nbn™ ready. What do I do?",
-                    },
-                    Object {
-                      "answer": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.",
-                      "question": "What if my new address is not nbn™ ready?",
-                    },
-                  ],
+                  "item": Object {
+                    "mainAnswer": "You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.",
+                    "mainQuestion": "How do I move my Australia Broadband service with me?",
+                    "questions": Array [
+                      Object {
+                        "answer": "That’s great! Simply follow the steps above",
+                        "question": "My new address is nbn™ ready. What do I do?",
+                      },
+                      Object {
+                        "answer": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. <p class=\\"separated-paragraph\\">If you are an existing customer, all you need to do is email us at <a href=\\"customercare@australiabroadband.net.au\\">customercare@australiabroadband.net.au</a> and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address.</p> <p class=\\"separated-paragraph\\"> With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.</p>",
+                        "question": "What if my new address is not nbn™ ready?",
+                      },
+                    ],
+                  },
                 }
               }
             />
             <Dropdown
               data={
                 Object {
-                  "mainAnswer": "We don’t charge you anything to move your Australia Broadband service to a new address.",
-                  "mainQuestion": "What does it cost to move my Australia Broadband service to a new address?",
-                  "questions": Array [
-                    Object {
-                      "answer": "We don’t charge anything to move your Australia Broadband service to your new address. If a standard NBN Co installation is needed at your new address, it will also be completed at no cost to you.",
-                      "question": "Does Australia Broadband charge any relocation fees to connect nbn™ at my new address?",
-                    },
-                    Object {
-                      "answer": "A small number of homes may be subject to an NBN Co Non-Standard Installation or a NBN Co New Development Charge of $300. If your new address is subject to any of these NBN Co charges, we’ll let you know before the installation and get your permission before you’re charged.",
-                      "question": "Does the NBN Co charge any connection or installation fees to connect my new address?",
-                    },
-                  ],
+                  "item": Object {
+                    "mainAnswer": "We don’t charge you anything to move your Australia Broadband service to a new address.",
+                    "mainQuestion": "What does it cost to move my Australia Broadband service to a new address?",
+                    "questions": Array [
+                      Object {
+                        "answer": "We don’t charge anything to move your Australia Broadband service to your new address. If a standard NBN Co installation is needed at your new address, it will also be completed at no cost to you.",
+                        "question": "Does Australia Broadband charge any relocation fees to connect nbn™ at my new address?",
+                      },
+                      Object {
+                        "answer": "A small number of homes may be subject to an NBN Co <a href=\\"https://www.australiabroadband.net.au/help/kb/what-is-an-nbn-co-non-standard-installation/\\">Non-Standard Installation</a> or a NBN Co <a href=\\"https://www.australiabroadband.net.au/help/kb/what-is-the-nbn-co-new-development-charge/\\">New Development Charge</a> of $300. If your new address is subject to any of these NBN Co charges, we’ll let you know before the installation and get your permission before you’re charged.",
+                        "question": "Does the NBN Co charge any connection or installation fees to connect my new address?",
+                      },
+                    ],
+                  },
                 }
               }
             />
             <Dropdown
               data={
                 Object {
-                  "mainAnswer": "The connection time frame will depends whether or not your new address has been connected to the nbn™ previously.",
-                  "mainQuestion": "If I sign up now, will my nbn™ service be activated by the time I move in?",
-                  "questions": Array [
-                    Object {
-                      "answer": "If your new home has been previously connected to the nbn™, we’ll normally activate your Australia Broadband nbn™ service typically within 2-5 days. This may take longer if the former tenant or owner did not disconnect their nbn™ service before you moved in.",
-                      "question": "My new home has previously been connected to the nbn™",
-                    },
-                    Object {
-                      "answer": "If it is the first time your new home is connecting to the nbn network, we’ll arrange the first available appointment with NBN Co for an NBN Co technician to connect your nbn™ service. Typically, new nbn™ connections are completed by the NBN Co within 5-20 business days. This varies depending on your nbn™ connection type as well as the availability of the NBN Co technicians in your area. We will let you know if you need an appointment after we have submited your order to the NBN Co. ",
-                      "question": "It is the first time my new home is connecting to the to the nbn™",
-                    },
-                  ],
+                  "item": Object {
+                    "mainAnswer": "The connection time frame will depends whether or not your new address has been connected to the nbn™ previously.",
+                    "mainQuestion": "If I sign up now, will my nbn™ service be activated by the time I move in?",
+                    "questions": Array [
+                      Object {
+                        "answer": "If your new home has been previously connected to the nbn™, we’ll normally activate your Australia Broadband nbn™ service typically within 2-5 days. This may take longer if the former tenant or owner did not disconnect their nbn™ service before you moved in.",
+                        "question": "My new home has previously been connected to the nbn™",
+                      },
+                      Object {
+                        "answer": "If it is the first time your new home is connecting to the nbn network, we’ll arrange the first available appointment with NBN Co for an NBN Co technician to connect your nbn™ service. Typically, new nbn™ connections are completed by the NBN Co within 5-20 business days. This varies depending on your nbn™ connection type as well as the availability of the NBN Co technicians in your area. <br> <p class=\\"separated-paragraph\\">We will let you know if you need an appointment after we have submited your order to the NBN Co.</p> ",
+                        "question": "It is the first time my new home is connecting to the to the nbn™",
+                      },
+                      Object {
+                        "answer": "",
+                        "question": "Everything else",
+                      },
+                      Object {
+                        "answer": "<strong>Tell us early:</strong> If you’re able to give us a few weeks’ notice, we should be able to connect you on, or very close to, your move in date.",
+                      },
+                      Object {
+                        "answer": "<strong>Your Australia Broadband modem:</strong> You should be able to use your existing modem at your new address but how you connect it might change.",
+                      },
+                      Object {
+                        "answer": "<strong>NBN Co Technicians:</strong> Sometimes when an NBN Co technician attempts to connect your service they might discover that the job will require more work than expected and they may not be able to complete all the work on the day. Sometimes NBN Co technicians can’t make it to your premises on the agreed day due to weather conditions or other unforeseen events. If this happens, we’ll keep you updated as we work with the NBN Co to complete your connection.",
+                      },
+                      Object {
+                        "answer": "<strong>NBN Co Timeframes:</strong> Please note that these are usual connection timeframes only. We may be able to get you online sooner or your order may take a little longer than anticipated. While Australia Broadband will always do its best to get you connected as soon as possible, it is the NBN Co (or its third party contractor) that performs all nbn™ connections and installations across Australia, therefore connection timeframes are determined solely by the NBN Co Ltd.",
+                      },
+                    ],
+                  },
                 }
               }
             />
             <Dropdown
               data={
                 Object {
-                  "mainAnswer": "When you move home you can take your Australia Broadband VoIP number with you, if you are moving within the same state. If you relocate to another state you will need a new number.",
-                  "mainQuestion": "What happens to my Australia Broadband VoIP number when I move?",
+                  "item": Object {
+                    "mainQuestion": "What happens to my Australia Broadband VoIP number when I move?",
+                    "questions": Array [
+                      Object {
+                        "answer": "When you move home you can take your <a href=\\"https://www.australiabroadband.net.au/nbn-plans/#call-rate-info\\">Australia Broadband VoIP</a> number with you, if you are moving within the same state. If you relocate to another state you will need a new number.",
+                      },
+                    ],
+                  },
                 }
               }
             />
             <Dropdown
               data={
                 Object {
-                  "mainAnswer": "If the previous occupants have not disconnected their service, we’ll need to get some paperwork from you, before the existing service can be legally disconnected. Once the paperwork’s received and verified, you should be connected within 10 business days depending the type of nbn™ connection.",
-                  "mainQuestion": "There is already a service connected at my new address but it’s not in my name, what can I do?",
+                  "item": Object {
+                    "mainQuestion": "There is already a service connected at my new address but it’s not in my name, what can I do?",
+                    "questions": Array [
+                      Object {
+                        "answer": "If the previous occupants have not disconnected their service, we’ll need to get <a href=\\"https://www.australiabroadband.net.au/help/kb/i-need-to-provide-proof-of-occupancy-what-do-i-do/\\">some paperwork</a> from you, before the existing service can be legally disconnected. Once the paperwork’s received and verified, you should be connected within 10 business days depending the type of nbn™ connection.",
+                      },
+                    ],
+                  },
                 }
               }
             />
@@ -1128,70 +595,104 @@ ShallowWrapper {
                 <Dropdown
                   data={
                     Object {
-                      "mainAnswer": "You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.",
-                      "mainQuestion": "How do I move my Australia Broadband service with me?",
-                      "questions": Array [
-                        Object {
-                          "answer": "That’s great! Simply follow the steps above",
-                          "question": "My new address is nbn™ ready. What do I do?",
-                        },
-                        Object {
-                          "answer": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.",
-                          "question": "What if my new address is not nbn™ ready?",
-                        },
-                      ],
+                      "item": Object {
+                        "mainAnswer": "You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.",
+                        "mainQuestion": "How do I move my Australia Broadband service with me?",
+                        "questions": Array [
+                          Object {
+                            "answer": "That’s great! Simply follow the steps above",
+                            "question": "My new address is nbn™ ready. What do I do?",
+                          },
+                          Object {
+                            "answer": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. <p class=\\"separated-paragraph\\">If you are an existing customer, all you need to do is email us at <a href=\\"customercare@australiabroadband.net.au\\">customercare@australiabroadband.net.au</a> and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address.</p> <p class=\\"separated-paragraph\\"> With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.</p>",
+                            "question": "What if my new address is not nbn™ ready?",
+                          },
+                        ],
+                      },
                     }
                   }
                 />,
                 <Dropdown
                   data={
                     Object {
-                      "mainAnswer": "We don’t charge you anything to move your Australia Broadband service to a new address.",
-                      "mainQuestion": "What does it cost to move my Australia Broadband service to a new address?",
-                      "questions": Array [
-                        Object {
-                          "answer": "We don’t charge anything to move your Australia Broadband service to your new address. If a standard NBN Co installation is needed at your new address, it will also be completed at no cost to you.",
-                          "question": "Does Australia Broadband charge any relocation fees to connect nbn™ at my new address?",
-                        },
-                        Object {
-                          "answer": "A small number of homes may be subject to an NBN Co Non-Standard Installation or a NBN Co New Development Charge of $300. If your new address is subject to any of these NBN Co charges, we’ll let you know before the installation and get your permission before you’re charged.",
-                          "question": "Does the NBN Co charge any connection or installation fees to connect my new address?",
-                        },
-                      ],
+                      "item": Object {
+                        "mainAnswer": "We don’t charge you anything to move your Australia Broadband service to a new address.",
+                        "mainQuestion": "What does it cost to move my Australia Broadband service to a new address?",
+                        "questions": Array [
+                          Object {
+                            "answer": "We don’t charge anything to move your Australia Broadband service to your new address. If a standard NBN Co installation is needed at your new address, it will also be completed at no cost to you.",
+                            "question": "Does Australia Broadband charge any relocation fees to connect nbn™ at my new address?",
+                          },
+                          Object {
+                            "answer": "A small number of homes may be subject to an NBN Co <a href=\\"https://www.australiabroadband.net.au/help/kb/what-is-an-nbn-co-non-standard-installation/\\">Non-Standard Installation</a> or a NBN Co <a href=\\"https://www.australiabroadband.net.au/help/kb/what-is-the-nbn-co-new-development-charge/\\">New Development Charge</a> of $300. If your new address is subject to any of these NBN Co charges, we’ll let you know before the installation and get your permission before you’re charged.",
+                            "question": "Does the NBN Co charge any connection or installation fees to connect my new address?",
+                          },
+                        ],
+                      },
                     }
                   }
                 />,
                 <Dropdown
                   data={
                     Object {
-                      "mainAnswer": "The connection time frame will depends whether or not your new address has been connected to the nbn™ previously.",
-                      "mainQuestion": "If I sign up now, will my nbn™ service be activated by the time I move in?",
-                      "questions": Array [
-                        Object {
-                          "answer": "If your new home has been previously connected to the nbn™, we’ll normally activate your Australia Broadband nbn™ service typically within 2-5 days. This may take longer if the former tenant or owner did not disconnect their nbn™ service before you moved in.",
-                          "question": "My new home has previously been connected to the nbn™",
-                        },
-                        Object {
-                          "answer": "If it is the first time your new home is connecting to the nbn network, we’ll arrange the first available appointment with NBN Co for an NBN Co technician to connect your nbn™ service. Typically, new nbn™ connections are completed by the NBN Co within 5-20 business days. This varies depending on your nbn™ connection type as well as the availability of the NBN Co technicians in your area. We will let you know if you need an appointment after we have submited your order to the NBN Co. ",
-                          "question": "It is the first time my new home is connecting to the to the nbn™",
-                        },
-                      ],
+                      "item": Object {
+                        "mainAnswer": "The connection time frame will depends whether or not your new address has been connected to the nbn™ previously.",
+                        "mainQuestion": "If I sign up now, will my nbn™ service be activated by the time I move in?",
+                        "questions": Array [
+                          Object {
+                            "answer": "If your new home has been previously connected to the nbn™, we’ll normally activate your Australia Broadband nbn™ service typically within 2-5 days. This may take longer if the former tenant or owner did not disconnect their nbn™ service before you moved in.",
+                            "question": "My new home has previously been connected to the nbn™",
+                          },
+                          Object {
+                            "answer": "If it is the first time your new home is connecting to the nbn network, we’ll arrange the first available appointment with NBN Co for an NBN Co technician to connect your nbn™ service. Typically, new nbn™ connections are completed by the NBN Co within 5-20 business days. This varies depending on your nbn™ connection type as well as the availability of the NBN Co technicians in your area. <br> <p class=\\"separated-paragraph\\">We will let you know if you need an appointment after we have submited your order to the NBN Co.</p> ",
+                            "question": "It is the first time my new home is connecting to the to the nbn™",
+                          },
+                          Object {
+                            "answer": "",
+                            "question": "Everything else",
+                          },
+                          Object {
+                            "answer": "<strong>Tell us early:</strong> If you’re able to give us a few weeks’ notice, we should be able to connect you on, or very close to, your move in date.",
+                          },
+                          Object {
+                            "answer": "<strong>Your Australia Broadband modem:</strong> You should be able to use your existing modem at your new address but how you connect it might change.",
+                          },
+                          Object {
+                            "answer": "<strong>NBN Co Technicians:</strong> Sometimes when an NBN Co technician attempts to connect your service they might discover that the job will require more work than expected and they may not be able to complete all the work on the day. Sometimes NBN Co technicians can’t make it to your premises on the agreed day due to weather conditions or other unforeseen events. If this happens, we’ll keep you updated as we work with the NBN Co to complete your connection.",
+                          },
+                          Object {
+                            "answer": "<strong>NBN Co Timeframes:</strong> Please note that these are usual connection timeframes only. We may be able to get you online sooner or your order may take a little longer than anticipated. While Australia Broadband will always do its best to get you connected as soon as possible, it is the NBN Co (or its third party contractor) that performs all nbn™ connections and installations across Australia, therefore connection timeframes are determined solely by the NBN Co Ltd.",
+                          },
+                        ],
+                      },
                     }
                   }
                 />,
                 <Dropdown
                   data={
                     Object {
-                      "mainAnswer": "When you move home you can take your Australia Broadband VoIP number with you, if you are moving within the same state. If you relocate to another state you will need a new number.",
-                      "mainQuestion": "What happens to my Australia Broadband VoIP number when I move?",
+                      "item": Object {
+                        "mainQuestion": "What happens to my Australia Broadband VoIP number when I move?",
+                        "questions": Array [
+                          Object {
+                            "answer": "When you move home you can take your <a href=\\"https://www.australiabroadband.net.au/nbn-plans/#call-rate-info\\">Australia Broadband VoIP</a> number with you, if you are moving within the same state. If you relocate to another state you will need a new number.",
+                          },
+                        ],
+                      },
                     }
                   }
                 />,
                 <Dropdown
                   data={
                     Object {
-                      "mainAnswer": "If the previous occupants have not disconnected their service, we’ll need to get some paperwork from you, before the existing service can be legally disconnected. Once the paperwork’s received and verified, you should be connected within 10 business days depending the type of nbn™ connection.",
-                      "mainQuestion": "There is already a service connected at my new address but it’s not in my name, what can I do?",
+                      "item": Object {
+                        "mainQuestion": "There is already a service connected at my new address but it’s not in my name, what can I do?",
+                        "questions": Array [
+                          Object {
+                            "answer": "If the previous occupants have not disconnected their service, we’ll need to get <a href=\\"https://www.australiabroadband.net.au/help/kb/i-need-to-provide-proof-of-occupancy-what-do-i-do/\\">some paperwork</a> from you, before the existing service can be legally disconnected. Once the paperwork’s received and verified, you should be connected within 10 business days depending the type of nbn™ connection.",
+                          },
+                        ],
+                      },
                     }
                   }
                 />,
@@ -1219,18 +720,20 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "data": Object {
-                  "mainAnswer": "You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.",
-                  "mainQuestion": "How do I move my Australia Broadband service with me?",
-                  "questions": Array [
-                    Object {
-                      "answer": "That’s great! Simply follow the steps above",
-                      "question": "My new address is nbn™ ready. What do I do?",
-                    },
-                    Object {
-                      "answer": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. If you are an existing customer, all you need to do is email us at customercare@australiabroadband.net.au and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address. With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.",
-                      "question": "What if my new address is not nbn™ ready?",
-                    },
-                  ],
+                  "item": Object {
+                    "mainAnswer": "You’re moving; no worries! The first step is to check your address on our address checker and find out if your address is nbn™ ready.",
+                    "mainQuestion": "How do I move my Australia Broadband service with me?",
+                    "questions": Array [
+                      Object {
+                        "answer": "That’s great! Simply follow the steps above",
+                        "question": "My new address is nbn™ ready. What do I do?",
+                      },
+                      Object {
+                        "answer": "If your new address is not nbn™ ready, unfortunately you can’t connect with Australia Broadband at your new address. Australia Broadband only provides internet services on the nbn™ and does not provide ADSL services. <p class=\\"separated-paragraph\\">If you are an existing customer, all you need to do is email us at <a href=\\"customercare@australiabroadband.net.au\\">customercare@australiabroadband.net.au</a> and let us know you are moving to an address not supported by the nbn™ and the date you would like us to disconnected your Australia Broadband nbn™ service from your old address.</p> <p class=\\"separated-paragraph\\"> With Australia Broadband, there are no lock-in contracts and no early termination fees, so you can disconnect your nbn™ service at any time by giving us 1 months notice.</p>",
+                        "question": "What if my new address is not nbn™ ready?",
+                      },
+                    ],
+                  },
                 },
               },
               "ref": null,
@@ -1243,18 +746,20 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "data": Object {
-                  "mainAnswer": "We don’t charge you anything to move your Australia Broadband service to a new address.",
-                  "mainQuestion": "What does it cost to move my Australia Broadband service to a new address?",
-                  "questions": Array [
-                    Object {
-                      "answer": "We don’t charge anything to move your Australia Broadband service to your new address. If a standard NBN Co installation is needed at your new address, it will also be completed at no cost to you.",
-                      "question": "Does Australia Broadband charge any relocation fees to connect nbn™ at my new address?",
-                    },
-                    Object {
-                      "answer": "A small number of homes may be subject to an NBN Co Non-Standard Installation or a NBN Co New Development Charge of $300. If your new address is subject to any of these NBN Co charges, we’ll let you know before the installation and get your permission before you’re charged.",
-                      "question": "Does the NBN Co charge any connection or installation fees to connect my new address?",
-                    },
-                  ],
+                  "item": Object {
+                    "mainAnswer": "We don’t charge you anything to move your Australia Broadband service to a new address.",
+                    "mainQuestion": "What does it cost to move my Australia Broadband service to a new address?",
+                    "questions": Array [
+                      Object {
+                        "answer": "We don’t charge anything to move your Australia Broadband service to your new address. If a standard NBN Co installation is needed at your new address, it will also be completed at no cost to you.",
+                        "question": "Does Australia Broadband charge any relocation fees to connect nbn™ at my new address?",
+                      },
+                      Object {
+                        "answer": "A small number of homes may be subject to an NBN Co <a href=\\"https://www.australiabroadband.net.au/help/kb/what-is-an-nbn-co-non-standard-installation/\\">Non-Standard Installation</a> or a NBN Co <a href=\\"https://www.australiabroadband.net.au/help/kb/what-is-the-nbn-co-new-development-charge/\\">New Development Charge</a> of $300. If your new address is subject to any of these NBN Co charges, we’ll let you know before the installation and get your permission before you’re charged.",
+                        "question": "Does the NBN Co charge any connection or installation fees to connect my new address?",
+                      },
+                    ],
+                  },
                 },
               },
               "ref": null,
@@ -1267,18 +772,36 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "data": Object {
-                  "mainAnswer": "The connection time frame will depends whether or not your new address has been connected to the nbn™ previously.",
-                  "mainQuestion": "If I sign up now, will my nbn™ service be activated by the time I move in?",
-                  "questions": Array [
-                    Object {
-                      "answer": "If your new home has been previously connected to the nbn™, we’ll normally activate your Australia Broadband nbn™ service typically within 2-5 days. This may take longer if the former tenant or owner did not disconnect their nbn™ service before you moved in.",
-                      "question": "My new home has previously been connected to the nbn™",
-                    },
-                    Object {
-                      "answer": "If it is the first time your new home is connecting to the nbn network, we’ll arrange the first available appointment with NBN Co for an NBN Co technician to connect your nbn™ service. Typically, new nbn™ connections are completed by the NBN Co within 5-20 business days. This varies depending on your nbn™ connection type as well as the availability of the NBN Co technicians in your area. We will let you know if you need an appointment after we have submited your order to the NBN Co. ",
-                      "question": "It is the first time my new home is connecting to the to the nbn™",
-                    },
-                  ],
+                  "item": Object {
+                    "mainAnswer": "The connection time frame will depends whether or not your new address has been connected to the nbn™ previously.",
+                    "mainQuestion": "If I sign up now, will my nbn™ service be activated by the time I move in?",
+                    "questions": Array [
+                      Object {
+                        "answer": "If your new home has been previously connected to the nbn™, we’ll normally activate your Australia Broadband nbn™ service typically within 2-5 days. This may take longer if the former tenant or owner did not disconnect their nbn™ service before you moved in.",
+                        "question": "My new home has previously been connected to the nbn™",
+                      },
+                      Object {
+                        "answer": "If it is the first time your new home is connecting to the nbn network, we’ll arrange the first available appointment with NBN Co for an NBN Co technician to connect your nbn™ service. Typically, new nbn™ connections are completed by the NBN Co within 5-20 business days. This varies depending on your nbn™ connection type as well as the availability of the NBN Co technicians in your area. <br> <p class=\\"separated-paragraph\\">We will let you know if you need an appointment after we have submited your order to the NBN Co.</p> ",
+                        "question": "It is the first time my new home is connecting to the to the nbn™",
+                      },
+                      Object {
+                        "answer": "",
+                        "question": "Everything else",
+                      },
+                      Object {
+                        "answer": "<strong>Tell us early:</strong> If you’re able to give us a few weeks’ notice, we should be able to connect you on, or very close to, your move in date.",
+                      },
+                      Object {
+                        "answer": "<strong>Your Australia Broadband modem:</strong> You should be able to use your existing modem at your new address but how you connect it might change.",
+                      },
+                      Object {
+                        "answer": "<strong>NBN Co Technicians:</strong> Sometimes when an NBN Co technician attempts to connect your service they might discover that the job will require more work than expected and they may not be able to complete all the work on the day. Sometimes NBN Co technicians can’t make it to your premises on the agreed day due to weather conditions or other unforeseen events. If this happens, we’ll keep you updated as we work with the NBN Co to complete your connection.",
+                      },
+                      Object {
+                        "answer": "<strong>NBN Co Timeframes:</strong> Please note that these are usual connection timeframes only. We may be able to get you online sooner or your order may take a little longer than anticipated. While Australia Broadband will always do its best to get you connected as soon as possible, it is the NBN Co (or its third party contractor) that performs all nbn™ connections and installations across Australia, therefore connection timeframes are determined solely by the NBN Co Ltd.",
+                      },
+                    ],
+                  },
                 },
               },
               "ref": null,
@@ -1291,8 +814,14 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "data": Object {
-                  "mainAnswer": "When you move home you can take your Australia Broadband VoIP number with you, if you are moving within the same state. If you relocate to another state you will need a new number.",
-                  "mainQuestion": "What happens to my Australia Broadband VoIP number when I move?",
+                  "item": Object {
+                    "mainQuestion": "What happens to my Australia Broadband VoIP number when I move?",
+                    "questions": Array [
+                      Object {
+                        "answer": "When you move home you can take your <a href=\\"https://www.australiabroadband.net.au/nbn-plans/#call-rate-info\\">Australia Broadband VoIP</a> number with you, if you are moving within the same state. If you relocate to another state you will need a new number.",
+                      },
+                    ],
+                  },
                 },
               },
               "ref": null,
@@ -1305,8 +834,14 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "data": Object {
-                  "mainAnswer": "If the previous occupants have not disconnected their service, we’ll need to get some paperwork from you, before the existing service can be legally disconnected. Once the paperwork’s received and verified, you should be connected within 10 business days depending the type of nbn™ connection.",
-                  "mainQuestion": "There is already a service connected at my new address but it’s not in my name, what can I do?",
+                  "item": Object {
+                    "mainQuestion": "There is already a service connected at my new address but it’s not in my name, what can I do?",
+                    "questions": Array [
+                      Object {
+                        "answer": "If the previous occupants have not disconnected their service, we’ll need to get <a href=\\"https://www.australiabroadband.net.au/help/kb/i-need-to-provide-proof-of-occupancy-what-do-i-do/\\">some paperwork</a> from you, before the existing service can be legally disconnected. Once the paperwork’s received and verified, you should be connected within 10 business days depending the type of nbn™ connection.",
+                      },
+                    ],
+                  },
                 },
               },
               "ref": null,
@@ -1324,9 +859,13 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
         "lifecycles": Object {
           "componentDidUpdate": Object {
             "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
           },
           "getDerivedStateFromProps": true,
           "getSnapshotBeforeUpdate": true,
